@@ -31,7 +31,7 @@ mods.jei.JEI.hide(<ic2:te:48>);
 recipes.remove(<ic2:crafting:24>);
 mods.jei.JEI.hide(<ic2:crafting:24>);
 //hide scrap
-mods.jei.JEI.hide(<ic2:crafting:23>>);
+mods.jei.JEI.hide(<ic2:crafting:23>);
 
 //Not sure why IC2 devs don't hide this but we will...
 // Old Mass Fab
