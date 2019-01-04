@@ -50,3 +50,7 @@ recipes.addShaped(<techreborn:steeljackhammer>, [[<ic2:ingot:5>, <ic2:iridium_dr
 //hide / remove TR Matter Fab
 recipes.remove(<techreborn:matter_fabricator>);
 mods.jei.JEI.hide(<techreborn:matter_fabricator>);
+
+//Remove Basic / Advance Machine Frames Recipes
+recipes.remove(<techreborn:machine_frame:1>);
+recipes.remove(<techreborn:machine_frame>);
