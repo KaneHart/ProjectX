@@ -30,3 +30,5 @@ recipes.remove(<ic2:te:48>);
 mods.jei.JEI.hide(<ic2:te:48>);
 recipes.remove(<ic2:crafting:24>);
 mods.jei.JEI.hide(<ic2:crafting:24>);
+//hide scrap
+mods.jei.JEI.hide(<ic2:crafting:23>>);
