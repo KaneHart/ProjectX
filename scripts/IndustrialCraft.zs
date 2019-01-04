@@ -21,3 +21,6 @@ recipes.addShaped(<ic2:quantum_helmet>, [[<ic2:glass>, <ic2:nano_helmet>, <ic2:g
 recipes.remove(<ic2:jetpack_electric>);
 recipes.remove(<ic2:jetpack_electric:26>);
 recipes.addShaped(<ic2:jetpack_electric>, [[<ic2:casing:5>, <techreborn:part>, <ic2:casing:5>],[<ic2:casing:5>, <techreborn:lithiumbatpack>, <ic2:casing:5>], [<stevescarts:cartmodule:59>, null, <stevescarts:cartmodule:59>]]);
+
+//Removed IC2 Nuke
+recipes.remove(<ic2:te:2>);
