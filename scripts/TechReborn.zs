@@ -42,3 +42,7 @@ mods.jei.JEI.hide(<techreborn:scrapboxinator>);
 //nerfed TechReborn Drills to require IC2 Irdium Drill then Rank up.
 recipes.remove(<techreborn:irondrill>);
 recipes.addShaped(<techreborn:irondrill>, [[null, <ic2:ingot:5>, null],[<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>], [<ic2:ingot:5>, <ic2:iridium_drill>, <ic2:ingot:5>]]);
+
+//nerfed TechReborn Jackhammer with the IC2 Drill
+recipes.remove(<techreborn:steeljackhammer>);
+recipes.addShaped(<techreborn:steeljackhammer>, [[<ic2:ingot:5>, <ic2:iridium_drill>, <ic2:ingot:5>],[<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>], [null, <ic2:ingot:5>, null]]);
