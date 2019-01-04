@@ -50,3 +50,17 @@ recipes.addShaped(<ic2:resource:12>, [[<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:
 //Advance Machine Casing Revamp
 recipes.remove(<ic2:resource:13>);
 recipes.addShaped(<ic2:resource:13>, [[<ic2:plate:16>, <ic2:crafting:15>, <ic2:plate:16>],[<ic2:crafting:3>, <ic2:resource:12>, <ic2:crafting:3>], [<ic2:plate:16>, <ic2:crafting:15>, <ic2:plate:16>]]);
+
+//Night Vision Requires Diamond Helm
+recipes.remove(<ic2:nightvision_goggles>);
+recipes.addShaped(<ic2:nightvision_goggles>, [[<ic2:advanced_heat_exchanger>, <minecraft:diamond_helmet>, <ic2:advanced_heat_exchanger>],[<ic2:te:36>, <ic2:glass>, <ic2:te:36>], [<ic2:crafting>, <ic2:crafting:2>, <ic2:crafting>]]);
+
+//IC2 Nano Armor Revamp using Diamond Armor and Lithium Batpack!
+recipes.remove(<ic2:nano_boots>);
+recipes.remove(<ic2:nano_leggings>);
+recipes.remove(<ic2:nano_chestplate>);
+recipes.remove(<ic2:nano_helmet>);
+recipes.addShaped(<ic2:nano_boots>, [[null, null, null],[<ic2:crafting:15>, <minecraft:diamond_boots>, <ic2:crafting:15>], [<ic2:crafting:15>, <techreborn:lithiumbatpack>, <ic2:crafting:15>]]);
+recipes.addShaped(<ic2:nano_leggings>, [[<ic2:crafting:15>, <techreborn:lithiumbatpack>, <ic2:crafting:15>],[<ic2:crafting:15>, <minecraft:diamond_leggings>, <ic2:crafting:15>], [<ic2:crafting:15>, null, <ic2:crafting:15>]]);
+recipes.addShaped(<ic2:nano_chestplate>, [[<ic2:crafting:15>, <minecraft:diamond_chestplate>, <ic2:crafting:15>],[<ic2:crafting:15>, <techreborn:lithiumbatpack>, <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:crafting:15>, <ic2:crafting:15>]]);
+recipes.addShaped(<ic2:nano_helmet>, [[null, null, null],[<ic2:crafting:15>, <techreborn:lithiumbatpack>, <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:nightvision_goggles>, <ic2:crafting:15>]]);
