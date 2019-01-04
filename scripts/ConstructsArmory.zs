@@ -27,6 +27,5 @@ mods.jei.JEI.hide(<conarm:armorforge>.withTag({textureBlock: {id: "immersiveengi
 mods.jei.JEI.hide(<conarm:armorforge>.withTag({textureBlock: {id: "techreborn:storage", Count: 1 as byte, Damage: 2 as short}}));
 mods.jei.JEI.hide(<conarm:armorforge>.withTag({textureBlock: {id: "techreborn:storage", Count: 1 as byte, Damage: 12 as short}}));
 mods.jei.JEI.hide(<conarm:armorforge>.withTag({textureBlock: {id: "plustic:alumiteblock", Count: 1 as byte, Damage: 0 as short}}));
-recipes.addShaped(<conarm:armorforge>, [[<railcraft:reinforced_concrete:15>, <ic2:te:88>, <railcraft:reinforced_concrete:15>],[<techreborn:storage:13>, <tconstruct:toolforge>, <techreborn:storage:13>], [<techreborn:storage:13>, null, <techreborn:storage:13>]]);
-
-
+mods.jei.JEI.hide(<conarm:armorforge>.withTag({textureBlock: {id: "minecraft:iron_block", Count: 1 as byte, Damage: 0 as short}}));
+recipes.addShaped(<conarm:armorforge>.withTag({textureBlock: {id: "techreborn:storage", Count: 1 as byte, Damage: 13 as short}}),  [[<railcraft:reinforced_concrete:15>, <ic2:te:88>, <railcraft:reinforced_concrete:15>],[<techreborn:storage:13>, <tconstruct:toolforge>, <techreborn:storage:13>], [<techreborn:storage:13>, null, <techreborn:storage:13>]]);
