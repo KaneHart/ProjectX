@@ -46,3 +46,7 @@ recipes.addShaped(<techreborn:irondrill>, [[null, <ic2:ingot:5>, null],[<ic2:ing
 //nerfed TechReborn Jackhammer with the IC2 Drill
 recipes.remove(<techreborn:steeljackhammer>);
 recipes.addShaped(<techreborn:steeljackhammer>, [[<ic2:ingot:5>, <ic2:iridium_drill>, <ic2:ingot:5>],[<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>], [null, <ic2:ingot:5>, null]]);
+
+//hide / remove TR Matter Fab
+recipes.remove(<techreborn:matter_fabricator>);
+mods.jei.JEI.hide(<techreborn:matter_fabricator>);
