@@ -40,3 +40,12 @@ mods.jei.JEI.hide(<ic2:te:92>);
 //Revamped Matter Fabicator closer to TR version of it.
 recipes.remove(<ic2:te:61>);
 recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <ic2:te:45>, <techreborn:part>],[<techreborn:machine_frame:2>, <techreborn:lapotronicorb>, <techreborn:machine_frame:2>], [<techreborn:part>, <ic2:te:42>, <techreborn:part>]]);
+
+
+//Basic Machine Casing Revamp
+recipes.remove(<ic2:resource:12>);
+recipes.addShaped(<ic2:resource:12>, [[<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:5>],[<ic2:ingot:5>, null, <ic2:ingot:5>], [<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:5>]]);
+
+//Advance Machine Casing Revamp
+recipes.remove(<ic2:resource:13>);
+recipes.addShaped(<ic2:resource:13>, [[<ic2:plate:16>, <ic2:crafting:15>, <ic2:plate:16>],[<ic2:crafting:3>, <ic2:resource:12>, <ic2:crafting:3>], [<ic2:plate:16>, <ic2:crafting:15>, <ic2:plate:16>]]);
