@@ -38,3 +38,7 @@ recipes.remove(<techreborn:scrapbox>);
 mods.jei.JEI.hide(<techreborn:scrapbox>);
 recipes.remove(<techreborn:scrapboxinator>);
 mods.jei.JEI.hide(<techreborn:scrapboxinator>);
+
+//nerfed TechReborn Drills to require IC2 Irdium Drill then Rank up.
+recipes.remove(<techreborn:irondrill>);
+recipes.addShaped(<techreborn:irondrill>, [[null, <ic2:ingot:5>, null],[<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>], [<ic2:ingot:5>, <ic2:iridium_drill>, <ic2:ingot:5>]]);
