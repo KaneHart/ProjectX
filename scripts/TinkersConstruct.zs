@@ -35,4 +35,5 @@ mods.jei.JEI.hide(<tconstruct:toolforge>.withTag({textureBlock: {id: "immersivee
 mods.jei.JEI.hide(<tconstruct:toolforge>.withTag({textureBlock: {id: "techreborn:storage", Count: 1 as byte, Damage: 2 as short}}));
 mods.jei.JEI.hide(<tconstruct:toolforge>.withTag({textureBlock: {id: "techreborn:storage", Count: 1 as byte, Damage: 12 as short}}));
 mods.jei.JEI.hide(<tconstruct:toolforge>.withTag({textureBlock: {id: "plustic:alumiteblock", Count: 1 as byte, Damage: 0 as short}}));
-recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "techreborn:storage", Count: 1 as byte, Damage: 13 as short}}), [[<railcraft:reinforced_concrete:15>, <ic2:te:89>, <railcraft:reinforced_concrete:15>],[<techreborn:storage:13>, null, <techreborn:storage:13>], [<techreborn:storage:13>, null, <techreborn:storage:13>]]);
+recipes.addShaped(<tconstruct:toolforge>.withTag({textureBlock: {id: "techreborn:storage", Count: 1 as byte, Damage: 13 as short}}), [[<railcraft:reinforced_concrete:15>, <ic2:te:89>, <railcraft:reinforced_concrete:15>],[<techreborn:storage:13>, <tconstruct:tooltables:3>, <techreborn:storage:13>], [<techreborn:storage:13>, null, <techreborn:storage:13>]]);
+                                                                                                                                   
