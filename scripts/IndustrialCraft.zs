@@ -24,6 +24,7 @@ recipes.addShaped(<ic2:jetpack_electric>, [[<ic2:casing:5>, <techreborn:part>, <
 
 //Removed IC2 Nuke
 recipes.remove(<ic2:te:2>);
+mods.jei.JEI.hide(<ic2:te:2>);
 
 //Removed IC2 Recycler / Scrap
 recipes.remove(<ic2:te:48>);
