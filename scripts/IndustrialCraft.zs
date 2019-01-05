@@ -111,3 +111,10 @@ recipes.remove(<ic2:ingot:7>);
 recipes.remove(<ic2:te:82>);
 mods.jei.JEI.hide(<ic2:te:82>);
 
+//removed IC2 dynamite releated stuff
+recipes.remove(<ic2:remote>);
+mods.jei.JEI.hide(<ic2:remote>);
+recipes.remove(<ic2:dynamite_sticky>);
+mods.jei.JEI.hide(<ic2:dynamite_sticky>);
+recipes.remove(<ic2:dynamite>);
+mods.jei.JEI.hide(<ic2:dynamite>);
