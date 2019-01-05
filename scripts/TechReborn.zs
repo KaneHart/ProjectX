@@ -142,3 +142,12 @@ recipes.addShaped(<techreborn:diesel_generator>, [[<techreborn:plates:16>, <tech
 //Fixed Kanthal Heating Coils from Refined Iron to Steel Ingots
 mods.techreborn.rollingMachine.removeRecipe(<techreborn:part:15>);
 mods.techreborn.rollingMachine.addShaped(<techreborn:part:15>, [[<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:5>],[<techreborn:ingot:3>, <techreborn:ingot>, <techreborn:ingot>], [<techreborn:ingot:3>, <techreborn:ingot:3>, <techreborn:ingot>]]);
+
+//removed UU Matter / fluid replicator from TR
+recipes.remove(<techreborn:fluid_replicator>);
+mods.jei.JEI.hide(<techreborn:fluid_replicator>);
+recipes.remove(<techreborn:uumatter>);
+mods.jei.JEI.hide(<techreborn:uumatter>);
+
+//removed tr version of a lap crystal
+recipes.remove(<techreborn:lapotroncrystal>);
