@@ -70,3 +70,8 @@ recipes.remove(<techreborn:solar_panel:3>);
 recipes.remove(<techreborn:solar_panel:2>);
 recipes.remove(<techreborn:solar_panel:1>);
 recipes.remove(<techreborn:solar_panel>);
+
+//removing TR version of the Nano Saber
+recipes.remove(<techreborn:nanosaber>);
+mods.jei.JEI.hide(<techreborn:nanosaber>);
+
