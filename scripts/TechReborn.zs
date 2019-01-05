@@ -60,3 +60,6 @@ recipes.remove(<techreborn:plates:27>);
 recipes.remove(<techreborn:plates:16>);
 recipes.remove(<techreborn:plates:21>);
 recipes.remove(<techreborn:plates:25>);
+
+//Removed TR Reinforced Glass Recipe
+recipes.remove(<techreborn:reinforced_glass>);
