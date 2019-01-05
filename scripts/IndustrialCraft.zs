@@ -91,3 +91,9 @@ recipes.remove(<ic2:plate:1>);
 
 //Added Copper Plate with IC2 Hammer x2 ingots for 1 plate.
 recipes.addShaped(<ic2:plate:1>, [[<ic2:forge_hammer>.anyDamage(), <ic2:ingot:2>, <ic2:ingot:2>],[null, null, null], [null, null, null]]);
+
+//remove Geothermal / Semi Fluid Generators
+recipes.remove(<ic2:te:7>);
+mods.jei.JEI.hide(<ic2:te:7>);
+recipes.remove(<ic2:te:4>);
+mods.jei.JEI.hide(<ic2:te:4>);
