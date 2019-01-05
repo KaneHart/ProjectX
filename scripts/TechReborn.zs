@@ -151,3 +151,10 @@ mods.jei.JEI.hide(<techreborn:uumatter>);
 
 //removed tr version of a lap crystal
 recipes.remove(<techreborn:lapotroncrystal>);
+mods.jei.JEI.hide(<techreborn:lapotroncrystal>);
+
+//remove / hide TR nuke / wind mill
+recipes.remove(<techreborn:nuke>);
+mods.jei.JEI.hide(<techreborn:nuke>);
+recipes.remove(<techreborn:wind_mill>);
+mods.jei.JEI.hide(<techreborn:wind_mill>);
