@@ -66,10 +66,15 @@ recipes.remove(<techreborn:reinforced_glass>);
 
 //removed TR Solar Panels
 recipes.remove(<techreborn:solar_panel:4>);
+mods.jei.JEI.hide(<techreborn:solar_panel:4>);
 recipes.remove(<techreborn:solar_panel:3>);
+mods.jei.JEI.hide(<techreborn:solar_panel:3>);
 recipes.remove(<techreborn:solar_panel:2>);
+mods.jei.JEI.hide(<techreborn:solar_panel:2>);
 recipes.remove(<techreborn:solar_panel:1>);
+mods.jei.JEI.hide(<techreborn:solar_panel:1>);
 recipes.remove(<techreborn:solar_panel>);
+mods.jei.JEI.hide(<techreborn:solar_panel>);
 
 //removing TR version of the Nano Saber
 recipes.remove(<techreborn:nanosaber>);
