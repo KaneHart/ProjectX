@@ -5,7 +5,7 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 
-// Clear dungeon and abandoned mineshaft loot
+// Clear chest based loottables
 LootTables.getTable("minecraft:chests/abandoned_mineshaft").clear();
 LootTables.getTable("minecraft:chests/desert_pyramid").clear();
 LootTables.getTable("minecraft:chests/end_city_treasure").clear();
@@ -19,7 +19,14 @@ LootTables.getTable("minecraft:chests/stronghold_crossing").clear();
 LootTables.getTable("minecraft:chests/stronghold_library").clear();
 LootTables.getTable("minecraft:chests/village_blacksmith").clear();
 LootTables.getTable("minecraft:chests/woodland_mansion").clear();
+LootTables.getTable("forestry:chests/village_naturalist").clear();
+//LootTables.getTable("immersiveengineering:chests/engineers_house").clear(); - left in b/c blueprints
+//LootTables.getTable("immersiveengineering:chests/stronghold_library").clear(); - left in b/c blueprints
+LootTables.getTable("immersiveengineering:chests/village_blacksmith").clear();
+LootTables.getTable("wearablebackpacks:backpack/default").clear();
+LootTables.getTable("railcraft:chests/village_workshop").clear();
 
+// Load loottables to add loot to
 val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
 
@@ -303,3 +310,19 @@ bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.
 bee1.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
 bee2.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.20)]);
 bee2.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
+
+// Remove loot from IE Engineer's house individually (to keep blueprints)
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("treated_stick");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("iron_rod");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("steel_rod");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("aluminium_rod");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("hemp_fabric");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("coal_coke");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("iron_component");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("steel_component");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("minecraft:iron_ingot");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("copper_ingot");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("aluminium_ingot");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("lead_nugget");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("silver_nugget");
+LootTables.getTable("immersiveengineering:chests/engineers_house").getPool("immersiveengineering:engineers_village_house").removeEntry("nugget_nickel");
