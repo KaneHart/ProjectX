@@ -24,3 +24,29 @@ recipes.remove(<immersiveengineering:metal:30>);
 //Steel Mechanical Components use steel ingots instead of plates due to nerfing hammers
 recipes.remove(<immersiveengineering:material:9>);
 recipes.addShaped(<immersiveengineering:material:9>, [[<railcraft:ingot>, null, <railcraft:ingot>],[null, <ic2:ingot:2>, null], [<railcraft:ingot>, null, <railcraft:ingot>]]);
+
+//removed TR Plates from Metal Press
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:31>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:34>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:23>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:33>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:crafting:4>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:8>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:7>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:5>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:3>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:2>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate:1>);
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:plate>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:32>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:30>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:27>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:26>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:25>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:22>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:22>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:21>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:19>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:17>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:16>);
+mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:35>);
