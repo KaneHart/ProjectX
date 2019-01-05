@@ -2,6 +2,8 @@
 import loottweaker.vanilla.loot.LootTables;  
 import loottweaker.vanilla.loot.LootTable;  
 import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Conditions;
+import loottweaker.vanilla.loot.Functions;
 
 // Clear dungeon and abandoned mineshaft loot
 LootTables.getTable("minecraft:chests/abandoned_mineshaft").clear();
@@ -293,3 +295,11 @@ iridium1.addItemEntry(<ic2:misc_resource:2>, 25);
 iridium2.addItemEntry(<ic2:misc_resource:1>, 5);
 iridium2.addItemEntry(<ic2:misc_resource:2>, 25);
 
+// Add Forestry Steadfast bees to dungeon and abandonned mineshaft
+val bee1 = mineshaft.addPool("bee1", 1, 2, 0, 0);
+val bee2 = dungeon.addPool("bee2", 1, 2, 0, 0);
+val steadfast = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesSteadfast"} as crafttweaker.data.IData);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.20)]);
+bee1.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
+bee2.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.20)]);
+bee2.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
