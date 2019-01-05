@@ -13,3 +13,9 @@ recipes.remove(<railcraft:gear:5>);
 recipes.remove(<railcraft:gear:2>);
 recipes.remove(<railcraft:gear:1>);
 recipes.remove(<railcraft:gear>);
+
+//Removed / hide coke oven / blast furnace bricks from RC
+recipes.remove(<railcraft:blast_furnace>);
+mods.jei.JEI.hide(<railcraft:blast_furnace>);
+recipes.remove(<railcraft:coke_oven>);
+mods.jei.JEI.hide(<railcraft:coke_oven>);
