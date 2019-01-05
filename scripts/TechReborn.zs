@@ -106,3 +106,32 @@ recipes.remove(<techreborn:plates:33>);
 mods.jei.JEI.hide(<techreborn:plates:33>);
 recipes.remove(<techreborn:plates:34>);
 mods.jei.JEI.hide(<techreborn:plates:34>);
+
+//removed refined iron stuff
+recipes.remove(<techreborn:storage2:10>);
+mods.jei.JEI.hide(<techreborn:storage2:10>);
+recipes.remove(<techreborn:nuggets:19>);
+mods.jei.JEI.hide(<techreborn:nuggets:19>);
+recipes.remove(<techreborn:ingot:19>);
+mods.jei.JEI.hide(<techreborn:ingot:19>);
+
+//refined iron recipe fixes
+recipes.remove(<techreborn:refined_iron_fence>);
+recipes.addShaped(<techreborn:refined_iron_fence>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
+
+recipes.remove(<techreborn:machine_casing>);
+recipes.addShaped(<techreborn:machine_casing>, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<ic2:crafting:1>, <ic2:resource:12>, <ic2:crafting:1>], [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+
+recipes.remove(<techreborn:industrial_sawmill>);
+recipes.addShaped(<techreborn:industrial_sawmill>, [[<minecraft:iron_ingot>, <ic2:crafting:2>, <minecraft:iron_ingot>],[<techreborn:part:5>, <techreborn:part:5>, <techreborn:part:5>], [<ic2:crafting:2>, <ic2:resource:13>, <ic2:crafting:2>]]);
+
+recipes.remove(<techreborn:industrial_centrifuge>);
+recipes.addShaped(<techreborn:industrial_centrifuge>, [[<techreborn:plates:16>, <ic2:crafting:2>, <techreborn:plates:16>],[<ic2:resource:13>, <ic2:te:45>, <ic2:resource:13>], [<techreborn:plates:16>, <ic2:crafting:2>, <techreborn:plates:16>]]);
+
+recipes.remove(<techreborn:iron_alloy_furnace>);
+recipes.addShaped(<techreborn:iron_alloy_furnace>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<ic2:te:46>, null, <ic2:te:46>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+
+recipes.remove(<techreborn:diesel_generator>);
+recipes.addShaped(<techreborn:diesel_generator>, [[<techreborn:plates:16>, <techreborn:plates:16>, <techreborn:plates:16>],[<techreborn:plates:16>, null, <techreborn:plates:16>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
+
+

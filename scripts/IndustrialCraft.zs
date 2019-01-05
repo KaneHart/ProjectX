@@ -103,3 +103,6 @@ recipes.remove(<ic2:te:11>);
 mods.jei.JEI.hide(<ic2:te:11>);
 recipes.remove(<ic2:te:10>);
 mods.jei.JEI.hide(<ic2:te:10>);
+
+//removed refined iron ignot
+recipes.remove(<ic2:ingot:7>);
