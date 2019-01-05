@@ -287,9 +287,10 @@ pam4.addItemEntry(<harvestcraft:maple_sapling>, 5);
 pam4.addItemEntry(<harvestcraft:paperbark_sapling>, 5);
 
 // Add IC2 Iridium ore to dungeon and abandonned mineshaft
-val iridium1 = mineshaft.addPool("iridium1", 1, 2, 0, 0);
-val iridium2 = dungeon.addPool("iridium2", 2, 4, 0, 0);
+val iridium1 = mineshaft.addPool("iridium1", 3, 6, 0, 0);
+val iridium2 = dungeon.addPool("iridium2", 4, 8, 0, 0);
 iridium1.addItemEntry(<ic2:misc_resource:1>, 5);
 iridium1.addItemEntry(<ic2:misc_resource:2>, 25);
 iridium2.addItemEntry(<ic2:misc_resource:1>, 5);
 iridium2.addItemEntry(<ic2:misc_resource:2>, 25);
+
