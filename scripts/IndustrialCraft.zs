@@ -83,6 +83,11 @@ recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, null, <ic2:craftin
 //Remove IC2 Plates With IE Hammer
 recipes.remove(<ic2:plate:2>);
 recipes.remove(<ic2:plate:7>);
+recipes.remove(<ic2:plate:8>);
+recipes.remove(<ic2:plate:5>);
+recipes.remove(<ic2:plate:3>);
+recipes.remove(<ic2:plate>);
+recipes.remove(<ic2:plate:1>);
 
 //Added Copper Plate with IC2 Hammer x2 ingots for 1 plate.
 recipes.addShaped(<ic2:plate:1>, [[<ic2:forge_hammer>.anyDamage(), <ic2:ingot:2>, <ic2:ingot:2>],[null, null, null], [null, null, null]]);
