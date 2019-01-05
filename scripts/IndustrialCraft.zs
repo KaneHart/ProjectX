@@ -122,3 +122,7 @@ mods.jei.JEI.hide(<ic2:dynamite>);
 //Nerfed IC2 boat in encouragement to use IP one
 recipes.remove(<ic2:boat:3>);
 recipes.addShaped(<ic2:boat:3>, [[<ic2:cable:1>, <ic2:cable:1>, <ic2:cable:1>],[<techreborn:plates:32>, <ic2:crafting:6>, <techreborn:plates:32>], [<techreborn:plates:32>, <ic2:rotor_carbon>, <techreborn:plates:32>]]);
+
+//Removed IC2 Rubber Dinghy Boat
+recipes.remove(<ic2:boat:1>);
+recipes.remove(<ic2:boat>);
