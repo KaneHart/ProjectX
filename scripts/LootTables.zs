@@ -9,7 +9,6 @@ LootTables.getTable("minecraft:chests/desert_pyramid").clear();
 LootTables.getTable("minecraft:chests/end_city_treasure").clear();
 LootTables.getTable("minecraft:chests/igloo_chest").clear();
 LootTables.getTable("minecraft:chests/jungle_temple").clear();
-LootTables.getTable("minecraft:chests/jungle_temple_dispenser").clear();
 LootTables.getTable("minecraft:chests/nether_bridge").clear();
 LootTables.getTable("minecraft:chests/simple_dungeon").clear();
 LootTables.getTable("minecraft:chests/spawn_bonus_chest").clear();
