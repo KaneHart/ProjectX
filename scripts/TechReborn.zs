@@ -63,3 +63,10 @@ recipes.remove(<techreborn:plates:25>);
 
 //Removed TR Reinforced Glass Recipe
 recipes.remove(<techreborn:reinforced_glass>);
+
+//removed TR Solar Panels
+recipes.remove(<techreborn:solar_panel:4>);
+recipes.remove(<techreborn:solar_panel:3>);
+recipes.remove(<techreborn:solar_panel:2>);
+recipes.remove(<techreborn:solar_panel:1>);
+recipes.remove(<techreborn:solar_panel>);
