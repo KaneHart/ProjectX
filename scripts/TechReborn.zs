@@ -134,4 +134,6 @@ recipes.addShaped(<techreborn:iron_alloy_furnace>, [[<minecraft:iron_ingot>, <mi
 recipes.remove(<techreborn:diesel_generator>);
 recipes.addShaped(<techreborn:diesel_generator>, [[<techreborn:plates:16>, <techreborn:plates:16>, <techreborn:plates:16>],[<techreborn:plates:16>, null, <techreborn:plates:16>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
 
-
+//Fixed Kanthal Heating Coils from Refined Iron to Steel Ingots
+mods.techreborn.rollingMachine.removeRecipe(<techreborn:part:15>);
+mods.techreborn.rollingMachine.addShaped(<techreborn:part:15>, [[<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:5>],[<techreborn:ingot:3>, <techreborn:ingot>, <techreborn:ingot>], [<techreborn:ingot:3>, <techreborn:ingot:3>, <techreborn:ingot>]]);
