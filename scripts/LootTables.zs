@@ -3,6 +3,22 @@ import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;  
 import loottweaker.vanilla.loot.LootPool;
 
+// Clear dungeon and abandoned mineshaft loot
+LootTables.getTable("minecraft:chests/abandoned_mineshaft").clear();
+LootTables.getTable("minecraft:chests/desert_pyramid").clear();
+LootTables.getTable("minecraft:chests/end_city_treasure").clear();
+LootTables.getTable("minecraft:chests/igloo_chest").clear();
+LootTables.getTable("minecraft:chests/jungle_temple").clear();
+LootTables.getTable("minecraft:chests/jungle_temple_dispenser").clear();
+LootTables.getTable("minecraft:chests/nether_bridge").clear();
+LootTables.getTable("minecraft:chests/simple_dungeon").clear();
+LootTables.getTable("minecraft:chests/spawn_bonus_chest").clear();
+LootTables.getTable("minecraft:chests/stronghold_corridor").clear();
+LootTables.getTable("minecraft:chests/stronghold_crossing").clear();
+LootTables.getTable("minecraft:chests/stronghold_library").clear();
+LootTables.getTable("minecraft:chests/village_blacksmith").clear();
+LootTables.getTable("minecraft:chests/woodland_mansion").clear();
+
 val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
 
