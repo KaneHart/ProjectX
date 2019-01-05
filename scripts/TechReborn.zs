@@ -54,3 +54,9 @@ mods.jei.JEI.hide(<techreborn:matter_fabricator>);
 //Remove Basic / Advance Machine Frames Recipes
 recipes.remove(<techreborn:machine_frame:1>);
 recipes.remove(<techreborn:machine_frame>);
+
+//Remove TR Plates With IE Hammer
+recipes.remove(<techreborn:plates:27>);
+recipes.remove(<techreborn:plates:16>);
+recipes.remove(<techreborn:plates:21>);
+recipes.remove(<techreborn:plates:25>);

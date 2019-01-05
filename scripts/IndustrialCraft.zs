@@ -79,3 +79,7 @@ recipes.addShaped(<ic2:bronze_helmet>, [[null, null, null],[<ic2:plate>, <ic2:pl
 //Composite Armor Revamp
 recipes.remove(<ic2:alloy_chestplate>);
 recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, null, <ic2:crafting:3>],[<ic2:crafting:3>, <harvestcraft:hardenedleatherchestitem>, <ic2:crafting:3>], [<ic2:crafting:3>, <minecraft:diamond_chestplate>, <ic2:crafting:3>]]);
+
+//Remove IC2 Plates With IE Hammer
+recipes.remove(<ic2:plate:2>);
+recipes.remove(<ic2:plate:7>);
