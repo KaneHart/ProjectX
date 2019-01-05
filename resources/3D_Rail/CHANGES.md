@@ -1,0 +1,1 @@
+# Stripped out Railcraft tracks from resource pack and only kept Minecraft tracks
