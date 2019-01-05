@@ -97,3 +97,9 @@ recipes.remove(<ic2:te:7>);
 mods.jei.JEI.hide(<ic2:te:7>);
 recipes.remove(<ic2:te:4>);
 mods.jei.JEI.hide(<ic2:te:4>);
+
+//removed old school IC2 Wind Mill / Water Mill's.
+recipes.remove(<ic2:te:11>);
+mods.jei.JEI.hide(<ic2:te:11>);
+recipes.remove(<ic2:te:10>);
+mods.jei.JEI.hide(<ic2:te:10>);
