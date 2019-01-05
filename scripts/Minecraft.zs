@@ -45,3 +45,17 @@ recipes.addShaped(<minecraft:diamond_boots>, [[null, null, null],[<minecraft:dia
 recipes.addShaped(<minecraft:diamond_leggings>, [[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],[<minecraft:diamond>, <minecraft:golden_leggings>, <minecraft:diamond>], [<minecraft:diamond>, null, <minecraft:diamond>]]);
 recipes.addShaped(<minecraft:diamond_chestplate>, [[<minecraft:diamond>, <minecraft:golden_chestplate>, <minecraft:diamond>],[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
 recipes.addShaped(<minecraft:diamond_helmet>, [[null, null, null],[<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>], [<minecraft:diamond>, <minecraft:golden_helmet>, <minecraft:diamond>]]);
+
+//Removing Vanilla Boats
+recipes.remove(<minecraft:dark_oak_boat>);
+mods.jei.JEI.hide(<minecraft:dark_oak_boat>);
+recipes.remove(<minecraft:acacia_boat>);
+mods.jei.JEI.hide(<minecraft:acacia_boat>);
+recipes.remove(<minecraft:jungle_boat>);
+mods.jei.JEI.hide(<minecraft:jungle_boat>);
+recipes.remove(<minecraft:birch_boat>);
+mods.jei.JEI.hide(<minecraft:birch_boat>);
+recipes.remove(<minecraft:spruce_boat>);
+mods.jei.JEI.hide(<minecraft:spruce_boat>);
+recipes.remove(<minecraft:boat>);
+mods.jei.JEI.hide(<minecraft:boat>);
