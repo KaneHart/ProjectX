@@ -126,3 +126,7 @@ recipes.addShaped(<ic2:boat:3>, [[<ic2:cable:1>, <ic2:cable:1>, <ic2:cable:1>],[
 //Removed IC2 Rubber Dinghy Boat
 recipes.remove(<ic2:boat:1>);
 recipes.remove(<ic2:boat>);
+
+//Removed old IC2 UU Matter item from JEI
+recipes.remove(<ic2:misc_resource:3>);
+mods.jei.JEI.hide(<ic2:misc_resource:3>);
