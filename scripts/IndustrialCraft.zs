@@ -20,7 +20,7 @@ recipes.addShaped(<ic2:quantum_helmet>, [[<ic2:glass>, <ic2:nano_helmet>, <ic2:g
 //Electric Jetpack Nerf
 recipes.remove(<ic2:jetpack_electric>);
 recipes.remove(<ic2:jetpack_electric:26>);
-recipes.addShaped(<ic2:jetpack_electric>, [[<ic2:casing:5>, <techreborn:part>, <ic2:casing:5>],[<ic2:casing:5>, <techreborn:lithiumbatpack>, <ic2:casing:5>], [<stevescarts:cartmodule:59>, null, <stevescarts:cartmodule:59>]]);
+recipes.addShaped(<ic2:jetpack_electric>, [[<ic2:casing:5>, <techreborn:part>, <ic2:casing:5>],[<ic2:casing:5>, <techreborn:lithiumbatpack>.withEmptyTag(), <ic2:casing:5>], [<stevescarts:cartmodule:59>, null, <stevescarts:cartmodule:59>]]);
 
 //Removed IC2 Nuke
 recipes.remove(<ic2:te:2>);
@@ -60,10 +60,10 @@ recipes.remove(<ic2:nano_boots>);
 recipes.remove(<ic2:nano_leggings>);
 recipes.remove(<ic2:nano_chestplate>);
 recipes.remove(<ic2:nano_helmet>);
-recipes.addShaped(<ic2:nano_boots>, [[null, null, null],[<ic2:crafting:15>, <minecraft:diamond_boots>, <ic2:crafting:15>], [<ic2:crafting:15>, <techreborn:lithiumbatpack>, <ic2:crafting:15>]]);
-recipes.addShaped(<ic2:nano_leggings>, [[<ic2:crafting:15>, <techreborn:lithiumbatpack>, <ic2:crafting:15>],[<ic2:crafting:15>, <minecraft:diamond_leggings>, <ic2:crafting:15>], [<ic2:crafting:15>, null, <ic2:crafting:15>]]);
-recipes.addShaped(<ic2:nano_chestplate>, [[<ic2:crafting:15>, <minecraft:diamond_chestplate>, <ic2:crafting:15>],[<ic2:crafting:15>, <techreborn:lithiumbatpack>, <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:crafting:15>, <ic2:crafting:15>]]);
-recipes.addShaped(<ic2:nano_helmet>, [[null, null, null],[<ic2:crafting:15>, <techreborn:lithiumbatpack>, <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:nightvision_goggles>, <ic2:crafting:15>]]);
+recipes.addShaped(<ic2:nano_boots>, [[null, null, null],[<ic2:crafting:15>, <minecraft:diamond_boots>, <ic2:crafting:15>], [<ic2:crafting:15>, <techreborn:lithiumbatpack>.withEmptyTag(), <ic2:crafting:15>]]);
+recipes.addShaped(<ic2:nano_leggings>, [[<ic2:crafting:15>, <techreborn:lithiumbatpack>.withEmptyTag(), <ic2:crafting:15>],[<ic2:crafting:15>, <minecraft:diamond_leggings>, <ic2:crafting:15>], [<ic2:crafting:15>, null, <ic2:crafting:15>]]);
+recipes.addShaped(<ic2:nano_chestplate>, [[<ic2:crafting:15>, <minecraft:diamond_chestplate>, <ic2:crafting:15>],[<ic2:crafting:15>, <techreborn:lithiumbatpack>.withEmptyTag(), <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:crafting:15>, <ic2:crafting:15>]]);
+recipes.addShaped(<ic2:nano_helmet>, [[null, null, null],[<ic2:crafting:15>, <techreborn:lithiumbatpack>.withEmptyTag(), <ic2:crafting:15>], [<ic2:crafting:15>, <ic2:nightvision_goggles>, <ic2:crafting:15>]]);
 
 
 //Bronze Armor Revamp
