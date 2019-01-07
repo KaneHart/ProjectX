@@ -20,3 +20,7 @@ recipes.remove(<harvestcraft:apple_sapling>);
 recipes.addShaped(<harvestcraft:apple_sapling> * 2, [[<ore:treeSapling>, null, null],[null, <minecraft:apple>, <minecraft:apple>], [null, <minecraft:apple>, <harvestcraft:apple_sapling>]]);
 recipes.addShaped(<harvestcraft:spiderweb_sapling> * 2, [[<ore:treeSapling>, null, null],[null, <minecraft:string>, <minecraft:string>], [null, <minecraft:string>, <harvestcraft:spiderweb_sapling>]]);
 recipes.addShaped(<harvestcraft:paperbark_sapling> * 2, [[<ore:treeSapling>, null, null],[null, <minecraft:paper>, <minecraft:paper>], [null, <minecraft:paper>, <harvestcraft:paperbark_sapling>]]);
+
+//Removed Well as it can be used cheapy for infi water. We don't mind water that way just not this way lol
+recipes.remove(<harvestcraft:well>);
+mods.jei.JEI.hide(<harvestcraft:well>);
