@@ -130,3 +130,8 @@ recipes.remove(<ic2:boat>);
 //Removed old IC2 UU Matter item from JEI
 recipes.remove(<ic2:misc_resource:3>);
 mods.jei.JEI.hide(<ic2:misc_resource:3>);
+
+//Redid the Replicator recipe to remove the Teleporter
+recipes.remove(<ic2:te:63>);
+recipes.addShaped(<ic2:te:63>, [[<ic2:resource:11>, <ic2:glass>, <ic2:resource:11>],[<techreborn:part:1>, <techreborn:part:1>, <techreborn:part:1>], [<ic2:te:80>, <ic2:te:75>, <ic2:te:80>]]);
+
