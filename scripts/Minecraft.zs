@@ -60,6 +60,5 @@ mods.jei.JEI.hide(<minecraft:spruce_boat>);
 recipes.remove(<minecraft:boat>);
 mods.jei.JEI.hide(<minecraft:boat>);
 
-//flint & steel changes
-recipes.remove(<minecraft:flint_and_steel>);
-recipes.addShaped(<minecraft:flint_and_steel>, [[<minecraft:iron_nugget>, <minecraft:gunpowder>, null],[<immersiveengineering:material>, <minecraft:flint>, <immersiveengineering:treated_wood>], [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]]);
+// Increase hardness of rails to prevent some griefs
+<minecraft:rail>.hardness = 100;
