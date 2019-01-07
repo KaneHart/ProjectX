@@ -163,3 +163,8 @@ mods.jei.JEI.hide(<techreborn:wind_mill>);
 recipes.remove(<techreborn:chunk_loader>);
 mods.jei.JEI.hide(<techreborn:chunk_loader>);
 
+//remove and hide a couple other WIP Items
+recipes.remove(<techreborn:omnitool>);
+recipes.remove(<techreborn:magic_energy_converter>);
+mods.jei.JEI.hide(<techreborn:omnitool>);
+mods.jei.JEI.hide(<techreborn:magic_energy_converter>);
