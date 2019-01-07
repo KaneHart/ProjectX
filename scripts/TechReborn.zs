@@ -158,3 +158,8 @@ recipes.remove(<techreborn:nuke>);
 mods.jei.JEI.hide(<techreborn:nuke>);
 recipes.remove(<techreborn:wind_mill>);
 mods.jei.JEI.hide(<techreborn:wind_mill>);
+
+//removed chunkloader not even used lol
+recipes.remove(<techreborn:chunk_loader>);
+mods.jei.JEI.hide(<techreborn:chunk_loader>);
+
