@@ -45,7 +45,7 @@ recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <ic2:te:45>, <techreborn:par
 
 //Basic Machine Casing Revamp
 recipes.remove(<ic2:resource:12>);
-recipes.addShaped(<ic2:resource:12>, [[<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:5>],[<ic2:ingot:5>, null, <ic2:ingot:5>], [<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:5>]]);
+recipes.addShaped(<ic2:resource:12>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<ic2:plate:7>, null, <ic2:plate:7>], [<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>]]);
 
 //Advance Machine Casing Revamp
 recipes.remove(<ic2:resource:13>);
