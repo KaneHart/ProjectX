@@ -32,3 +32,17 @@ mods.jei.JEI.hide(<harvestcraft:well>);
 //Shipping Bin - Cheap and crashes on click anyways.
 recipes.remove(<harvestcraft:shippingbin>);
 mods.jei.JEI.hide(<harvestcraft:shippingbin>);
+
+//Apiary
+recipes.remove(<harvestcraft:apiary>);
+recipes.addShaped(<harvestcraft:apiary>, [[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],[<ore:plankTreatedWood>, <forestry:bee_house>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
+
+//Presser
+recipes.remove(<harvestcraft:presser>);
+recipes.addShaped(<harvestcraft:presser>, [[<ic2:plate:7>, <minecraft:piston>, <ic2:plate:7>],[<ic2:plate:7>, null, <ic2:plate:7>], [<ic2:plate:7>, <minecraft:piston>, <ic2:plate:7>]]);
+
+//Grinder
+recipes.remove(<harvestcraft:grinder>);
+recipes.addShaped(<harvestcraft:grinder>, [[<ic2:plate:7>, <railcraft:tool_spike_maul_steel>, <ic2:plate:7>],[<ic2:plate:7>, null, <ic2:plate:7>], [<ic2:plate:7>, <ic2:crafting:1>, <ic2:plate:7>]]);
+
+
