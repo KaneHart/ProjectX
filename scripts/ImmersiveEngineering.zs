@@ -150,3 +150,9 @@ recipes.remove(<immersiveengineering:metal_decoration0:5>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>, [[<ic2:plate:7>, <immersiveengineering:material:9>, <ic2:plate:7>],[<techreborn:ingot:5>, <immersiveengineering:metal_decoration0:4>, <techreborn:ingot:5>], [<ic2:plate:7>, <immersiveengineering:material:9>, <ic2:plate:7>]]);
 recipes.remove(<immersiveengineering:metal_decoration0:4>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:4>, [[<ic2:plate:3>, <immersiveengineering:material:8>, <ic2:plate:3>],[<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>], [<ic2:plate:3>, <immersiveengineering:material:8>, <ic2:plate:3>]]);
+
+//Mechanical Component Changes
+recipes.remove(<immersiveengineering:material:9>);
+recipes.addShaped(<immersiveengineering:material:9>, [[<ic2:plate:7>, null, <ic2:plate:7>],[null, <ic2:plate:1>, null], [<ic2:plate:7>, null, <ic2:plate:7>]]);
+recipes.remove(<immersiveengineering:material:8>);
+recipes.addShaped(<immersiveengineering:material:8>, [[<ic2:plate:3>, null, <ic2:plate:3>],[null, <ic2:plate:1>, null], [<ic2:plate:3>, null, <ic2:plate:3>]]);
