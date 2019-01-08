@@ -26,3 +26,7 @@ recipes.addShaped(<appliedenergistics2:part:16> * 4, [[<appliedenergistics2:part
 recipes.remove(<appliedenergistics2:drive>);
 recipes.addShaped(<appliedenergistics2:drive>, [[<techreborn:plates:32>, <appliedenergistics2:material:24>, <techreborn:plates:32>],[<appliedenergistics2:part:16>, <techreborn:digital_chest>, <appliedenergistics2:part:16>], [<techreborn:plates:32>, <appliedenergistics2:material:24>, <techreborn:plates:32>]]);
 
+//ME Quaantum Link Chamber Changes
+recipes.remove(<appliedenergistics2:quantum_link>);
+recipes.addShaped(<appliedenergistics2:quantum_link>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:9>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:material:9>, <techreborn:interdimensional_su>, <appliedenergistics2:material:9>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:9>, <appliedenergistics2:quartz_glass>]]);
+
