@@ -177,3 +177,7 @@ recipes.addShaped(<ic2:te:5>, [[<ic2:casing:5>, <ic2:casing:5>, <ic2:casing:5>],
 //removed IC2 Carbon Canoe... How many other names will they give to their boats lol
 recipes.remove(<ic2:boat:2>);
 mods.jei.JEI.hide(<ic2:boat:2>);
+
+//Biogas Jetpack Nerf
+recipes.remove(<ic2:jetpack:27>);
+recipes.addShaped(<ic2:jetpack:27>, [[<techreborn:plates:16>, <ic2:crafting:2>, <techreborn:plates:16>],[<techreborn:plates:16>, <ic2:fluid_cell>, <techreborn:plates:16>], [<stevescarts:cartmodule:59>, null, <stevescarts:cartmodule:59>]]);
