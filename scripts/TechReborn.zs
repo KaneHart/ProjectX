@@ -6,11 +6,11 @@ recipes.addShaped(<techreborn:part:36>, [[null, null, null],[null, <ic2:heat_sto
 recipes.remove(<techreborn:storage2:2>);
 recipes.addShaped(<techreborn:storage2:2>, [[<ore:bricksStone>, <techreborn:plates:37>, null],[null, null, null], [null, null, null]]);
 
-recipes.remove(<techreborn:advancedchainsaw>);
-recipes.addShaped(<techreborn:advancedchainsaw>, [[null, <techreborn:nuggets:7>, <techreborn:plates:37>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:nuggets:7>], [<techreborn:diamondchainsaw>, <techreborn:upgrades>, null]]);
+//recipes.remove(<techreborn:advancedchainsaw>);
+//recipes.addShaped(<techreborn:advancedchainsaw>, [[null, <techreborn:nuggets:7>, <techreborn:plates:37>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:nuggets:7>], [<techreborn:diamondchainsaw>, <techreborn:upgrades>, null]]);
 
-recipes.remove(<techreborn:advanceddrill>);
-recipes.addShaped(<techreborn:advanceddrill>, [[null, <techreborn:plates:37>, null],[<techreborn:nuggets:7>, <techreborn:part>, <techreborn:nuggets:7>], [<techreborn:upgrades>, <techreborn:diamonddrill>, <techreborn:upgrades>]]);
+//recipes.remove(<techreborn:advanceddrill>);
+//recipes.addShaped(<techreborn:advanceddrill>, [[null, <techreborn:plates:37>, null],[<techreborn:nuggets:7>, <techreborn:part>, <techreborn:nuggets:7>], [<techreborn:upgrades>, <techreborn:diamonddrill>, <techreborn:upgrades>]]);
 
 recipes.remove(<techreborn:ironjackhammer>);
 recipes.addShaped(<techreborn:ironjackhammer>, [[<techreborn:nuggets:7>, <techreborn:diamondjackhammer>, <techreborn:nuggets:7>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:upgrades>], [null, <techreborn:plates:37>, null]]);
@@ -40,8 +40,14 @@ recipes.remove(<techreborn:scrapboxinator>);
 mods.jei.JEI.hide(<techreborn:scrapboxinator>);
 
 //nerfed TechReborn Drills to require IC2 Irdium Drill then Rank up.
+//recipes.remove(<techreborn:irondrill>);
+//recipes.addShaped(<techreborn:irondrill>, [[null, <ic2:ingot:5>, null],[<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>], [<ic2:ingot:5>, <ic2:iridium_drill>, <ic2:ingot:5>]]);
+recipes.remove(<techreborn:advanceddrill>);
+recipes.addShaped(<techreborn:advanceddrill>, [[null, <techreborn:plates:37>, null],[<techreborn:ingot:17>, <techreborn:part>, <techreborn:ingot:17>], [<techreborn:upgrades>, <techreborn:diamonddrill>, <techreborn:upgrades>]]);
+recipes.remove(<techreborn:diamonddrill>);
+recipes.addShaped(<techreborn:diamonddrill>, [[null, <minecraft:diamond>, null],[<minecraft:diamond>, <ic2:crafting:2>, <minecraft:diamond>], [<techreborn:ingot:15>, <techreborn:irondrill>, <techreborn:ingot:15>]]);
 recipes.remove(<techreborn:irondrill>);
-recipes.addShaped(<techreborn:irondrill>, [[null, <ic2:ingot:5>, null],[<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>], [<ic2:ingot:5>, <ic2:iridium_drill>, <ic2:ingot:5>]]);
+recipes.addShaped(<techreborn:irondrill>, [[null, <techreborn:ingot:3>, null],[<techreborn:ingot:3>, <ic2:crafting:2>, <techreborn:ingot:3>], [<techreborn:ingot:3>, <ic2:iridium_drill:26>, <techreborn:ingot:3>]]);
 
 //nerfed TechReborn Jackhammer with the IC2 Drill
 recipes.remove(<techreborn:steeljackhammer>);
