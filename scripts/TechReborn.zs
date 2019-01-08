@@ -190,3 +190,9 @@ recipes.remove(<techreborn:ironchainsaw>);
 recipes.addShaped(<techreborn:advancedchainsaw>, [[null, <techreborn:ingot:17>, <techreborn:plates:37>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:ingot:17>], [<techreborn:diamondchainsaw>.withEmptyTag(), <techreborn:upgrades>, null]]);
 recipes.addShaped(<techreborn:diamondchainsaw>, [[null, <minecraft:diamond>, <minecraft:diamond>],[<techreborn:ingot:15>, <ic2:crafting:2>, <minecraft:diamond>], [<techreborn:ironchainsaw>.withEmptyTag(), <techreborn:ingot:15>, null]]);
 recipes.addShaped(<techreborn:ironchainsaw>, [[null, <techreborn:ingot:3>, <techreborn:ingot:3>],[<techreborn:ingot:3>, <ic2:crafting:2>, <techreborn:ingot:3>], [<ic2:chainsaw:26>.withEmptyTag(), <techreborn:ingot:3>, null]]);
+
+//redo jackhammer
+recipes.remove(<techreborn:ironjackhammer>);
+recipes.remove(<techreborn:diamondjackhammer>);
+recipes.addShaped(<techreborn:ironjackhammer>, [[<techreborn:ingot:17>, <techreborn:diamondjackhammer>, <techreborn:ingot:17>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:upgrades>], [null, <techreborn:plates:37>, null]]);
+recipes.addShaped(<techreborn:diamondjackhammer>, [[<minecraft:diamond>, <techreborn:steeljackhammer>, <minecraft:diamond>],[<techreborn:ingot:15>, <ic2:crafting:2>, <techreborn:ingot:15>], [null, <minecraft:diamond>, null]]);
