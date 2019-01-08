@@ -171,3 +171,7 @@ mods.jei.JEI.hide(<techreborn:magic_energy_converter>);
 
 //Remove Alum Ingot as blast furnace is suppose to use it.
 furnace.remove(<techreborn:ingot>);
+
+//Fixed Fusion Coil Recipe to use IC2 Reflector
+recipes.remove(<techreborn:fusion_coil>);
+recipes.addShaped(<techreborn:fusion_coil>, [[<techreborn:part>, <techreborn:part:17>, <techreborn:part>],[<techreborn:part:14>, <techreborn:machine_casing:2>, <techreborn:part:14>], [<techreborn:part>, <ic2:iridium_reflector>, <techreborn:part>]]);
