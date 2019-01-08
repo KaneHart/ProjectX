@@ -138,3 +138,7 @@ recipes.addShaped(<ic2:te:63>, [[<ic2:resource:11>, <ic2:glass>, <ic2:resource:1
 //Changed IC2 Advance Minor to remove Teleporter
 recipes.remove(<ic2:te:57>);
 recipes.addShaped(<ic2:te:57>, [[<ic2:crafting:3>, <ic2:te:60>, <ic2:crafting:3>],[<ic2:te:75>, <ic2:resource:13>, <minecraft:end_rod>], [<ic2:crafting:3>, <ic2:te:60>, <ic2:crafting:3>]]);
+
+//Removed IC2 Teleporter as we want people to use the Stargates
+recipes.remove(<ic2:te:39>);
+mods.jei.JEI.hide(<ic2:te:39>);
