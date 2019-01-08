@@ -173,3 +173,7 @@ recipes.addShaped(<ic2:te:21>, [[<ic2:crafting:30>, null, <ic2:crafting:30>],[nu
 //kinetic Generator changes to steel
 recipes.remove(<ic2:te:5>);
 recipes.addShaped(<ic2:te:5>, [[<ic2:casing:5>, <ic2:casing:5>, <ic2:casing:5>],[<ic2:te:3>, <ic2:crafting:6>, <ic2:crafting:30>], [<ic2:casing:5>, <ic2:casing:5>, <ic2:casing:5>]]);
+
+//removed IC2 Carbon Canoe... How many other names will they give to their boats lol
+recipes.remove(<ic2:boat:2>);
+mods.jei.JEI.hide(<ic2:boat:2>);
