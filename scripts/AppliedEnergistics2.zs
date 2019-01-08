@@ -19,8 +19,8 @@ recipes.addShaped(<appliedenergistics2:part:140>, [[<appliedenergistics2:quartz_
 
 //ME Glass Cable
 recipes.remove(<appliedenergistics2:part:16>);
-recipes.addShaped(<appliedenergistics2:part:16> * 4, [[<appliedenergistics2:part:140>, <appliedenergistics2:material:7>, null],[<appliedenergistics2:material:7>, <ic2:cable:1>, null], [null, null, null]]);
-recipes.addShaped(<appliedenergistics2:part:16> * 4, [[<appliedenergistics2:part:140>, <appliedenergistics2:material:12>, null],[<appliedenergistics2:material:12>, <ic2:cable:1>, null], [null, null, null]]);
+recipes.addShaped(<appliedenergistics2:part:16> * 4, [[<appliedenergistics2:part:140>, <appliedenergistics2:material:7>, null],[<appliedenergistics2:material:7>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), null], [null, null, null]]);
+recipes.addShaped(<appliedenergistics2:part:16> * 4, [[<appliedenergistics2:part:140>, <appliedenergistics2:material:12>, null],[<appliedenergistics2:material:12>, <ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}), null], [null, null, null]]);
 
 //ME Disk
 recipes.remove(<appliedenergistics2:drive>);
