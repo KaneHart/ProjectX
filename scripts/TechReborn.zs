@@ -168,3 +168,6 @@ recipes.remove(<techreborn:omnitool>);
 recipes.remove(<techreborn:magic_energy_converter>);
 mods.jei.JEI.hide(<techreborn:omnitool>);
 mods.jei.JEI.hide(<techreborn:magic_energy_converter>);
+
+//Remove Alum Ingot as blast furnace is suppose to use it.
+furnace.remove(<techreborn:ingot>);
