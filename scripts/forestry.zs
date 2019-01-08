@@ -55,5 +55,7 @@ recipes.addShaped(<forestry:fabricator>, [[<ic2:plate:2>, <ore:blockGlassColorle
 recipes.remove(<forestry:rainmaker>);
 recipes.addShaped(<forestry:rainmaker>, [[<techreborn:plates:16>, <techreborn:plates:32>, <techreborn:plates:16>],[<techreborn:plates:32>, <techreborn:lightning_rod>, <techreborn:plates:32>], [<techreborn:plates:16>, <techreborn:plates:32>, <techreborn:plates:16>]]);
 
-
+//Bee House
+recipes.remove(<forestry:bee_house>);
+recipes.addShaped(<forestry:bee_house>, [[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],[<ore:plankTreatedWood>, <ore:beeComb>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
