@@ -12,8 +12,8 @@ recipes.addShaped(<techreborn:storage2:2>, [[<ore:bricksStone>, <techreborn:plat
 //recipes.remove(<techreborn:advanceddrill>);
 //recipes.addShaped(<techreborn:advanceddrill>, [[null, <techreborn:plates:37>, null],[<techreborn:nuggets:7>, <techreborn:part>, <techreborn:nuggets:7>], [<techreborn:upgrades>, <techreborn:diamonddrill>, <techreborn:upgrades>]]);
 
-recipes.remove(<techreborn:ironjackhammer>);
-recipes.addShaped(<techreborn:ironjackhammer>, [[<techreborn:nuggets:7>, <techreborn:diamondjackhammer>, <techreborn:nuggets:7>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:upgrades>], [null, <techreborn:plates:37>, null]]);
+//recipes.remove(<techreborn:ironjackhammer>);
+//recipes.addShaped(<techreborn:ironjackhammer>, [[<techreborn:nuggets:7>, <techreborn:diamondjackhammer>, <techreborn:nuggets:7>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:upgrades>], [null, <techreborn:plates:37>, null]]);
 
 recipes.remove(<techreborn:cloakingdevice>);
 recipes.addShaped(<techreborn:cloakingdevice>, [[<techreborn:ingot:3>, <techreborn:plates:37>, <techreborn:ingot:3>],[<techreborn:plates:37>, <techreborn:lapotronicorb>, <techreborn:plates:37>], [<techreborn:ingot:3>, <techreborn:plates:37>, <techreborn:ingot:3>]]);
@@ -51,7 +51,7 @@ recipes.addShaped(<techreborn:irondrill>, [[null, <techreborn:ingot:3>, null],[<
 
 //nerfed TechReborn Jackhammer with the IC2 Drill
 recipes.remove(<techreborn:steeljackhammer>);
-recipes.addShaped(<techreborn:steeljackhammer>, [[<ic2:ingot:5>, <ic2:iridium_drill>, <ic2:ingot:5>],[<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>], [null, <ic2:ingot:5>, null]]);
+recipes.addShaped(<techreborn:steeljackhammer>, [[<techreborn:ingot:3>, <ic2:iridium_drill>, <techreborn:ingot:3>],[<techreborn:ingot:3>, <ic2:crafting:1>, <techreborn:ingot:3>], [null, <techreborn:ingot:3>, null]]);
 
 //hide / remove TR Matter Fab
 recipes.remove(<techreborn:matter_fabricator>);
