@@ -162,3 +162,13 @@ recipes.remove(<immersiveengineering:wooden_device1>);
 recipes.addShaped(<immersiveengineering:wooden_device1>, [[<immersiveengineering:material:10>, <immersiveengineering:material:10>, <immersiveengineering:material:10>],[<immersiveengineering:material:10>, <ic2:plate:7>, <immersiveengineering:material:10>], [<immersiveengineering:material:10>, <immersiveengineering:material:10>, <immersiveengineering:material:10>]]);
 recipes.remove(<immersiveengineering:wooden_device1:1>);
 recipes.addShaped(<immersiveengineering:wooden_device1:1>, [[<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>],[<immersiveengineering:material:11>, <ic2:plate:7>, <immersiveengineering:material:11>], [<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>]]);
+
+//Capacitor Nerfs
+recipes.remove(<immersiveengineering:metal_device0:2>);
+recipes.addShaped(<immersiveengineering:metal_device0:2>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<techreborn:plates:16>, <ic2:plate:14>, <techreborn:plates:16>], [<ore:plankTreatedWood>, <immersiveengineering:metal_device0:1>, <ore:plankTreatedWood>]]);
+recipes.remove(<immersiveengineering:metal_device0:1>);
+recipes.addShaped(<immersiveengineering:metal_device0:1>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<techreborn:plates:21>, <ic2:plate:5>, <techreborn:plates:21>], [<ore:plankTreatedWood>, <immersiveengineering:metal_device0>, <ore:plankTreatedWood>]]);
+recipes.remove(<immersiveengineering:metal_device0>);
+recipes.addShaped(<immersiveengineering:metal_device0>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<ic2:plate:1>, <ic2:casing:4>, <ic2:plate:1>], [<ore:plankTreatedWood>, <minecraft:redstone_block>, <ore:plankTreatedWood>]]);
+
+
