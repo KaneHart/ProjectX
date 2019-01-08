@@ -175,3 +175,12 @@ furnace.remove(<techreborn:ingot>);
 //Fixed Fusion Coil Recipe to use IC2 Reflector
 recipes.remove(<techreborn:fusion_coil>);
 recipes.addShaped(<techreborn:fusion_coil>, [[<techreborn:part>, <techreborn:part:17>, <techreborn:part>],[<techreborn:part:14>, <techreborn:machine_casing:2>, <techreborn:part:14>], [<techreborn:part>, <ic2:iridium_reflector>, <techreborn:part>]]);
+
+//Revamped TR the Saws
+recipes.remove(<techreborn:advancedchainsaw>);
+recipes.remove(<techreborn:diamondchainsaw>);
+recipes.remove(<techreborn:ironchainsaw>);
+
+recipes.addShaped(<techreborn:advancedchainsaw>, [[null, <techreborn:ingot:17>, <techreborn:plates:37>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:ingot:17>], [<techreborn:diamondchainsaw>.withEmptyTag(), <techreborn:upgrades>, null]]);
+recipes.addShaped(<techreborn:diamondchainsaw>, [[null, <minecraft:diamond>, <minecraft:diamond>],[<techreborn:ingot:15>, <ic2:crafting:2>, <minecraft:diamond>], [<techreborn:ironchainsaw>.withEmptyTag(), <techreborn:ingot:15>, null]]);
+recipes.addShaped(<techreborn:ironchainsaw>, [[null, <techreborn:ingot:3>, <techreborn:ingot:3>],[<techreborn:ingot:3>, <ic2:crafting:2>, <techreborn:ingot:3>], [<ic2:chainsaw:26>.withEmptyTag(), <techreborn:ingot:3>, null]]);
