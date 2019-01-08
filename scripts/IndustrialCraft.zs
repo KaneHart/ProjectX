@@ -181,3 +181,7 @@ mods.jei.JEI.hide(<ic2:boat:2>);
 //Biogas Jetpack Nerf
 recipes.remove(<ic2:jetpack:27>);
 recipes.addShaped(<ic2:jetpack:27>, [[<techreborn:plates:16>, <ic2:crafting:2>, <techreborn:plates:16>],[<techreborn:plates:16>, <ic2:fluid_cell>, <techreborn:plates:16>], [<stevescarts:cartmodule:59>, null, <stevescarts:cartmodule:59>]]);
+
+//IC2 Forge Hammer Nerf - Now uses Steel / Treated Sticks
+recipes.remove(<ic2:forge_hammer>);
+recipes.addShaped(<ic2:forge_hammer>, [[null, <ic2:ingot:5>, <ic2:ingot:5>],[<immersiveengineering:material>, <immersiveengineering:material>, <ic2:ingot:5>], [null, <ic2:ingot:5>, <ic2:ingot:5>]]);
