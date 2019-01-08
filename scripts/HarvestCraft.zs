@@ -28,3 +28,7 @@ recipes.addShaped(<harvestcraft:paperbark_sapling> * 2, [[<ore:treeSapling>, nul
 //Removed Well as it can be used cheapy for infi water. We don't mind water that way just not this way lol
 recipes.remove(<harvestcraft:well>);
 mods.jei.JEI.hide(<harvestcraft:well>);
+
+//Shipping Bin - Cheap and crashes on click anyways.
+recipes.remove(<harvestcraft:shippingbin>);
+mods.jei.JEI.hide(<harvestcraft:shippingbin>);
