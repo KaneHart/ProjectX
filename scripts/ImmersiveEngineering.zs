@@ -156,3 +156,9 @@ recipes.remove(<immersiveengineering:material:9>);
 recipes.addShaped(<immersiveengineering:material:9>, [[<ic2:plate:7>, null, <ic2:plate:7>],[null, <ic2:plate:1>, null], [<ic2:plate:7>, null, <ic2:plate:7>]]);
 recipes.remove(<immersiveengineering:material:8>);
 recipes.addShaped(<immersiveengineering:material:8>, [[<ic2:plate:3>, null, <ic2:plate:3>],[null, <ic2:plate:1>, null], [<ic2:plate:3>, null, <ic2:plate:3>]]);
+
+//very minor changes to wind / water blades
+recipes.remove(<immersiveengineering:wooden_device1>);
+recipes.addShaped(<immersiveengineering:wooden_device1>, [[<immersiveengineering:material:10>, <immersiveengineering:material:10>, <immersiveengineering:material:10>],[<immersiveengineering:material:10>, <ic2:plate:7>, <immersiveengineering:material:10>], [<immersiveengineering:material:10>, <immersiveengineering:material:10>, <immersiveengineering:material:10>]]);
+recipes.remove(<immersiveengineering:wooden_device1:1>);
+recipes.addShaped(<immersiveengineering:wooden_device1:1>, [[<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>],[<immersiveengineering:material:11>, <ic2:plate:7>, <immersiveengineering:material:11>], [<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>]]);
