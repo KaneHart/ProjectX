@@ -24,3 +24,8 @@ mods.jei.JEI.hide(<reactor_stuff:blazonium_axe>);
 mods.jei.JEI.hide(<reactor_stuff:blazonium_sword>);
 mods.jei.JEI.hide(<reactor_stuff:blazonium_hoe>);
 mods.jei.JEI.hide(<reactor_stuff:obsidian_stick>);
+
+//Removed Furnace Recipes for all Uranium Ores
+furnace.remove(<reactor_stuff:ore_uranium>);
+furnace.remove(<reactor_stuff:ore_thorium>);
+furnace.remove(<reactor_stuff:ore_terminium>);
