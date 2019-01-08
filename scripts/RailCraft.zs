@@ -26,15 +26,16 @@ recipes.remove(<railcraft:gear>);
 
 //removed RC tools
 recipes.remove(<railcraft:tool_axe_steel>);
-//mods.jei.JEI.hide(<railcraft:tool_axe_steel>);
+mods.jei.JEI.hide(<railcraft:tool_axe_steel>);
 recipes.remove(<railcraft:tool_hoe_steel>);
-//mods.jei.JEI.hide(<railcraft:tool_hoe_steel>);
+mods.jei.JEI.hide(<railcraft:tool_hoe_steel>);
 recipes.remove(<railcraft:tool_pickaxe_steel>);
-//mods.jei.JEI.hide(<railcraft:tool_pickaxe_steel>);
+mods.jei.JEI.hide(<railcraft:tool_pickaxe_steel>);
 recipes.remove(<railcraft:tool_shovel_steel>);
-//mods.jei.JEI.hide(<railcraft:tool_shovel_steel>);
+mods.jei.JEI.hide(<railcraft:tool_shovel_steel>);
 recipes.remove(<railcraft:tool_sword_steel>);
-//mods.jei.JEI.hide(<railcraft:tool_sword_steel>);
+mods.jei.JEI.hide(<railcraft:tool_sword_steel>);
+
 
 //Added Abyssal & Quarried Stone Recipes
 recipes.addShaped(<railcraft:generic:8>, [[<chisel:basalt2:7>, <chisel:basalt2:7>, <chisel:basalt2:7>],[<chisel:basalt2:7>, null, <chisel:basalt2:7>], [<chisel:basalt2:7>, <chisel:basalt2:7>, <chisel:basalt2:7>]]);
