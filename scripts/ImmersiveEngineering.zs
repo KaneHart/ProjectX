@@ -141,3 +141,6 @@ mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:16>);
 mods.immersiveengineering.Crusher.removeRecipe(<techreborn:dust:44>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:metal:15>);
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:18>);
+
+//remove alum ingot from furance. 
+furnace.remove(<immersiveengineering:metal:1>);
