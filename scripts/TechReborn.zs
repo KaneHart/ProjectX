@@ -196,3 +196,12 @@ recipes.remove(<techreborn:ironjackhammer>);
 recipes.remove(<techreborn:diamondjackhammer>);
 recipes.addShaped(<techreborn:ironjackhammer>, [[<techreborn:ingot:17>, <techreborn:diamondjackhammer>, <techreborn:ingot:17>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:upgrades>], [null, <techreborn:plates:37>, null]]);
 recipes.addShaped(<techreborn:diamondjackhammer>, [[<minecraft:diamond>, <techreborn:steeljackhammer>, <minecraft:diamond>],[<techreborn:ingot:15>, <ic2:crafting:2>, <techreborn:ingot:15>], [null, <minecraft:diamond>, null]]);
+
+//removed semi fluid generator iron plate recipe and just used the alum version
+recipes.remove(<techreborn:semi_fluid_generator>);
+recipes.addShaped(<techreborn:semi_fluid_generator>, [[<techreborn:plates:16>, <techreborn:plates:16>, <techreborn:plates:16>],[<techreborn:plates:16>, <ic2:glass>, <techreborn:plates:16>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
+
+//changed thermnal generator to require alum plates as well..
+recipes.remove(<techreborn:thermal_generator>);
+recipes.addShaped(<techreborn:thermal_generator>, [[<techreborn:plates:16>, <ic2:glass>, <techreborn:plates:16>],[<techreborn:plates:16>, <ic2:glass>, <techreborn:plates:16>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
+
