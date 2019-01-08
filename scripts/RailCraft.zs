@@ -31,4 +31,8 @@ recipes.remove(<railcraft:tool_pickaxe_steel>);
 recipes.remove(<railcraft:tool_shovel_steel>);
 recipes.remove(<railcraft:tool_sword_steel>);
 
+//Added Abyssal & Quarried Stone Recipes
+recipes.addShaped(<railcraft:generic:8>, [[<chisel:basalt2:7>, <chisel:basalt2:7>, <chisel:basalt2:7>],[<chisel:basalt2:7>, null, <chisel:basalt2:7>], [<chisel:basalt2:7>, <chisel:basalt2:7>, <chisel:basalt2:7>]]);
+recipes.addShaped(<railcraft:generic:9>, [[<chisel:marble2:7>, <chisel:marble2:7>, <chisel:marble2:7>],[<chisel:marble2:7>, null, <chisel:marble2:7>], [<chisel:marble2:7>, <chisel:marble2:7>, <chisel:marble2:7>]]);
+
 
