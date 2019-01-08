@@ -1,0 +1,13 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"leather",
+
+	Offers:{
+		Recipes:[
+		
+		{action:"remove", buy:{id:"minecraft:emerald"},sell:{id:"minecraft:saddle"}, CareerLevel:3},
+
+		]
+	}
+
+}
