@@ -80,18 +80,6 @@ recipes.addShaped(<ic2:bronze_helmet>, [[null, null, null],[<ic2:plate>, <ic2:pl
 recipes.remove(<ic2:alloy_chestplate>);
 recipes.addShaped(<ic2:alloy_chestplate>, [[<ic2:crafting:3>, null, <ic2:crafting:3>],[<ic2:crafting:3>, <harvestcraft:hardenedleatherchestitem>, <ic2:crafting:3>], [<ic2:crafting:3>, <minecraft:diamond_chestplate>, <ic2:crafting:3>]]);
 
-//Remove IC2 Plates With IE Hammer
-recipes.remove(<ic2:plate:2>);
-recipes.remove(<ic2:plate:7>);
-recipes.remove(<ic2:plate:8>);
-recipes.remove(<ic2:plate:5>);
-recipes.remove(<ic2:plate:3>);
-recipes.remove(<ic2:plate>);
-recipes.remove(<ic2:plate:1>);
-
-//Added Copper Plate with IC2 Hammer x2 ingots for 1 plate.
-recipes.addShaped(<ic2:plate:1>, [[<ic2:forge_hammer>.anyDamage(), <ic2:ingot:2>, <ic2:ingot:2>],[null, null, null], [null, null, null]]);
-
 //remove Geothermal / Semi Fluid Generators
 recipes.remove(<ic2:te:7>);
 mods.jei.JEI.hide(<ic2:te:7>);
@@ -142,3 +130,38 @@ recipes.addShaped(<ic2:te:57>, [[<ic2:crafting:3>, <ic2:te:60>, <ic2:crafting:3>
 //Removed IC2 Teleporter as we want people to use the Stargates
 recipes.remove(<ic2:te:39>);
 mods.jei.JEI.hide(<ic2:te:39>);
+
+
+//Removed 1x Plate Recipes added x2
+recipes.remove(<ic2:plate:2>);
+recipes.remove(<ic2:plate:7>);
+recipes.remove(<ic2:plate:8>);
+recipes.remove(<ic2:plate:5>);
+recipes.remove(<ic2:plate:3>);
+recipes.remove(<ic2:plate>);
+recipes.remove(<ic2:plate:1>);
+recipes.addShaped(<ic2:plate:8>, [[<ic2:forge_hammer>.anyDamage(), <ic2:ingot:6>, <ic2:ingot:6>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:plate:7>, [[<ic2:forge_hammer>.anyDamage(), <ic2:ingot:5>, <ic2:ingot:5>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:plate:5>, [[<ic2:forge_hammer>.anyDamage(), <ic2:ingot:3>, <ic2:ingot:3>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:plate:3>, [[<ic2:forge_hammer>.anyDamage(), <minecraft:iron_ingot>, <minecraft:iron_ingot>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:plate:2>, [[<ic2:forge_hammer>.anyDamage(), <minecraft:gold_ingot>, <minecraft:gold_ingot>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:plate:1>, [[<ic2:forge_hammer>.anyDamage(), <ic2:ingot:2>, <ic2:ingot:2>],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:plate>, [[<ic2:forge_hammer>.anyDamage(), <ic2:ingot:1>, <ic2:ingot:1>],[null, null, null], [null, null, null]]);
+
+//removed IC2 casings with Hammer 1 in 2 out with 1 to 1 recipe.
+recipes.remove(<ic2:casing:6>);
+recipes.remove(<ic2:casing:5>);
+recipes.remove(<ic2:casing:4>);
+recipes.remove(<ic2:casing:3>);
+recipes.remove(<ic2:casing:2>);
+recipes.remove(<ic2:casing:1>);
+recipes.remove(<ic2:casing>);
+recipes.addShaped(<ic2:casing:6>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate:8>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:casing:5>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate:7>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:casing:4>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate:5>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:casing:3>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate:3>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:casing:2>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate:2>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:casing:1>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate:1>, null],[null, null, null], [null, null, null]]);
+recipes.addShaped(<ic2:casing>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate>, null],[null, null, null], [null, null, null]]);
+
+
