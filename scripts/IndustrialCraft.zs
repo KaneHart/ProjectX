@@ -164,4 +164,8 @@ recipes.addShaped(<ic2:casing:2>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate:2
 recipes.addShaped(<ic2:casing:1>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate:1>, null],[null, null, null], [null, null, null]]);
 recipes.addShaped(<ic2:casing>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate>, null],[null, null, null], [null, null, null]]);
 
-
+//nerfed water / wind turbines to steel Shafts as well added 2 more to Wind... Not sure why wind was cheaper then water one...
+recipes.remove(<ic2:te:21>);
+recipes.remove(<ic2:te:20>);
+recipes.addShaped(<ic2:te:20>, [[null, <ic2:crafting:30>, null],[<ic2:crafting:30>, <ic2:resource:12>, <ic2:crafting:30>], [null, <ic2:crafting:30>, null]]);
+recipes.addShaped(<ic2:te:21>, [[<ic2:crafting:30>, null, <ic2:crafting:30>],[null, <ic2:te:21>, null], [<ic2:crafting:30>, null, <ic2:crafting:30>]]);
