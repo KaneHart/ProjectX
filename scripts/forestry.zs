@@ -14,17 +14,17 @@ recipes.remove(<forestry:miner_bag>);
 recipes.remove(<forestry:digger_bag>);
 recipes.remove(<forestry:hunter_bag>);
 recipes.addShaped(<forestry:miner_bag>, [
-	[<minecraft:string>, <forestry:crafting_material:1*>, <minecraft:string>],
+	[<minecraft:string>, <forestry:crafting_material:1>, <minecraft:string>],
 	[<techreborn:ingot:15>, <ore:chest>, <techreborn:ingot:15>],
-	[<minecraft:string>, <forestry:crafting_material:1*>, <minecraft:string>]]);
+	[<minecraft:string>, <forestry:crafting_material:1>, <minecraft:string>]]);
 recipes.addShaped(<forestry:digger_bag>, [
-	[<minecraft:string>, <forestry:crafting_material:1*>, <minecraft:string>],
+	[<minecraft:string>, <forestry:crafting_material:1>, <minecraft:string>],
 	[<minecraft:end_stone>, <ore:chest>, <minecraft:end_stone>],
-	[<minecraft:string>, <forestry:crafting_material:1*>, <minecraft:string>]]);
+	[<minecraft:string>, <forestry:crafting_material:1>, <minecraft:string>]]);
 recipes.addShaped(<forestry:hunter_bag>, [
-	[<minecraft:string>, <forestry:crafting_material:1*>, <minecraft:string>],
+	[<minecraft:string>, <forestry:crafting_material:1>, <minecraft:string>],
 	[<minecraft:skull:1>, <ore:chest>, <minecraft:skull:1>],
-	[<minecraft:string>, <forestry:crafting_material:1*>, <minecraft:string>]]);
+	[<minecraft:string>, <forestry:crafting_material:1>, <minecraft:string>]]);
 
 
 //Worktable
