@@ -41,4 +41,5 @@ mods.jei.JEI.hide(<railcraft:tool_sword_steel>);
 recipes.addShaped(<railcraft:generic:8>, [[<chisel:basalt2:7>, <chisel:basalt2:7>, <chisel:basalt2:7>],[<chisel:basalt2:7>, null, <chisel:basalt2:7>], [<chisel:basalt2:7>, <chisel:basalt2:7>, <chisel:basalt2:7>]]);
 recipes.addShaped(<railcraft:generic:9>, [[<chisel:marble2:7>, <chisel:marble2:7>, <chisel:marble2:7>],[<chisel:marble2:7>, null, <chisel:marble2:7>], [<chisel:marble2:7>, <chisel:marble2:7>, <chisel:marble2:7>]]);
 
-
+//Removed Railcraft Coal to Creosote
+furnace.remove(<railcraft:fluid_bottle_creosote>);
