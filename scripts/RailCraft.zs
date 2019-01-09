@@ -43,3 +43,10 @@ recipes.addShaped(<railcraft:generic:9>, [[<chisel:marble2:7>, <chisel:marble2:7
 
 //Removed Railcraft Coal to Creosote
 furnace.remove(<railcraft:fluid_bottle_creosote>);
+
+
+//removed tradestation and cart.
+recipes.remove(<railcraft:cart_trade_station>);
+mods.jei.JEI.hide(<railcraft:cart_trade_station>);
+recipes.remove(<railcraft:trade_station>);
+mods.jei.JEI.hide(<railcraft:trade_station>);
