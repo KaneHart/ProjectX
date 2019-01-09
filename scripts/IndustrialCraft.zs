@@ -185,3 +185,15 @@ recipes.addShaped(<ic2:jetpack:27>, [[<techreborn:plates:16>, <ic2:crafting:2>, 
 //IC2 Forge Hammer Nerf - Now uses Steel / Treated Sticks
 recipes.remove(<ic2:forge_hammer>);
 recipes.addShaped(<ic2:forge_hammer>, [[null, <ic2:ingot:5>, <ic2:ingot:5>],[<immersiveengineering:material>, <immersiveengineering:material>, <ic2:ingot:5>], [null, <ic2:ingot:5>, <ic2:ingot:5>]]);
+
+//hazmat / boot nerfs... Did you know this stuff Diamond Armor Level?
+recipes.remove(<ic2:static_boots>);
+recipes.addShaped(<ic2:static_boots>, [[<ic2:ingot:5>, null, <ic2:ingot:5>],[<ic2:ingot:5>, <ic2:rubber_boots>, <ic2:ingot:5>], [<ic2:cable>, <ic2:cable>, <ic2:cable>]]);
+recipes.remove(<ic2:rubber_boots>);
+recipes.addShaped(<ic2:rubber_boots>, [[<ic2:crafting>, null, <ic2:crafting>],[<ic2:crafting>, <ic2:static_boots>, <ic2:crafting>], [<ic2:crafting>, <ore:blockWool>, <ic2:crafting>]]);
+recipes.remove(<ic2:hazmat_chestplate>);
+recipes.addShaped(<ic2:hazmat_chestplate>, [[<ic2:crafting>, <minecraft:diamond_chestplate>, <ic2:crafting>],[<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>], [<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>]]);
+recipes.remove(<ic2:hazmat_helmet>);
+recipes.addShaped(<ic2:hazmat_helmet>, [[null, <minecraft:diamond_helmet>, null],[<ic2:crafting>, <ore:blockGlassColorless>, <ic2:crafting>], [<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>]]);
+recipes.remove(<ic2:hazmat_leggings>);
+recipes.addShaped(<ic2:hazmat_leggings>, [[<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>],[<ic2:crafting>, <minecraft:diamond_leggings>, <ic2:crafting>], [<ic2:crafting>, null, <ic2:crafting>]]);
