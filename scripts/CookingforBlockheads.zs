@@ -17,3 +17,6 @@ recipes.addShaped(<cookingforblockheads:oven>, [[<minecraft:stained_glass:15>, <
 //Cooking for Blockhead Milk Nerf!
 recipes.remove(<cookingforblockheads:milk_jar>);
 recipes.addShaped(<cookingforblockheads:milk_jar>, [[<ic2:glass>, <ore:plankTreatedWood>, <ic2:glass>],[<ic2:glass>, <minecraft:milk_bucket>, <ic2:glass>], [<ic2:glass>, <ic2:glass>, <ic2:glass>]]);
+
+// Oven tooltip
+<cookingforblockheads:oven>.addTooltip(format.red("Needs cooking oil to work."));
