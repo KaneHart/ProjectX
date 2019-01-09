@@ -188,9 +188,9 @@ recipes.addShaped(<ic2:forge_hammer>, [[null, <ic2:ingot:5>, <ic2:ingot:5>],[<im
 
 //hazmat / boot nerfs... Did you know this stuff Diamond Armor Level?
 recipes.remove(<ic2:static_boots>);
-recipes.addShaped(<ic2:static_boots>, [[<ic2:ingot:5>, null, <ic2:ingot:5>],[<ic2:ingot:5>, <ic2:rubber_boots>, <ic2:ingot:5>], [<ic2:cable>, <ic2:cable>, <ic2:cable>]]);
+recipes.addShaped(<ic2:static_boots>, [[<ic2:ingot:5>, null, <ic2:ingot:5>],[<ic2:ingot:5>, <ic2:rubber_boots>, <ic2:ingot:5>], [<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})]]);
 recipes.remove(<ic2:rubber_boots>);
-recipes.addShaped(<ic2:rubber_boots>, [[<ic2:crafting>, null, <ic2:crafting>],[<ic2:crafting>, <ic2:static_boots>, <ic2:crafting>], [<ic2:crafting>, <ore:blockWool>, <ic2:crafting>]]);
+recipes.addShaped(<ic2:rubber_boots>, [[<ic2:crafting>, null, <ic2:crafting>],[<ic2:crafting>, <minecraft:diamond_boots>, <ic2:crafting>], [<ic2:crafting>, <ore:blockWool>, <ic2:crafting>]]);
 recipes.remove(<ic2:hazmat_chestplate>);
 recipes.addShaped(<ic2:hazmat_chestplate>, [[<ic2:crafting>, <minecraft:diamond_chestplate>, <ic2:crafting>],[<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>], [<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>]]);
 recipes.remove(<ic2:hazmat_helmet>);
