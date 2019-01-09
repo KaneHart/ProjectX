@@ -21,3 +21,7 @@ recipes.remove(<xnet:connector:4>);
 recipes.addShaped(<xnet:connector:4>, [[<charset:logic_wire_n>, <charset:logic_wire_n>, <charset:logic_wire_n>],[<ic2:plate:2>, <xnet:connector>, <ic2:plate:2>], [<charset:logic_wire_n>, <charset:logic_wire_n>, <charset:logic_wire_n>]]);
 recipes.remove(<xnet:connector>);
 recipes.addShaped(<xnet:connector>, [[<ic2:plate:7>, <ironchest:iron_chest:1>, <ic2:plate:7>],[<immersiveengineering:material:23>, <ic2:plate:2>, <immersiveengineering:material:23>], [<ic2:plate:7>, <immersiveengineering:material:23>, <ic2:plate:7>]]);
+
+//Xnet Disable Dish
+recipes.remove(<xnet:antenna_dish>);
+mods.jei.JEI.hide(<xnet:antenna_dish>);
