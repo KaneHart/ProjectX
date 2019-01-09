@@ -213,4 +213,4 @@ mods.jei.JEI.hide(<techreborn:rubber_plank_stair>);
 
 //RockCutter Recipe adjustment
 recipes.remove(<techreborn:rockcutter>);
-recipes.addShaped(<techreborn:rockcutter>, [[<ic2:dust:5>, <techreborn:ingot:14>, null],[<ic2:dust:5>, <techreborn:ingot:14>, null], [<ic2:dust:5>, <ic2:crafting:1>, <ic2:iridium_drill:26>]]);
+recipes.addShaped(<techreborn:rockcutter>, [[<ic2:dust:5>, <techreborn:ingot:14>, null],[<ic2:dust:5>, <techreborn:ingot:14>, null], [<ic2:dust:5>, <ic2:crafting:1>, <ic2:iridium_drill:26>.withEmptyTag()]]);
