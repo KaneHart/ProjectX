@@ -14,4 +14,6 @@ recipes.addShaped(<cookingforblockheads:fridge>, [[<ironchest:iron_chest>, <ic2:
 recipes.addShaped(<cookingforblockheads:oven>, [[<minecraft:stained_glass:15>, <minecraft:stained_glass:15>, <minecraft:stained_glass:15>],[<ic2:plate:7>, <ic2:te:46>, <ic2:plate:7>], [<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>]]);
 
 
-//
+//Cooking for Blockhead Milk Nerf!
+recipes.remove(<cookingforblockheads:milk_jar>);
+recipes.addShaped(<cookingforblockheads:milk_jar>, [[<ic2:glass>, <ore:plankTreatedWood>, <ic2:glass>],[<ic2:glass>, <minecraft:milk_bucket>, <ic2:glass>], [<ic2:glass>, <ic2:glass>, <ic2:glass>]]);
