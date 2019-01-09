@@ -205,3 +205,8 @@ recipes.addShaped(<techreborn:semi_fluid_generator>, [[<techreborn:plates:16>, <
 recipes.remove(<techreborn:thermal_generator>);
 recipes.addShaped(<techreborn:thermal_generator>, [[<techreborn:plates:16>, <ic2:glass>, <techreborn:plates:16>],[<techreborn:plates:16>, <ic2:glass>, <techreborn:plates:16>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
 
+//Removed rubber plank / stairs that should not exist as it's for its rubber tree that does not gen.
+recipes.remove(<techreborn:rubber_plank_double_slab>);
+mods.jei.JEI.hide(<techreborn:rubber_plank_double_slab>);
+recipes.remove(<techreborn:rubber_plank_stair>);
+mods.jei.JEI.hide(<techreborn:rubber_plank_stair>);
