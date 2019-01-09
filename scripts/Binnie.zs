@@ -4,7 +4,7 @@ recipes.addShaped(<extrabees:hive_frame.debug>, [
 	[<minecraft:skull:2>, <quark:soul_bead>, <minecraft:skull>],
 	[<forestry:oak_stick>, <minecraft:skull:4>, <forestry:oak_stick>]]);
 	
-//Storage Nerf what a Hidden Gem!
+// Storage Nerf what a Hidden Gem!
 recipes.remove(<binniecore:storage:5>);
 recipes.addShaped(<binniecore:storage:5>, [[null, <minecraft:diamond_block>, null],[<minecraft:emerald_block>, <binniecore:storage:4>, <minecraft:emerald_block>], [null, <minecraft:diamond_block>, null]]);
 recipes.remove(<binniecore:storage:4>);
@@ -17,3 +17,7 @@ recipes.remove(<binniecore:storage:1>);
 recipes.addShaped(<binniecore:storage:1>, [[null, <ic2:plate:10>, null],[<ic2:plate:1>, <binniecore:storage>, <ic2:plate:1>], [null, <ic2:plate:10>, null]]);
 recipes.remove(<binniecore:storage>);
 recipes.addShaped(<binniecore:storage>, [[<minecraft:chest>, <minecraft:book>, <minecraft:chest>],[<minecraft:book>, <ore:plankTreatedWood>, <minecraft:book>], [<minecraft:chest>, <minecraft:book>, <minecraft:chest>]]);
+
+// Reduce Hops drop by 5
+vanilla.seeds.removeSeed(<extratrees:hops>);
+vanilla.seeds.addSeed(<extratrees:hops> % 100);
