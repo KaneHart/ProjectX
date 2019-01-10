@@ -1,0 +1,36 @@
+//Think Electro trying to kill me
+//Redid all the Fluid Tank recipes. 2 Bucket and 6 glass. All the correct colored dyes or so I hope.
+recipes.remove(<charset:fluidtank>.withTag({color: 15}));
+recipes.remove(<charset:fluidtank>.withTag({color: 14}));
+recipes.remove(<charset:fluidtank>.withTag({color: 13}));
+recipes.remove(<charset:fluidtank>.withTag({color: 12}));
+recipes.remove(<charset:fluidtank>.withTag({color: 11}));
+recipes.remove(<charset:fluidtank>.withTag({color: 10}));
+recipes.remove(<charset:fluidtank>.withTag({color: 9}));
+recipes.remove(<charset:fluidtank>.withTag({color: 8}));
+recipes.remove(<charset:fluidtank>.withTag({color: 7}));
+recipes.remove(<charset:fluidtank>.withTag({color: 6}));
+recipes.remove(<charset:fluidtank>.withTag({color: 5}));
+recipes.remove(<charset:fluidtank>.withTag({color: 4}));
+recipes.remove(<charset:fluidtank>.withTag({color: 3}));
+recipes.remove(<charset:fluidtank>.withTag({color: 2}));
+recipes.remove(<charset:fluidtank>.withTag({color: 1}));
+recipes.remove(<charset:fluidtank>.withTag({color: 0}));
+recipes.remove(<charset:fluidtank>.withTag({color: -1}));
+recipes.addShaped(<charset:fluidtank>.withTag({color: 15}), [[<ore:blockGlassBlack>, <minecraft:bucket>, <ore:blockGlassBlack>],[<ore:blockGlassBlack>, null, <ore:blockGlassBlack>], [<ore:blockGlassBlack>, <minecraft:bucket>, <ore:blockGlassBlack>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 14}), [[<ore:blockGlassRed>, <minecraft:bucket>, <ore:blockGlassRed>],[<ore:blockGlassRed>, null, <ore:blockGlassRed>], [<ore:blockGlassRed>, <minecraft:bucket>, <ore:blockGlassRed>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 13}), [[<ore:blockGlassGreen>, <minecraft:bucket>, <ore:blockGlassGreen>],[<ore:blockGlassGreen>, null, <ore:blockGlassGreen>], [<ore:blockGlassGreen>, <minecraft:bucket>, <ore:blockGlassGreen>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 12}), [[<ore:blockGlassBrown>, <minecraft:bucket>, <ore:blockGlassBrown>],[<ore:blockGlassBrown>, null, <ore:blockGlassBrown>], [<ore:blockGlassBrown>, <minecraft:bucket>, <ore:blockGlassBrown>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 11}), [[<ore:blockGlassBlue>, <minecraft:bucket>, <ore:blockGlassBlue>],[<ore:blockGlassBlue>, null, <ore:blockGlassBlue>], [<ore:blockGlassBlue>, <minecraft:bucket>, <ore:blockGlassBlue>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 10}), [[<ore:blockGlassPurple>, <minecraft:bucket>, <ore:blockGlassPurple>],[<ore:blockGlassPurple>, null, <ore:blockGlassPurple>], [<ore:blockGlassPurple>, <minecraft:bucket>, <ore:blockGlassPurple>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 9}), [[<ore:blockGlassCyan>, <minecraft:bucket>, <ore:blockGlassCyan>],[<ore:blockGlassCyan>, null, <ore:blockGlassCyan>], [<ore:blockGlassCyan>, <minecraft:bucket>, <ore:blockGlassCyan>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 8}), [[<ore:blockGlassLightGray>, <minecraft:bucket>, <ore:blockGlassLightGray>],[<ore:blockGlassLightGray>, null, <ore:blockGlassLightGray>], [<ore:blockGlassLightGray>, <minecraft:bucket>, <ore:blockGlassLightGray>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 7}), [[<ore:blockGlassGray>, <minecraft:bucket>, <ore:blockGlassGray>],[<ore:blockGlassGray>, null, <ore:blockGlassGray>], [<ore:blockGlassGray>, <minecraft:bucket>, <ore:blockGlassGray>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 6}), [[<ore:blockGlassPink>, <minecraft:bucket>, <ore:blockGlassPink>],[<ore:blockGlassPink>, null, <ore:blockGlassPink>], [<ore:blockGlassPink>, <minecraft:bucket>, <ore:blockGlassPink>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 5}), [[<ore:blockGlassLime>, <minecraft:bucket>, <ore:blockGlassLime>],[<ore:blockGlassLime>, null, <ore:blockGlassLime>], [<ore:blockGlassLime>, <minecraft:bucket>, <ore:blockGlassLime>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 4}), [[<ore:blockGlassYellow>, <minecraft:bucket>, <ore:blockGlassYellow>],[<ore:blockGlassYellow>, null, <ore:blockGlassYellow>], [<ore:blockGlassYellow>, <minecraft:bucket>, <ore:blockGlassYellow>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 3}), [[<ore:blockGlassLightBlue>, <minecraft:bucket>, <ore:blockGlassLightBlue>],[<ore:blockGlassLightBlue>, null, <ore:blockGlassLightBlue>], [<ore:blockGlassLightBlue>, <minecraft:bucket>, <ore:blockGlassLightBlue>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 2}), [[<ore:blockGlassMagenta>, <minecraft:bucket>, <ore:blockGlassMagenta>],[<ore:blockGlassMagenta>, null, <ore:blockGlassMagenta>], [<ore:blockGlassMagenta>, <minecraft:bucket>, <ore:blockGlassMagenta>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 1}), [[<ore:blockGlassOrange>, <minecraft:bucket>, <ore:blockGlassOrange>],[<ore:blockGlassOrange>, null, <ore:blockGlassOrange>], [<ore:blockGlassOrange>, <minecraft:bucket>, <ore:blockGlassOrange>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: 0}), [[<ore:blockGlassWhite>, <minecraft:bucket>, <ore:blockGlassWhite>],[<ore:blockGlassWhite>, null, <ore:blockGlassWhite>], [<ore:blockGlassWhite>, <minecraft:bucket>, <ore:blockGlassWhite>]]);
+recipes.addShaped(<charset:fluidtank>.withTag({color: -1}), [[<ore:blockGlassColorless>, <minecraft:bucket>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, null, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <minecraft:bucket>, <ore:blockGlassColorless>]]);
