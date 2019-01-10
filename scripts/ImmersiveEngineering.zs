@@ -184,3 +184,10 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:6>, [[<ic2:plate:7>, <
 //Redstone Engineering Block
 recipes.remove(<immersiveengineering:metal_decoration0:3>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>, [[<ic2:plate:3>, <charset:logic_wire_n>, <ic2:plate:3>],[<charset:logic_wire_n>, <ic2:plate:1>, <charset:logic_wire_n>], [<ic2:plate:3>, <charset:logic_wire_n>, <ic2:plate:3>]]);
+
+//External Heater
+recipes.remove(<immersiveengineering:metal_device1:1>);
+recipes.addShaped(<immersiveengineering:metal_device1:1>, [[<ic2:plate:3>, <ic2:plate:1>, <ic2:plate:3>],[<ic2:plate:1>, <immersiveengineering:metal_decoration0>, <ic2:plate:1>], [<ic2:plate:3>, <charset:logic_wire_n>, <ic2:plate:3>]]);
+//Thermoelectric Generator
+recipes.remove(<immersiveengineering:metal_device1:3>);
+recipes.addShaped(<immersiveengineering:metal_device1:3>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<immersiveengineering:metal:36>, <immersiveengineering:metal_decoration0>, <immersiveengineering:metal:36>], [<immersiveengineering:metal:36>, <immersiveengineering:metal:36>, <immersiveengineering:metal:36>]]);
