@@ -17,17 +17,17 @@ mods.jei.JEI.hide(<sgcraft:sgirisupgrade>);
 // SIGNIFICANTLY increase cost of Stargate
 recipes.addShaped(<sgcraft:stargatering:1>, [
 	[<techreborn:plates:32>, <techreborn:fusion_coil>, <techreborn:plates:32>],
-	[<ic2:cable:3>, <sgcraft:sgchevronupgrade>, <ic2:cable:3>],
+	[<<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})>, <sgcraft:sgchevronupgrade>, <<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})>],
 	[<techreborn:plates:32>, <techreborn:plates:32>, <techreborn:plates:32>]]);
 recipes.addShaped(<sgcraft:stargatering>, [
 	[<techreborn:plates:32>, <immersiveengineering:metal_device0:2>, <techreborn:plates:32>],
-	[<ic2:cable:3>, <ic2:te:80>, <ic2:cable:3>],
+	[<<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})>, <ic2:te:80>, <<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})>],
 	[<techreborn:plates:32>, <immersiveengineering:metal_device0:2>, <techreborn:plates:32>]]);
 recipes.addShaped(<sgcraft:stargatecontroller>, [
 	[<techreborn:plates:32>, <opencomputers:keyboard>, <techreborn:plates:32>],
-	[<ic2:cable:3>, <sgcraft:sgcontrollercrystal>, <ic2:cable:3>],
+	[<<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})>, <sgcraft:sgcontrollercrystal>, <<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})>],
 	[<techreborn:plates:32>, <techreborn:computer_cube>, <techreborn:plates:32>]]);
 recipes.addShaped(<sgcraft:stargatebase>, [
 	[<techreborn:plates:32>, <techreborn:interdimensional_su>, <techreborn:plates:32>],
-	[<ic2:cable:3>, <sgcraft:sgcorecrystal>, <ic2:cable:3>],
+	[<<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})>, <sgcraft:sgcorecrystal>, <<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})>],
 	[<techreborn:plates:32>, <techreborn:computer_cube>, <techreborn:plates:32>]]);
