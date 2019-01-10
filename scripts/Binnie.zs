@@ -21,3 +21,8 @@ recipes.addShaped(<binniecore:storage>, [[<minecraft:chest>, <minecraft:book>, <
 // Reduce Hops drop by 5
 vanilla.seeds.removeSeed(<extratrees:hops>);
 vanilla.seeds.addSeed(<extratrees:hops> % 100);
+
+//Reinforced Casing
+recipes.remove(<genetics:misc>);
+recipes.addShaped(<genetics:misc>, [[<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:5>],[<ic2:ingot:5>, <forestry:sturdy_machine>, <ic2:ingot:5>], [<ic2:ingot:5>, <ic2:ingot:5>, <ic2:ingot:5>]]);
+
