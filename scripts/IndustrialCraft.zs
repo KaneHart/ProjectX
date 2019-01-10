@@ -182,9 +182,9 @@ mods.jei.JEI.hide(<ic2:boat:2>);
 recipes.remove(<ic2:jetpack:27>);
 recipes.addShaped(<ic2:jetpack:27>, [[<techreborn:plates:16>, <ic2:crafting:2>, <techreborn:plates:16>],[<techreborn:plates:16>, <ic2:fluid_cell>, <techreborn:plates:16>], [<stevescarts:cartmodule:59>, null, <stevescarts:cartmodule:59>]]);
 
-//IC2 Forge Hammer Nerf - Now uses Steel / Treated Sticks
+//IC2 Forge Hammer Nerf - Treated Sticks / Iron Ingots
 recipes.remove(<ic2:forge_hammer>);
-recipes.addShaped(<ic2:forge_hammer>, [[null, <ic2:ingot:5>, <ic2:ingot:5>],[<immersiveengineering:material>, <immersiveengineering:material>, <ic2:ingot:5>], [null, <ic2:ingot:5>, <ic2:ingot:5>]]);
+recipes.addShaped(<ic2:forge_hammer>, [[null, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<immersiveengineering:material>, <immersiveengineering:material>, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
 //hazmat / boot nerfs... Did you know this stuff Diamond Armor Level?
 recipes.remove(<ic2:static_boots>);
