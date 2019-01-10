@@ -172,3 +172,15 @@ recipes.remove(<immersiveengineering:metal_device0>);
 recipes.addShaped(<immersiveengineering:metal_device0>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<ic2:plate:1>, <ic2:casing:4>, <ic2:plate:1>], [<ore:plankTreatedWood>, <minecraft:redstone_block>, <ore:plankTreatedWood>]]);
 
 
+//Kinetic Dynamo
+recipes.remove(<immersiveengineering:metal_device1:2>);
+recipes.addShaped(<immersiveengineering:metal_device1:2>, [[null, null, null],[<charset:logic_wire_n>, <immersiveengineering:metal_decoration0>, <charset:logic_wire_n>], [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+//Radiator Block
+recipes.remove(<immersiveengineering:metal_decoration0:7>);
+recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [[<ic2:plate:7>, <ic2:plate:1>, <ic2:plate:7>],[<ic2:plate:1>, <minecraft:water_bucket>, <ic2:plate:1>], [<ic2:plate:7>, <ic2:plate:1>, <ic2:plate:7>]]);
+//Generator Block
+recipes.remove(<immersiveengineering:metal_decoration0:6>);
+recipes.addShaped(<immersiveengineering:metal_decoration0:6>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<techreborn:ingot:5>, <immersiveengineering:metal_device1:2>, <techreborn:ingot:5>], [<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>]]);
+//Redstone Engineering Block
+recipes.remove(<immersiveengineering:metal_decoration0:3>);
+recipes.addShaped(<immersiveengineering:metal_decoration0:3>, [[<ic2:plate:3>, <charset:logic_wire_n>, <ic2:plate:3>],[<charset:logic_wire_n>, <ic2:plate:1>, <charset:logic_wire_n>], [<ic2:plate:3>, <charset:logic_wire_n>, <ic2:plate:3>]]);
