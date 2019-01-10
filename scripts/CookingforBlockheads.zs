@@ -11,7 +11,7 @@ recipes.addShaped(<cookingforblockheads:counter>, [[<ore:materialStoneTool>, <or
 recipes.addShaped(<cookingforblockheads:sink>, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<minecraft:hardened_clay>, <minecraft:water_bucket>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
 recipes.addShaped(<cookingforblockheads:cooking_table>, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<minecraft:hardened_clay>, <cookingforblockheads:recipe_book:2>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
 recipes.addShaped(<cookingforblockheads:fridge>, [[<ironchest:iron_chest>, <ic2:plate:3>, null],[null, null, null], [null, null, null]]);
-recipes.addShaped(<cookingforblockheads:oven>, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],[<ic2:plate:3>, <ic2:te:46>, <ic2:plate:3>], [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+recipes.addShaped(<cookingforblockheads:oven>, [[<ore:blockGlassBlack>, <ore:blockGlassBlack>, <ore:blockGlassBlack>],[<ic2:plate:3>, <ic2:te:46>, <ic2:plate:3>], [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
 
 
 //Cooking for Blockhead Milk Nerf!
