@@ -20,3 +20,11 @@ recipes.addShaped(<cookingforblockheads:milk_jar>, [[<ic2:glass>, <ore:plankTrea
 
 // Oven tooltip
 <cookingforblockheads:oven>.addTooltip(format.red("Needs cooking oil to work."));
+
+//upgrade nerfs
+recipes.remove(<cookingforblockheads:preservation_chamber>);
+recipes.remove(<cookingforblockheads:ice_unit>);
+recipes.remove(<cookingforblockheads:heating_unit>);
+recipes.addShaped(<cookingforblockheads:preservation_chamber>, [[null, null, null],[<charset:logic_wire_n>, <charset:logic_wire_n>, <charset:logic_wire_n>], [<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>]]);
+recipes.addShaped(<cookingforblockheads:ice_unit>, [[null, null, null],[<minecraft:snowball>, <minecraft:snowball>, <minecraft:snowball>], [<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>]]);
+recipes.addShaped(<cookingforblockheads:heating_unit>, [[null, null, null],[<ic2:crafting:5>, <ic2:crafting:5>, <ic2:crafting:5>], [<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>]]);
