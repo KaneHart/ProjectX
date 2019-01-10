@@ -1,22 +1,6 @@
 //Think Electro trying to kill me
 //Redid all the Fluid Tank recipes. 2 Bucket and 6 glass. All the correct colored dyes or so I hope.
-recipes.remove(<charset:fluidtank>.withTag({color: 15}));
-recipes.remove(<charset:fluidtank>.withTag({color: 14}));
-recipes.remove(<charset:fluidtank>.withTag({color: 13}));
-recipes.remove(<charset:fluidtank>.withTag({color: 12}));
-recipes.remove(<charset:fluidtank>.withTag({color: 11}));
-recipes.remove(<charset:fluidtank>.withTag({color: 10}));
-recipes.remove(<charset:fluidtank>.withTag({color: 9}));
-recipes.remove(<charset:fluidtank>.withTag({color: 8}));
-recipes.remove(<charset:fluidtank>.withTag({color: 7}));
-recipes.remove(<charset:fluidtank>.withTag({color: 6}));
-recipes.remove(<charset:fluidtank>.withTag({color: 5}));
-recipes.remove(<charset:fluidtank>.withTag({color: 4}));
-recipes.remove(<charset:fluidtank>.withTag({color: 3}));
-recipes.remove(<charset:fluidtank>.withTag({color: 2}));
-recipes.remove(<charset:fluidtank>.withTag({color: 1}));
-recipes.remove(<charset:fluidtank>.withTag({color: 0}));
-recipes.remove(<charset:fluidtank>.withTag({color: -1}));
+recipes.remove(<charset:fluidtank:*>);
 recipes.addShaped(<charset:fluidtank>.withTag({color: 15}), [[<ore:blockGlassBlack>, <minecraft:bucket>, <ore:blockGlassBlack>],[<ore:blockGlassBlack>, null, <ore:blockGlassBlack>], [<ore:blockGlassBlack>, <minecraft:bucket>, <ore:blockGlassBlack>]]);
 recipes.addShaped(<charset:fluidtank>.withTag({color: 14}), [[<ore:blockGlassRed>, <minecraft:bucket>, <ore:blockGlassRed>],[<ore:blockGlassRed>, null, <ore:blockGlassRed>], [<ore:blockGlassRed>, <minecraft:bucket>, <ore:blockGlassRed>]]);
 recipes.addShaped(<charset:fluidtank>.withTag({color: 13}), [[<ore:blockGlassGreen>, <minecraft:bucket>, <ore:blockGlassGreen>],[<ore:blockGlassGreen>, null, <ore:blockGlassGreen>], [<ore:blockGlassGreen>, <minecraft:bucket>, <ore:blockGlassGreen>]]);
