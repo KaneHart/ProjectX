@@ -7,7 +7,14 @@ recipes.remove(<cookingforblockheads:fridge>);
 recipes.remove(<cookingforblockheads:oven>);
 
 recipes.addShaped(<cookingforblockheads:cabinet>, [[null, null, null],[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ironchest:iron_chest>, <minecraft:hardened_clay>]]);
-recipes.addShaped(<cookingforblockheads:counter>, [[<ore:materialStoneTool>, <ore:materialStoneTool>, <ore:materialStoneTool>],[<minecraft:hardened_clay>, <ironchest:iron_chest>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<cookingforblockheads:counter>, [
+	[<ore:stonegranite>, <ore:stonegranite>, <ore:stonegranite>],
+	[<minecraft:hardened_clay>, <ironchest:iron_chest>, <minecraft:hardened_clay>],
+	[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<cookingforblockheads:corner>, [
+	[<ore:stonegranite>, <ore:stonegranite>, <ore:stonegranite>],
+	[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>],
+	[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
 recipes.addShaped(<cookingforblockheads:sink>, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<minecraft:hardened_clay>, <minecraft:water_bucket>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
 recipes.addShaped(<cookingforblockheads:cooking_table>, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<minecraft:hardened_clay>, <cookingforblockheads:recipe_book:2>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
 recipes.addShaped(<cookingforblockheads:fridge>, [[<ironchest:iron_chest>, <ic2:plate:3>, null],[null, null, null], [null, null, null]]);
