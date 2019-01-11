@@ -34,3 +34,6 @@ mods.jei.JEI.hide(<industrialrenewal:booster_rail>);
 mods.jei.JEI.hide(<industrialrenewal:normal_rail>);
 mods.jei.JEI.hide(<industrialrenewal:solar_panel>);
 
+// Remove rail crafting by hand from Industrial Renewal track
+recipes.removeShapeless(<minecraft:rail>, [<industrialrenewal:normal_rail>]);
+
