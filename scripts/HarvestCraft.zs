@@ -39,7 +39,10 @@ recipes.addShaped(<harvestcraft:apiary>, [[<ore:slabTreatedWood>, <ore:slabTreat
 
 //Presser
 recipes.remove(<harvestcraft:presser>);
-recipes.addShaped(<harvestcraft:presser>, [[<ic2:plate:7>, <minecraft:piston>, <ic2:plate:7>],[<ic2:plate:7>, null, <ic2:plate:7>], [<ic2:plate:7>, <minecraft:piston>, <ic2:plate:7>]]);
+recipes.addShaped(<harvestcraft:presser>, [
+	[<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>],
+	[<minecraft:obsidian>, null, <minecraft:obsidian>],
+	[<immersiveengineering:treated_wood>, <minecraft:piston>, <immersiveengineering:treated_wood>]]);
 
 //Grinder
 recipes.remove(<harvestcraft:grinder>);
