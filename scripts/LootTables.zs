@@ -28,6 +28,14 @@ LootTables.getTable("railcraft:chests/village_workshop").clear();
 // Load loottables to add loot to
 val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
+val fish = LootTables.getTable("minecraft:gameplay/fishing/fish");
+//val dungeon = LootTables.getTable("minecraft/gameplay/fishing:junk");
+//val dungeon = LootTables.getTable("minecraft/gameplay/fishing:treasure");
+
+LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:bow");
+LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:fishing_rod");
+LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:book");
+LootTables.getTable("minecraft:gameplay/fishing/junk").getPool("main").removeEntry("minecraft:tripwire_hook");
 
 // Add Pam's Harvestcraft seeds to dungeon and mineshaft loot
 val pam1 = mineshaft.addPool("pam1", 1, 2, 0, 0);
