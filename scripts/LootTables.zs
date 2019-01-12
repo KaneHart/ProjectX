@@ -28,9 +28,6 @@ LootTables.getTable("railcraft:chests/village_workshop").clear();
 // Load loottables to add loot to
 val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
-val fish = LootTables.getTable("minecraft:gameplay/fishing/fish");
-//val dungeon = LootTables.getTable("minecraft/gameplay/fishing:junk");
-//val dungeon = LootTables.getTable("minecraft/gameplay/fishing:treasure");
 
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:bow");
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:fishing_rod");
