@@ -217,3 +217,8 @@ recipes.addShaped(<techreborn:rockcutter>, [[<ic2:dust:5>, <techreborn:ingot:14>
 
 //removed IC to TR rubber conversion recipe
 recipes.remove(<techreborn:part:32>);
+
+//removed TR Re Like Battery
+recipes.remove(<techreborn:rebattery>);
+
+
