@@ -65,3 +65,6 @@ mods.jei.JEI.hide(<minecraft:boat>);
 
 //Saddle recipe
 recipes.addShaped(<minecraft:saddle>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],[<harvestcraft:hardenedleatheritem>, <forestry:crafting_material:1>, <harvestcraft:hardenedleatheritem>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
+
+//removed eye of ender as chemnical reactor makes them
+recipes.remove(<minecraft:ender_eye>);
