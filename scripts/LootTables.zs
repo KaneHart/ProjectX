@@ -34,6 +34,12 @@ val stronghold2 = LootTables.getTable("minecraft:chests/stronghold_crossing");
 val stronghold3 = LootTables.getTable("minecraft:chests/stronghold_library");
 val endcity = LootTables.getTable("minecraft:chests/end_city_treasure");
 val blacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
+val desertpyramid = LootTables.getTable("minecraft:chests/desert_pyramid");
+val igloo = LootTables.getTable("minecraft:chests/igloo_chest");
+val jungletemple = LootTables.getTable("minecraft:chests/jungle_temple");
+val mansion = LootTables.getTable("minecraft:chests/woodland_mansion");
+val bonus = LootTables.getTable("minecraft:chests/spawn_bonus_chest");
+
 
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:bow");
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:fishing_rod");
@@ -372,7 +378,6 @@ mob1.addItemEntry(<minecraft:golden_horse_armor>, 3);
 mob2.addItemEntry(<minecraft:golden_horse_armor>, 3);
 mob1.addItemEntry(<minecraft:iron_horse_armor>, 4);
 mob2.addItemEntry(<minecraft:iron_horse_armor>, 4);
-mob1.addItemEntry(<minecraft:totem_of_undying>, 1);
 mob2.addItemEntry(<minecraft:totem_of_undying>, 1);
 mob1.addItemEntry(<minecraft:ender_pearl>, 5);
 mob2.addItemEntry(<minecraft:ender_pearl>, 5);
@@ -463,3 +468,49 @@ smith.addItemEntry(<harvestcraft:crackersitem>, 5);
 smith.addItemEntry(<harvestcraft:strawberryitem>, 5);
 smith.addItemEntry(<harvestcraft:blackpepperitem>, 5);
 smith.addItemEntry(<harvestcraft:saltitem>, 5);
+
+// Add loot to desert temple (as if a Stargate isn't enough)
+val desert = desertpyramid.addPool("desertpyramid", 2, 3, 0, 0);
+desert.addItemEntry(<minecraft:bone>, 20);
+desert.addItemEntry(<minecraft:rotten_flesh>, 10);
+desert.addItemEntry(<minecraft:web>, 5);
+desert.addItemEntry(<minecraft:gold_ingot>, 4);
+desert.addItemEntry(<minecraft:diamond>, 1);
+desert.addItemEntry(<minecraft:emerald>, 2);
+
+// Add loot to igloo
+val snow = igloo.addPool("igloo", 2, 3, 0, 0);
+snow.addItemEntry(<minecraft:leather_helmet>, 2);
+snow.addItemEntry(<minecraft:leather_chestplate>, 1);
+snow.addItemEntry(<minecraft:iron_shovel>, 3);
+snow.addItemEntry(<minecraft:snowball>, 9);
+snow.addItemEntry(<harvestcraft:chickennoodlesoupitem>, 5);
+snow.addItemEntry(<harvestcraft:coffeeitem>, 5);
+snow.addItemEntry(<harvestcraft:frenchtoastitem>, 5);
+snow.addItemEntry(<harvestcraft:beefjerkyitem>, 5);
+
+// Add loot to jungle temple
+val jungle = jungletemple.addPool("jungletemple", 2, 3, 0, 0);
+jungle.addItemEntry(<minecraft:shears>, 2);
+jungle.addItemEntry(<minecraft:milk_bucket>, 1);
+jungle.addItemEntry(<harvestcraft:pinacoladaitem>, 5);
+jungle.addItemEntry(<harvestcraft:strawberrysaladitem>, 5);
+jungle.addItemEntry(<harvestcraft:ricecakeitem>, 5);
+jungle.addItemEntry(<harvestcraft:icecreamitem>, 5);
+jungle.addItemEntry(<harvestcraft:extremechiliitem>, 5);
+
+// Add loot to mansion (how you get one so close to spawn?)
+val rich = mansion.addPool("mansion", 2, 3, 0, 0);
+rich.addItemEntry(<minecraft:painting>, 5);
+rich.addItemEntry(<minecraft:jukebox>, 5);
+rich.addItemEntry(<minecraft:experience_bottle>, 5);
+rich.addItemEntry(<minecraft:writable_book>, 5);
+rich.addItemEntry(<minecraft:golden_apple>, 1);
+rich.addItemEntry(<minecraft:gold_ingot>, 7);
+rich.addItemEntry(<minecraft:diamond>, 3);
+rich.addItemEntry(<minecraft:emerald>, 6);
+
+// Add loot to bonus chest (tsk, tsk)
+val tsktsk = bonus.addPool("bonus", 1, 1, 0, 0);
+tsktsk.addItemEntry(<harvestcraft:creepercookieitem>, 5);
+
