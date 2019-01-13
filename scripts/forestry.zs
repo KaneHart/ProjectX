@@ -105,3 +105,9 @@ mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 20], <forestry:bee_comb
 
 mods.forestry.Centrifuge.removeRecipe(<forestry:propolis:0>);
 mods.forestry.Centrifuge.removeRecipe(<forestry:propolis:3>);
+
+// Add recipe for Proven Grafter
+recipes.addShaped(<forestry:grafter_proven>, [
+	[null, <forestry:crafting_material:2>, <techreborn:ingot:15>],
+	[null, <forestry:oak_stick>, <forestry:crafting_material:2>],
+	[<forestry:oak_stick>, null, null]]);
