@@ -205,3 +205,10 @@ recipes.remove(<ic2:crafting>);
 recipes.remove(<ic2:re_battery:26>);
 recipes.remove(<ic2:re_battery>);
 recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}), null],[<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>]]);
+
+//removed IC2 Lappack as it has no recipes and is really high tier messes with our chain of command
+recipes.remove(<ic2:lappack:26>);
+mods.jei.JEI.hide(<ic2:lappack:26>);
+
+
+
