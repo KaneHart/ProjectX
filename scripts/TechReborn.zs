@@ -221,4 +221,5 @@ recipes.remove(<techreborn:part:32>);
 //removed TR Re Like Battery
 recipes.remove(<techreborn:rebattery>);
 
-
+//remove Electric Tree Tap
+recipes.remove(<techreborn:electrictreetap>);
