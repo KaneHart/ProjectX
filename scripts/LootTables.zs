@@ -29,6 +29,9 @@ LootTables.getTable("railcraft:chests/village_workshop").clear();
 val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
 val nether = LootTables.getTable("minecraft:chests/nether_bridge");
+val stronghold1 = LootTables.getTable("minecraft:chests/stronghold_corridor");
+val stronghold2 = LootTables.getTable("minecraft:chests/stronghold_crossing");
+val stronghold3 = LootTables.getTable("minecraft:chests/stronghold_library");
 
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:bow");
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:fishing_rod");
@@ -401,3 +404,26 @@ mobn.addItemEntry(<minecraft:nether_wart>, 10);
 mobn.addItemEntry(<minecraft:magma_cream>, 4);
 mobn.addItemEntry(<quark:soul_bead>, 3);
 mobn.addItemEntry(<minecraft:glowstone_dust>, 7);
+
+// Add loot to stronghold
+val hold1 = stronghold1.addPool("stronghold1", 2, 5, 0, 0);
+val hold2 = stronghold2.addPool("stronghold2", 2, 5, 0, 0);
+val hold3 = stronghold3.addPool("stronghold3", 2, 5, 0, 0);
+hold1.addItemEntry(<minecraft:book>, 8);
+hold2.addItemEntry(<minecraft:book>, 8);
+hold3.addItemEntry(<minecraft:book>, 30);
+hold1.addItemEntry(<minecraft:writable_book>, 3);
+hold2.addItemEntry(<minecraft:writable_book>, 3);
+hold3.addItemEntry(<minecraft:writable_book>, 10);
+hold1.addItemEntry(<minecraft:paper>, 20);
+hold2.addItemEntry(<minecraft:paper>, 20);
+hold3.addItemEntry(<minecraft:paper>, 50);
+hold1.addItemEntry(<minecraft:torch>, 10);
+hold2.addItemEntry(<minecraft:torch>, 10);
+hold3.addItemEntry(<minecraft:torch>, 10);
+hold1.addItemEntry(<minecraft:ender_pearl>, 2);
+hold2.addItemEntry(<minecraft:ender_pearl>, 2);
+hold3.addItemEntry(<minecraft:ender_pearl>, 2);
+hold1.addItemEntry(<minecraft:ender_eye>, 1);
+hold2.addItemEntry(<minecraft:ender_eye>, 1);
+hold3.addItemEntry(<minecraft:ender_eye>, 1);
