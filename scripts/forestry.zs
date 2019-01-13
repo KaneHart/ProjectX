@@ -59,3 +59,49 @@ recipes.addShaped(<forestry:rainmaker>, [[<techreborn:plates:16>, <techreborn:pl
 recipes.remove(<forestry:bee_house>);
 recipes.addShaped(<forestry:bee_house>, [[<ore:slabTreatedWood>, <ore:slabTreatedWood>, <ore:slabTreatedWood>],[<ore:plankTreatedWood>, <ore:beeComb>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]]);
 
+// Remove higher products from Forestry centrifuge and add to TR centrifuge
+mods.techreborn.centrifuge.addRecipe(null, <forestry:beeswax>, <forestry:honey_drop:0>, null, <forestry:bee_combs:0>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<minecraft:dye:3>, <forestry:beeswax>, null, null, <forestry:bee_combs:1>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<forestry:refractory_wax>, <forestry:phosphor>, null, null, <forestry:bee_combs:2>, null, 200, 24);mods.techreborn.centrifuge.addRecipe(<forestry:refractory_wax>, <forestry:phosphor>, null, null, <forestry:bee_combs:2>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<forestry:propolis:0>, null, <forestry:honey_drop:0>, null, <forestry:bee_combs:3>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<minecraft:snowball>, <forestry:beeswax>, <forestry:honey_drop:0>, <forestry:pollen:1>, <forestry:bee_combs:4>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<forestry:honeydew>, null, <forestry:honey_drop:0>, null, <forestry:bee_combs:5>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<forestry:propolis:3>, null, <forestry:honey_drop:0>, null, <forestry:bee_combs:6>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(null, <forestry:beeswax>, <forestry:honey_drop:0>, null, <forestry:bee_combs:7>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<forestry:propolis:2>, null, <forestry:honey_drop:0>, null, <forestry:bee_combs:8>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<minecraft:gunpowder>, <forestry:beeswax>, <forestry:honey_drop:0>, null, <forestry:bee_combs:10>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<minecraft:wheat>, <forestry:beeswax>, <forestry:honey_drop:0>, null, <forestry:bee_combs:14>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(null, <forestry:beeswax>, <forestry:honey_drop:0>, null, <forestry:bee_combs:15>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<forestry:honeydew>, <forestry:beeswax>, <minecraft:quartz>, null, <forestry:bee_combs:16>, null, 200, 24);
+
+mods.techreborn.centrifuge.addRecipe(<forestry:crafting_material:2>, null, <forestry:propolis:0>, null, <forestry:propolis:3>, null, 200, 24);
+mods.techreborn.centrifuge.addRecipe(<ic2:misc_resource:4>, null, null, null, <forestry:propolis:0>, null, 200, 24);
+
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:0>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 100, <forestry:honey_drop> % 90], <forestry:bee_combs:0>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:1>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 100], <forestry:bee_combs:1>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:2>);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:3>);
+mods.forestry.Centrifuge.addRecipe([<forestry:honey_drop> % 40], <forestry:bee_combs:3>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:4>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 80, <forestry:honey_drop> % 70], <forestry:bee_combs:4>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:5>);
+mods.forestry.Centrifuge.addRecipe([<forestry:honey_drop> % 40], <forestry:bee_combs:5>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:6>);
+mods.forestry.Centrifuge.addRecipe([<forestry:honey_drop> % 100], <forestry:bee_combs:6>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:7>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 100, <forestry:honey_drop> % 90], <forestry:bee_combs:7>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:8>);
+mods.forestry.Centrifuge.addRecipe([<forestry:honey_drop> % 40], <forestry:bee_combs:8>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:10>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 20, <forestry:honey_drop> % 20], <forestry:bee_combs:10>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:14>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 20, <forestry:honey_drop> % 20], <forestry:bee_combs:14>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:15>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 100, <forestry:honey_drop> % 90], <forestry:bee_combs:15>, 100);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:16>);
+mods.forestry.Centrifuge.addRecipe([<forestry:beeswax> % 20], <forestry:bee_combs:16>, 100);
+
+mods.forestry.Centrifuge.removeRecipe(<forestry:propolis:0>);
+mods.forestry.Centrifuge.removeRecipe(<forestry:propolis:3>);
