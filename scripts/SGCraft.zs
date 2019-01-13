@@ -16,18 +16,34 @@ mods.jei.JEI.hide(<sgcraft:sgirisupgrade>);
 
 // SIGNIFICANTLY increase cost of Stargate
 recipes.addShaped(<sgcraft:stargatering:1>, [
-	[<techreborn:plates:32>, <techreborn:fusion_coil>, <techreborn:plates:32>],
+	[<sgcraft:naquadahingot>, <techreborn:fusion_coil>, <sgcraft:naquadahingot>],
 	[<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <sgcraft:sgchevronupgrade>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})],
-	[<techreborn:plates:32>, <techreborn:plates:32>, <techreborn:plates:32>]]);
+	[<sgcraft:naquadahingot>, <sgcraft:naquadahingot>, <sgcraft:naquadahingot>]]);
 recipes.addShaped(<sgcraft:stargatering>, [
-	[<techreborn:plates:32>, <immersiveengineering:metal_device0:2>, <techreborn:plates:32>],
+	[<sgcraft:naquadahingot>, <immersiveengineering:metal_device0:2>, <sgcraft:naquadahingot>],
 	[<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <ic2:te:80>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})],
-	[<techreborn:plates:32>, <immersiveengineering:metal_device0:2>, <techreborn:plates:32>]]);
+	[<sgcraft:naquadahingot>, <immersiveengineering:metal_device0:2>, <sgcraft:naquadahingot>]]);
 recipes.addShaped(<sgcraft:stargatecontroller>, [
-	[<techreborn:plates:32>, <opencomputers:keyboard>, <techreborn:plates:32>],
+	[<sgcraft:naquadahingot>, <opencomputers:keyboard>, <sgcraft:naquadahingot>],
 	[<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <sgcraft:sgcontrollercrystal>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})],
-	[<techreborn:plates:32>, <techreborn:computer_cube>, <techreborn:plates:32>]]);
+	[<sgcraft:naquadahingot>, <techreborn:computer_cube>, <sgcraft:naquadahingot>]]);
 recipes.addShaped(<sgcraft:stargatebase>, [
-	[<techreborn:plates:32>, <techreborn:interdimensional_su>, <techreborn:plates:32>],
+	[<sgcraft:naquadahingot>, <techreborn:interdimensional_su>, <sgcraft:naquadahingot>],
 	[<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}), <sgcraft:sgcorecrystal>, <ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte})],
-	[<techreborn:plates:32>, <techreborn:computer_cube>, <techreborn:plates:32>]]);
+	[<sgcraft:naquadahingot>, <techreborn:computer_cube>, <sgcraft:naquadahingot>]]);
+recipes.addShaped(<sgcraft:ocinterface>, [
+	[<sgcraft:naquadahingot>, <sgcraft:sgcontrollercrystal>, <sgcraft:naquadahingot>],
+	[<opencomputers:material:9>, <opencomputers:case3:0>, <opencomputers:material:9>],
+	[<sgcraft:naquadahingot>, <opencomputers:material:4>, <sgcraft:naquadahingot>]]);
+	
+// Naquadah ore made in TR Fusion reactor
+mods.techreborn.fusionReactor.addRecipe(<techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidheliumplasma", Amount: 1000}}), <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidnitrocoalfuel", Amount: 1000}}), <sgcraft:naquadah> *4, 10000000, -2000, 1000);
+
+// Hide unneeded SGCraft blocks/items
+mods.jei.JEI.hide(<sgcraft:naquadahblock>);
+mods.jei.JEI.hide(<sgcraft:naquadahore>);
+mods.jei.JEI.hide(<sgcraft:ic2capacitor>);
+mods.jei.JEI.hide(<sgcraft:ic2powerunit>);
+
+// Create Naquadah ingot
+mods.techreborn.alloySmelter.addRecipe(<sgcraft:naquadahingot>, <sgcraft:naquadah>, <techreborn:ingot:17>, 1000, 200);
