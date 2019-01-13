@@ -33,6 +33,7 @@ val stronghold1 = LootTables.getTable("minecraft:chests/stronghold_corridor");
 val stronghold2 = LootTables.getTable("minecraft:chests/stronghold_crossing");
 val stronghold3 = LootTables.getTable("minecraft:chests/stronghold_library");
 val endcity = LootTables.getTable("minecraft:chests/end_city_treasure");
+val blacksmith = LootTables.getTable("minecraft:chests/village_blacksmith");
 
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:bow");
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:fishing_rod");
@@ -440,3 +441,25 @@ end.addItemEntry(<minecraft:experience_bottle>, 4);
 val ender = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesEnded"} as crafttweaker.data.IData);
 end.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [ender], [Conditions.randomChance(0.20)]);
 end.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [ender], [Conditions.randomChance(0.10)]);
+
+// Add food loot to blacksmith (muhaha all you surface looters)
+val smith = blacksmith.addPool("blacksmith", 2, 3, 0, 0);
+smith.addItemEntry(<minecraft:cooked_fish:0>, 5);
+smith.addItemEntry(<minecraft:sugar>, 5);
+smith.addItemEntry(<harvestcraft:chickennoodlesoupitem>, 5);
+smith.addItemEntry(<harvestcraft:vegetablesoupitem>, 5);
+smith.addItemEntry(<harvestcraft:rainbowcurryitem>, 5);
+smith.addItemEntry(<harvestcraft:bananasmoothieitem>, 5);
+smith.addItemEntry(<harvestcraft:hamburgeritem>, 5);
+smith.addItemEntry(<harvestcraft:teaitem>, 5);
+smith.addItemEntry(<harvestcraft:coffeeitem>, 5);
+smith.addItemEntry(<harvestcraft:croissantitem>, 5);
+smith.addItemEntry(<harvestcraft:shrimpcocktailitem>, 5);
+smith.addItemEntry(<harvestcraft:chickenparmasanitem>, 5);
+smith.addItemEntry(<harvestcraft:caramelappleitem>, 5);
+smith.addItemEntry(<harvestcraft:hamandcheesesandwichitem>, 5);
+smith.addItemEntry(<harvestcraft:softpretzelitem>, 5);
+smith.addItemEntry(<harvestcraft:crackersitem>, 5);
+smith.addItemEntry(<harvestcraft:strawberryitem>, 5);
+smith.addItemEntry(<harvestcraft:blackpepperitem>, 5);
+smith.addItemEntry(<harvestcraft:saltitem>, 5);
