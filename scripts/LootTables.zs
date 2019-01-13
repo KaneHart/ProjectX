@@ -328,3 +328,31 @@ sg1.addItemEntryHelper(<sgcraft:sgcorecrystal>, 1, 0, [], [Conditions.randomChan
 sg1.addItemEntryHelper(<sgcraft:sgcontrollercrystal>, 1, 0, [], [Conditions.randomChance(0.05)]);
 sg2.addItemEntryHelper(<sgcraft:sgcorecrystal>, 1, 0, [], [Conditions.randomChance(0.05)]);
 sg2.addItemEntryHelper(<sgcraft:sgcontrollercrystal>, 1, 0, [], [Conditions.randomChance(0.05)]);
+
+// Add Minecraft records to dungeon and abandonned mineshaft
+val music1 = mineshaft.addPool("music1", 1, 1, 0, 0);
+val music2 = dungeon.addPool("music2", 1, 1, 0, 0);
+music1.addItemEntryHelper(<minecraft:record_13>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_13>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_cat>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_cat>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_blocks>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_blocks>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_chirp>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_chirp>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_far>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_far>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_mall>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_mall>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_mellohi>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_mellohi>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_stal>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_stal>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_strad>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_strad>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_ward>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_ward>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_11>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_11>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music1.addItemEntryHelper(<minecraft:record_wait>, 1, 0, [], [Conditions.randomChance(0.05)]);
+music2.addItemEntryHelper(<minecraft:record_wait>, 1, 0, [], [Conditions.randomChance(0.05)]);
