@@ -320,3 +320,11 @@ bee2.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [steadfast], [Conditio
 val dragonegg = LootTables.getTable("minecraft:entities/ender_dragon");
 val dragonegg1 = dragonegg.addPool("dragonegg1", 1, 1, 0, 0);
 dragonegg1.addItemEntryHelper(<minecraft:dragon_egg>, 1, 0, [], [Conditions.randomChance(0.50)]);
+
+// Add Stargate Crystals to dungeon and abandonned mineshaft
+val sg1 = mineshaft.addPool("sg1", 1, 1, 0, 0);
+val sg2 = dungeon.addPool("sg2", 1, 1, 0, 0);
+sg1.addItemEntryHelper(<sgcraft:sgcorecrystal>, 1, 0, [], [Conditions.randomChance(0.05)]);
+sg1.addItemEntryHelper(<sgcraft:sgcontrollercrystal>, 1, 0, [], [Conditions.randomChance(0.05)]);
+sg2.addItemEntryHelper(<sgcraft:sgcorecrystal>, 1, 0, [], [Conditions.randomChance(0.05)]);
+sg2.addItemEntryHelper(<sgcraft:sgcontrollercrystal>, 1, 0, [], [Conditions.randomChance(0.05)]);
