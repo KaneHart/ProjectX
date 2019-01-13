@@ -223,3 +223,8 @@ recipes.remove(<techreborn:rebattery>);
 
 //remove Electric Tree Tap
 recipes.remove(<techreborn:electrictreetap>);
+
+//redid the Energy Storage Recipe to only use Re-Battery
+recipes.remove(<techreborn:upgrades:2>);
+recipes.addShaped(<techreborn:upgrades:2>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],[<ic2:cable>, <ic2:re_battery:26>.withEmptyTag(), <ic2:cable>], [<minecraft:planks>, <ic2:crafting:1>, <minecraft:planks>]]);
+
