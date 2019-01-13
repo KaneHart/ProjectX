@@ -28,6 +28,7 @@ LootTables.getTable("railcraft:chests/village_workshop").clear();
 // Load loottables to add loot to
 val mineshaft = LootTables.getTable("minecraft:chests/abandoned_mineshaft");
 val dungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
+val nether = LootTables.getTable("minecraft:chests/nether_bridge");
 
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:bow");
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:fishing_rod");
@@ -388,3 +389,15 @@ mob1.addItemEntry(<minecraft:prismarine_crystals>, 5);
 mob2.addItemEntry(<minecraft:prismarine_crystals>, 5);
 mob1.addItemEntry(<minecraft:gunpowder>, 7);
 mob2.addItemEntry(<minecraft:gunpowder>, 7);
+
+// Add hostile mob loot and some items to nether fortress
+val mobn = nether.addPool("mobn", 2, 5, 0, 0);
+mobn.addItemEntry(<minecraft:blaze_rod>, 4);
+mobn.addItemEntry(<minecraft:blaze_powder>, 6);
+mobn.addItemEntry(<minecraft:gold_nugget>, 6);
+mobn.addItemEntry(<minecraft:rotten_flesh>, 10);
+mobn.addItemEntry(<minecraft:ghast_tear>, 1);
+mobn.addItemEntry(<minecraft:nether_wart>, 10);
+mobn.addItemEntry(<minecraft:magma_cream>, 4);
+mobn.addItemEntry(<quark:soul_bead>, 3);
+mobn.addItemEntry(<minecraft:glowstone_dust>, 7);
