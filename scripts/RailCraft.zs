@@ -120,7 +120,7 @@ mods.techreborn.rollingMachine.addShaped(<railcraft:rail:5> *12, [
 	[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>],
 	[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
 
-// Add assembly of rails in TR Assember
+// Add assembly of rails in TR Rolling Machine
 mods.techreborn.rollingMachine.addShaped(<minecraft:rail> *32, [
 	[<railcraft:rail:0>, null, <railcraft:rail:0>],
 	[<railcraft:rail:0>, <railcraft:railbed:0>, <railcraft:rail:0>],
