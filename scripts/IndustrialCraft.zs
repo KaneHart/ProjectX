@@ -200,3 +200,8 @@ recipes.addShaped(<ic2:hazmat_leggings>, [[<ic2:crafting>, <minecraft:dye:14>, <
 
 //removed TR to IC rubber conversion recipe
 recipes.remove(<ic2:crafting>);
+
+//fixed Re-Battery maybe!
+recipes.remove(<ic2:re_battery:26>);
+recipes.remove(<ic2:re_battery>);
+recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}), null],[<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>], [<ic2:casing:6>, <minecraft:redstone>, <ic2:casing:6>]]);
