@@ -228,3 +228,10 @@ recipes.remove(<techreborn:electrictreetap>);
 recipes.remove(<techreborn:upgrades:2>);
 recipes.addShaped(<techreborn:upgrades:2>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],[<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:re_battery:26>.withEmptyTag(), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], [<minecraft:planks>, <ic2:crafting:1>, <minecraft:planks>]]);
 
+//Lithium Pack Uses Bat Pack
+recipes.remove(<techreborn:lithiumbatpack>);
+recipes.addShaped(<techreborn:lithiumbatpack>, [[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:crafting:2>, <techreborn:lithiumbattery>.withEmptyTag()],[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:energy_pack:26>.withEmptyTag(), <techreborn:lithiumbattery>.withEmptyTag()], [<techreborn:lithiumbattery>.withEmptyTag(), null, <techreborn:lithiumbattery>.withEmptyTag()]]);
+
+
+
+
