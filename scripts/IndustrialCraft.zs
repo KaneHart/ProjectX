@@ -2,7 +2,7 @@
 
 recipes.remove(<ic2:quantum_chestplate>);
 recipes.remove(<ic2:quantum_chestplate:26>);
-recipes.addShaped(<ic2:quantum_chestplate>, [[<ic2:crafting:3>, <ic2:nano_chestplate:*>, <ic2:crafting:3>],[<ic2:iridium_reflector>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:iridium_reflector>], [<ic2:iridium_reflector>, <ic2:jetpack_electric>, <ic2:iridium_reflector>]]);
+recipes.addShaped(<ic2:quantum_chestplate>, [[<ic2:crafting:3>, <ic2:nano_chestplate:*>, <ic2:crafting:3>],[<ic2:iridium_reflector>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:iridium_reflector>], [<ic2:iridium_reflector>, <ic2:jetpack_electric:*>, <ic2:iridium_reflector>]]);
 
 
 recipes.remove(<ic2:quantum_leggings>);
