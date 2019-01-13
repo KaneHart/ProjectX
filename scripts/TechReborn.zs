@@ -230,8 +230,8 @@ recipes.addShaped(<techreborn:upgrades:2>, [[<minecraft:planks>, <minecraft:plan
 
 //Lithium Pack Uses Bat Pack
 recipes.remove(<techreborn:lithiumbatpack>);
-recipes.addShaped(<techreborn:lithiumbatpack>, [[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:crafting:2>, <techreborn:lithiumbattery>.withEmptyTag()],[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:energy_pack:26>.withEmptyTag(), <techreborn:lithiumbattery>.withEmptyTag()], [<techreborn:lithiumbattery>.withEmptyTag(), null, <techreborn:lithiumbattery>.withEmptyTag()]]);
-
+recipes.addShaped(<techreborn:lithiumbatpack>, [[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:crafting:2>, <techreborn:lithiumbattery>.withEmptyTag()],[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:energy_pack>.withEmptyTag(), <techreborn:lithiumbattery>.withEmptyTag()], [<techreborn:lithiumbattery>.withEmptyTag(), null, <techreborn:lithiumbattery>.withEmptyTag()]]);
+<techreborn:lithiumbatpack>.addTooltip(format.yellow("Requires Full Energypack"));
 
 
 
