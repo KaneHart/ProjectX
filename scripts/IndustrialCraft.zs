@@ -197,3 +197,6 @@ recipes.remove(<ic2:hazmat_helmet>);
 recipes.addShaped(<ic2:hazmat_helmet>, [[null, <minecraft:diamond_helmet>, null],[<ic2:crafting>, <ore:blockGlassColorless>, <ic2:crafting>], [<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>]]);
 recipes.remove(<ic2:hazmat_leggings>);
 recipes.addShaped(<ic2:hazmat_leggings>, [[<ic2:crafting>, <minecraft:dye:14>, <ic2:crafting>],[<ic2:crafting>, <minecraft:diamond_leggings>, <ic2:crafting>], [<ic2:crafting>, null, <ic2:crafting>]]);
+
+//removed TR to IC rubber conversion recipe
+recipes.remove(<ic2:crafting>);
