@@ -356,3 +356,35 @@ music1.addItemEntryHelper(<minecraft:record_11>, 1, 0, [], [Conditions.randomCha
 music2.addItemEntryHelper(<minecraft:record_11>, 1, 0, [], [Conditions.randomChance(0.05)]);
 music1.addItemEntryHelper(<minecraft:record_wait>, 1, 0, [], [Conditions.randomChance(0.05)]);
 music2.addItemEntryHelper(<minecraft:record_wait>, 1, 0, [], [Conditions.randomChance(0.05)]);
+
+// Add hostile mob loot to dungeon and abandonned mineshaft
+val mob1 = mineshaft.addPool("mob1", 2, 5, 0, 0);
+val mob2 = dungeon.addPool("mob2", 2, 5, 0, 0);
+mob1.addItemEntry(<minecraft:diamond_horse_armor>, 2);
+mob2.addItemEntry(<minecraft:diamond_horse_armor>, 2);
+mob1.addItemEntry(<minecraft:golden_horse_armor>, 3);
+mob2.addItemEntry(<minecraft:golden_horse_armor>, 3);
+mob1.addItemEntry(<minecraft:iron_horse_armor>, 4);
+mob2.addItemEntry(<minecraft:iron_horse_armor>, 4);
+mob1.addItemEntry(<minecraft:totem_of_undying>, 1);
+mob2.addItemEntry(<minecraft:totem_of_undying>, 1);
+mob1.addItemEntry(<minecraft:ender_pearl>, 5);
+mob2.addItemEntry(<minecraft:ender_pearl>, 5);
+mob1.addItemEntry(<quark:witch_hat>, 3);
+mob2.addItemEntry(<quark:witch_hat>, 3);
+mob1.addItemEntry(<minecraft:rotten_flesh>, 9);
+mob2.addItemEntry(<minecraft:rotten_flesh>, 9);
+mob1.addItemEntry(<minecraft:bone>, 7);
+mob2.addItemEntry(<minecraft:bone>, 7);
+mob1.addItemEntry(<minecraft:string>, 7);
+mob2.addItemEntry(<minecraft:string>, 7);
+mob1.addItemEntry(<minecraft:slime_ball>, 7);
+mob2.addItemEntry(<minecraft:slime_ball>, 7);
+mob1.addItemEntry(<minecraft:spider_eye>, 7);
+mob2.addItemEntry(<minecraft:spider_eye>, 7);
+mob1.addItemEntry(<minecraft:prismarine_shard>, 5);
+mob2.addItemEntry(<minecraft:prismarine_shard>, 5);
+mob1.addItemEntry(<minecraft:prismarine_crystals>, 5);
+mob2.addItemEntry(<minecraft:prismarine_crystals>, 5);
+mob1.addItemEntry(<minecraft:gunpowder>, 7);
+mob2.addItemEntry(<minecraft:gunpowder>, 7);
