@@ -32,6 +32,7 @@ val nether = LootTables.getTable("minecraft:chests/nether_bridge");
 val stronghold1 = LootTables.getTable("minecraft:chests/stronghold_corridor");
 val stronghold2 = LootTables.getTable("minecraft:chests/stronghold_crossing");
 val stronghold3 = LootTables.getTable("minecraft:chests/stronghold_library");
+val endcity = LootTables.getTable("minecraft:chests/end_city_treasure");
 
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:bow");
 LootTables.getTable("minecraft:gameplay/fishing/treasure").getPool("main").removeEntry("minecraft:fishing_rod");
@@ -427,3 +428,15 @@ hold3.addItemEntry(<minecraft:ender_pearl>, 2);
 hold1.addItemEntry(<minecraft:ender_eye>, 1);
 hold2.addItemEntry(<minecraft:ender_eye>, 1);
 hold3.addItemEntry(<minecraft:ender_eye>, 1);
+
+// Add loot to end city
+val end = endcity.addPool("endcity", 2, 5, 0, 0);
+end.addItemEntry(<minecraft:totem_of_undying>, 1);
+end.addItemEntry(<minecraft:chorus_fruit>, 10);
+end.addItemEntry(<minecraft:ender_pearl>, 30);
+end.addItemEntry(<minecraft:diamond>, 10);
+end.addItemEntry(<minecraft:dragon_breath>, 8);
+end.addItemEntry(<minecraft:experience_bottle>, 4);
+val ender = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesEnded"} as crafttweaker.data.IData);
+end.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [ender], [Conditions.randomChance(0.20)]);
+end.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [ender], [Conditions.randomChance(0.10)]);
