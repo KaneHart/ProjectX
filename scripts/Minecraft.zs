@@ -68,3 +68,7 @@ recipes.addShaped(<minecraft:saddle>, [[<harvestcraft:hardenedleatheritem>, <har
 
 //removed eye of ender as chemnical reactor makes them
 recipes.remove(<minecraft:ender_eye>);
+
+//flint & steel changes
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.addShaped(<minecraft:flint_and_steel>, [[<minecraft:iron_nugget>, <minecraft:gunpowder>, null],[<immersiveengineering:material>, <minecraft:flint>, <immersiveengineering:treated_wood>], [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]]);
