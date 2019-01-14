@@ -16,9 +16,9 @@ key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
 key_key.smoothCamera:0
-key_key.fullscreen:87
+key_key.fullscreen:0
 key_key.spectatorOutlines:0
-key_key.swapHands:33
+key_key.swapHands:0
 key_key.saveToolbarActivator:0
 key_key.loadToolbarActivator:0
 key_key.advancements:38
@@ -64,20 +64,17 @@ key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.lockBuilding:0
 key_keybind.baublesinventory:0
-key_cos.key.openCosArmorInventory:0
-key_key.findme.search:20
-key_key.ftbquests.quests:36
+key_cos.key.opencosarmorinventory:0
+key_key.findme.search:33
+key_key.ftbguides.guide:34
 key_key.ftbutilities.warp:0
 key_key.ftbutilities.nbt:0
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
-key_neat.keybind.toggle:0
+key_neat.keybind.toggle:68
 key_key.interact:0
 key_key.toastcontrol.clear:0
 key_key.wearablebackpacks.open:48
-key_Strip World:0
-key_Dress World:0
-key_Inspect Block:0
 key_key.narrator:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:0
@@ -92,7 +89,7 @@ key_key.jei.toggleBookmarkOverlay:0
 key_keys.techreborn.config:0
 key_key.toggleLiquids:80
 key_key.toggleVisible:79
-key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.magnetEquip:0
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.toggle_focus.desc:0
 key_bbw.key.mode:0
@@ -103,6 +100,7 @@ key_key.rangeChange:0
 key_key.undoKey:0
 key_key.anchorKey:0
 key_Options Gui:0
+key_key.toggleCleanView:0
 key_FpsReducer.key.guiOpen:0
 key_invtweaks.key.sort:0
 key_key.clipboardPaste:0
