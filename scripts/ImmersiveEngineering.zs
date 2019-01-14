@@ -191,3 +191,11 @@ recipes.addShaped(<immersiveengineering:metal_device1:1>, [[<ic2:plate:3>, <ic2:
 //Thermoelectric Generator
 recipes.remove(<immersiveengineering:metal_device1:3>);
 recipes.addShaped(<immersiveengineering:metal_device1:3>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<immersiveengineering:metal:36>, <immersiveengineering:metal_decoration0>, <immersiveengineering:metal:36>], [<immersiveengineering:metal:36>, <immersiveengineering:metal:36>, <immersiveengineering:metal:36>]]);
+
+//nerfed steel sticks
+recipes.remove(<industrialrenewal:stick_steel>);
+recipes.remove(<immersiveengineering:material:2>);
+recipes.addShaped(<immersiveengineering:material:2>, [[<ic2:ingot:5>, null, null],[<ic2:ingot:5>, null, null], [null, null, null]]);
+
+
+
