@@ -233,5 +233,72 @@ recipes.remove(<techreborn:lithiumbatpack>);
 recipes.addShaped(<techreborn:lithiumbatpack>, [[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:crafting:2>, <techreborn:lithiumbattery>.withEmptyTag()],[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:energy_pack>.withEmptyTag(), <techreborn:lithiumbattery>.withEmptyTag()], [<techreborn:lithiumbattery>.withEmptyTag(), null, <techreborn:lithiumbattery>.withEmptyTag()]]);
 <techreborn:lithiumbatpack>.addTooltip(format.red("Requires Full Energypack"));
 
+//remove UU-Matter Recipes
+recipes.removeByRecipeName("techreborn:log");
+recipes.removeByRecipeName("techreborn:stone");
+recipes.removeByRecipeName("techreborn:snow");
+recipes.removeByRecipeName("techreborn:grass");
+recipes.removeByRecipeName("techreborn:obsidian");
+recipes.removeByRecipeName("techreborn:glass");
+recipes.removeByRecipeName("techreborn:dye");
+recipes.removeByRecipeName("techreborn:glowstone");
+recipes.removeByRecipeName("techreborn:cactus");
+recipes.removeByRecipeName("techreborn:reeds");
+recipes.removeByRecipeName("techreborn:vine");
+recipes.removeByRecipeName("techreborn:snowball");
+recipes.removeByRecipeName("techreborn:clay_ball");
+recipes.removeByRecipeName("techreborn:waterlily");
+recipes.removeByRecipeName("techreborn:gunpowder");
+recipes.removeByRecipeName("techreborn:bone");
+recipes.removeByRecipeName("techreborn:feather");
+recipes.removeByRecipeName("techreborn:dye_1");
+recipes.removeByRecipeName("techreborn:ender_pearl");
+recipes.removeByRecipeName("techreborn:coal");
+recipes.removeByRecipeName("techreborn:redstone_1");
+recipes.removeByRecipeName("techreborn:dye_2");
+recipes.removeByRecipeName("techreborn:emerald_ore");
+recipes.removeByRecipeName("techreborn:emerald");
+recipes.removeByRecipeName("techreborn:diamond_1");
+recipes.removeByRecipeName("techreborn:dust_65");
+recipes.removeByRecipeName("techreborn:dust_66");
+//this does not work sadly
+//recipes.removeByRecipeName("unidict:dustaluminum_x16_shape. a  a aaa");
+//recipes.removeByRecipeName("unidict:dustcopper_x10_shape.  aa a   ");
+//recipes.removeByRecipeName("unidict:dustlead_x14.aaaaaaa  ");
+//recipes.removeByRecipeName("unidict:oreiron_x2_shape.a a a a a");
+//recipes.removeByRecipeName("unidict:oregold_x2_shape. a aaa a ");
+//recipes.removeByRecipeName("unidict:oreiridium_x1_shape.aaa a aaa");
+//recipes.removeByRecipeName("unidict:dusttin_x10_shape.   a a  a");
+//recipes.removeByRecipeName("unidict:dustplatinum_x1_shape.  aaaaaaa");
 
+//redoing the recipes to remove the fuel last uu matter recipes
+//copper dust
+recipes.remove(<ic2:dust:4>);
+recipes.addShaped(<ic2:dust:4>, [[<ic2:dust:19>, <ic2:dust:19>, <ic2:dust:19>],[<ic2:dust:19>, <ic2:dust:19>, <ic2:dust:19>], [<ic2:dust:19>, <ic2:dust:19>, <ic2:dust:19>]]);
+recipes.addShaped(<ic2:dust:4>, [[<techreborn:smalldust:14>, <techreborn:smalldust:14>, null],[<techreborn:smalldust:14>, <techreborn:smalldust:14>, null], [null, null, null]]);
+//iron ore
+recipes.remove(<minecraft:iron_ore>);
+//Iridium Ore
+recipes.remove(<ic2:misc_resource:1>);
+//Aluminium Dust
+recipes.remove(<techreborn:dust:1>);
+recipes.addShaped(<techreborn:dust:1>, [[<techreborn:smalldust:1>, <techreborn:smalldust:1>, null],[<techreborn:smalldust:1>, <techreborn:smalldust:1>, null], [null, null, null]]);
+//Tin Dust
+recipes.remove(<ic2:dust:17>);
+recipes.addShaped(<ic2:dust:17>, [[<extrabees:misc:11>, <extrabees:misc:11>, null],[<extrabees:misc:11>, <extrabees:misc:11>, null], [null, null, null]]);
+recipes.addShaped(<ic2:dust:17>, [[<ic2:dust:28>, <ic2:dust:28>, <ic2:dust:28>],[<ic2:dust:28>, <ic2:dust:28>, <ic2:dust:28>], [<ic2:dust:28>, <ic2:dust:28>, <ic2:dust:28>]]);
+//Gold Ore
+recipes.remove(<minecraft:gold_ore>);
+//Lead Dust
+recipes.remove(<ic2:dust:10>);
+recipes.addShaped(<ic2:dust:10>, [[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>],[<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>], [<ic2:dust:23>, <ic2:dust:23>, <ic2:dust:23>]]);
+recipes.addShaped(<ic2:dust:10>, [[<extrabees:misc:13>, <extrabees:misc:13>, null],[<extrabees:misc:13>, <extrabees:misc:13>, null], [null, null, null]]);
+//Platinum Dust
+recipes.remove(<techreborn:dust:38>);
+recipes.addShaped(<techreborn:dust:38>, [[<extrabees:misc:9>, <extrabees:misc:9>, null],[<extrabees:misc:9>, <extrabees:misc:9>, null], [null, null, null]]);
+//unidict annoying stuff
+recipes.remove(<techreborn:dust:53>);
+recipes.remove(<techreborn:dust:14>);
+recipes.remove(<techreborn:dust:29>);
+recipes.remove(<techreborn:ore:1>);
 
