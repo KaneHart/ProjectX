@@ -319,14 +319,32 @@ iridium1.addItemEntry(<ic2:misc_resource:2>, 15);
 iridium2.addItemEntry(<ic2:misc_resource:1>, 5);
 iridium2.addItemEntry(<ic2:misc_resource:2>, 25);
 
-// Add Forestry Steadfast bees to dungeon and abandonned mineshaft
-val bee1 = mineshaft.addPool("bee1", 1, 2, 0, 0);
+// Add Forestry Steadfast bees to dungeons
 val bee2 = dungeon.addPool("bee2", 1, 2, 0, 0);
 val steadfast = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesSteadfast"} as crafttweaker.data.IData);
-bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.20)]);
-bee1.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
 bee2.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.20)]);
 bee2.addItemEntryHelper(<forestry:bee_princess_ge>, 1, 0, [steadfast], [Conditions.randomChance(0.10)]);
+
+// Add Forestry and Binnie base drones bees to abandonned mineshaft
+val bee1 = mineshaft.addPool("bee1", 1, 1, 0, 0);
+val forest = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesForest"} as crafttweaker.data.IData);
+val meadows = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesMeadows"} as crafttweaker.data.IData);
+val modest = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesModest"} as crafttweaker.data.IData);
+val tropical = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesTropical"} as crafttweaker.data.IData);
+val wintry = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesWintry"} as crafttweaker.data.IData);
+val marshy = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesMarshy"} as crafttweaker.data.IData);
+val water = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "extrabees.species.water"} as crafttweaker.data.IData);
+val rocky = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "extrabees.species.rock"} as crafttweaker.data.IData);
+val marble = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "extrabees.species.marble"} as crafttweaker.data.IData);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [forest, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [meadows, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [modest, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [tropical, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [wintry, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [marshy, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [water, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [rocky, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [marble, Functions.setCount(2, 5)], []);
 
 // Add dragon egg as 50% drop from ender dragon
 val dragonegg = LootTables.getTable("minecraft:entities/ender_dragon");
