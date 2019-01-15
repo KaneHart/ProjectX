@@ -16,30 +16,6 @@
     ],
     "qualities": [
       {
-        "name": "quality.inept.name",
-        "color": "dark_gray",
-        "weight": 5,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": -0.15,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.ineffective.name",
-        "color": "red",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
         "name": "normal",
         "weight": 50
       },

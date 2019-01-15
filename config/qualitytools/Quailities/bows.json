@@ -18,30 +18,6 @@
     ],
     "qualities": [
       {
-        "name": "quality.cracked.name",
-        "color": "dark_gray",
-        "weight": 5,
-        "attributes": [
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": -0.15,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.clumsy.name",
-        "color": "red",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
         "name": "normal",
         "weight": 50
       },

@@ -16,18 +16,6 @@
     ],
     "qualities": [
       {
-        "name": "quality.heavy.name",
-        "color": "dark_gray",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "generic.movementSpeed",
-            "amount": -0.1,
-            "operation": 2
-          }
-        ]
-      },
-      {
         "name": "normal",
         "weight": 60
       },
