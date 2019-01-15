@@ -154,7 +154,7 @@ recipes.addShaped(<openmodularturrets:rocket_turret>, [[<techreborn:plates:16>, 
 
 //Teleporter Turret
 recipes.remove(<openmodularturrets:teleporter_turret>);
-recipes.addShaped(<openmodularturrets:teleporter_turret>, [[<stevescarts:modulecomponents:45>, <techreborn:plates:16>, <stevescarts:modulecomponents:45>],[<techreborn:plates:16>, <openmodularturrets:intermediate_tiered:3>, <techreborn:plates:16>], [<stevescarts:modulecomponents:45>, <openmodularturrets:intermediate_regular>, <stevescarts:modulecomponents:45>]]);
+recipes.addShaped(<openmodularturrets:teleporter_turret>, [[<minecraft:ender_eye>, <techreborn:plates:16>, <minecraft:ender_eye>],[<techreborn:plates:16>, <openmodularturrets:intermediate_tiered:3>, <techreborn:plates:16>], [<minecraft:ender_eye>, <openmodularturrets:intermediate_regular>, <minecraft:ender_eye>]]);
 
 //Laser Turret
 recipes.remove(<openmodularturrets:laser_turret>);
@@ -166,7 +166,7 @@ recipes.addShaped(<openmodularturrets:rail_gun_turret>, [[<techreborn:ingot:15>,
 
 //Addon - Damage Boost
 recipes.remove(<openmodularturrets:addon_meta:1>);
-recipes.addShaped(<openmodularturrets:addon_meta:1>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<stevescarts:modulecomponents:45>, <charset:logic_wire_bc14:1>, <stevescarts:modulecomponents:45>], [<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>]]);
+recipes.addShaped(<openmodularturrets:addon_meta:1>, [[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>],[<minecraft:ender_eye>, <charset:logic_wire_bc14:1>, <minecraft:ender_eye>], [<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>]]);
 
 //Addon - Recycler
 recipes.remove(<openmodularturrets:addon_meta:3>);
@@ -174,7 +174,7 @@ recipes.addShaped(<openmodularturrets:addon_meta:3>, [[<techreborn:plates:25>, <
 
 //Addon - Redstone Reactor
 recipes.remove(<openmodularturrets:addon_meta:4>);
-recipes.addShaped(<openmodularturrets:addon_meta:4>, [[<ic2:te:3>, <charset:logic_wire_bc14:1>, <ic2:te:3>],[<charset:logic_wire_bc14:1>, <stevescarts:modulecomponents:45>, <openmodularturrets:intermediate_regular>], [<ic2:te:3>, <charset:logic_wire_bc14:1>, <ic2:te:3>]]);
+recipes.addShaped(<openmodularturrets:addon_meta:4>, [[<ic2:te:3>, <charset:logic_wire_bc14:1>, <ic2:te:3>],[<charset:logic_wire_bc14:1>, <minecraft:ender_eye>, <openmodularturrets:intermediate_regular>], [<ic2:te:3>, <charset:logic_wire_bc14:1>, <ic2:te:3>]]);
 
 //Addon - Solar Panel
 recipes.remove(<openmodularturrets:addon_meta:6>);
