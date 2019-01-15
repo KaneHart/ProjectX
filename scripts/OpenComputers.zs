@@ -12,7 +12,7 @@ recipes.addShaped(<opencomputers:material>, [[null, null, null],[<immersiveengin
 
 //Transister
 recipes.remove(<opencomputers:material:6>);
-recipes.addShaped(<opencomputers:material:6> * 4, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<ic2:plate:2>, <stevescarts:modulecomponents:16>, <ic2:plate:2>], [null, <minecraft:comparator>, null]]);
+recipes.addShaped(<opencomputers:material:6> * 4, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<ic2:plate:2>, <opencomputers:material:4>, <ic2:plate:2>], [null, <minecraft:comparator>, null]]);
 
 //Microchip
 recipes.remove(<opencomputers:material:7>);
