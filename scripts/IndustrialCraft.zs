@@ -23,7 +23,7 @@ recipes.addShaped(<ic2:quantum_helmet>, [[<ic2:glass>, <ic2:nano_helmet:*>, <ic2
 //Electric Jetpack Nerf
 recipes.remove(<ic2:jetpack_electric>);
 recipes.remove(<ic2:jetpack_electric:26>);
-recipes.addShaped(<ic2:jetpack_electric>, [[<techreborn:plates:32>, <techreborn:part>, <techreborn:plates:32>],[<techreborn:plates:32>, <techreborn:lithiumbatpack>.withEmptyTag(), <techreborn:plates:32>], [<stevescarts:cartmodule:59>, <ic2:nuclear:10>, <stevescarts:cartmodule:59>]]);
+recipes.addShaped(<ic2:jetpack_electric>, [[<techreborn:plates:32>, <techreborn:part>, <techreborn:plates:32>],[<techreborn:plates:32>, <techreborn:lithiumbatpack>.withEmptyTag(), <techreborn:plates:32>], [<ic2:te:12>, <ic2:nuclear:10>, <ic2:te:12>]]);
 
 //Removed IC2 Nuke
 recipes.remove(<ic2:te:2>);
@@ -183,7 +183,7 @@ mods.jei.JEI.hide(<ic2:boat:2>);
 
 //Biogas Jetpack Nerf
 recipes.remove(<ic2:jetpack:27>);
-recipes.addShaped(<ic2:jetpack:27>, [[<techreborn:plates:32>, <ic2:crafting:2>, <techreborn:plates:32>],[<techreborn:plates:32>, <ic2:fluid_cell>, <techreborn:plates:32>], [<stevescarts:cartmodule:59>, <ic2:nuclear:10>, <stevescarts:cartmodule:59>]]);
+recipes.addShaped(<ic2:jetpack:27>, [[<techreborn:plates:32>, <ic2:crafting:2>, <techreborn:plates:32>],[<techreborn:plates:32>, <ic2:fluid_cell>, <techreborn:plates:32>], [<ic2:te:31>, <ic2:nuclear:10>, <ic2:te:31>]]);
 
 //IC2 Forge Hammer Nerf - Treated Sticks / Iron Ingots
 recipes.remove(<ic2:forge_hammer>);
