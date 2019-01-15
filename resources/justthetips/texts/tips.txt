@@ -1,12 +1,12 @@
 This modpack is based around IC2/TechReborn.
 Wire correctly and wrench off IC2/TechReborn machines to prevent loss/explosions.
-Every 25 unique foods eaten you’ll receive an additional heart.
+Every 25 unique foods eaten youâ€™ll receive an additional heart.
 When you die a soul will spawn holding all your items for 168 hours.
 The Wearable backpack is the first backpack that you can use.
 Use Cooking for Blockheads to increase your food variety/efficiency.
 Stargate blocks are unbreakable. Make sure to place them carefully.
-You can store your XP in Charset’s tank using a Openblocks drain in the early game.
-Pam’s Harvestcraft seeds/saplings are dungeon loot.
+You can store your XP in Charsetâ€™s tank using a Openblocks drain in the early game.
+Pamâ€™s Harvestcraft seeds/saplings are dungeon loot.
 Fishing can be quite rewarding.
 Forestry bees can be challenging, but the products are worthwhile.
 Nether:Overworld is 1:1, so make your transportation networks in the overworld.
