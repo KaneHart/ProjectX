@@ -47,11 +47,11 @@ recipes.addShaped(<techreborn:advanceddrill>, [[null, <techreborn:plates:37>, nu
 recipes.remove(<techreborn:diamonddrill>);
 recipes.addShaped(<techreborn:diamonddrill>, [[null, <minecraft:diamond>, null],[<minecraft:diamond>, <ic2:crafting:2>, <minecraft:diamond>], [<techreborn:ingot:15>, <techreborn:irondrill>, <techreborn:ingot:15>]]);
 recipes.remove(<techreborn:irondrill>);
-recipes.addShaped(<techreborn:irondrill>, [[null, <techreborn:ingot:3>, null],[<techreborn:ingot:3>, <ic2:crafting:2>, <techreborn:ingot:3>], [<techreborn:ingot:3>, <ic2:iridium_drill:26>, <techreborn:ingot:3>]]);
+recipes.addShaped(<techreborn:irondrill>, [[null, <techreborn:ingot:3>, null],[<techreborn:ingot:3>, <ic2:crafting:2>, <techreborn:ingot:3>], [<techreborn:ingot:3>, <ic2:iridium_drill:*>, <techreborn:ingot:3>]]);
 
 //nerfed TechReborn Jackhammer with the IC2 Drill
 recipes.remove(<techreborn:steeljackhammer>);
-recipes.addShaped(<techreborn:steeljackhammer>, [[<techreborn:ingot:3>, <ic2:iridium_drill>, <techreborn:ingot:3>],[<techreborn:ingot:3>, <ic2:crafting:1>, <techreborn:ingot:3>], [null, <techreborn:ingot:3>, null]]);
+recipes.addShaped(<techreborn:steeljackhammer>, [[<techreborn:ingot:3>, <ic2:iridium_drill:*>, <techreborn:ingot:3>],[<techreborn:ingot:3>, <ic2:crafting:1>, <techreborn:ingot:3>], [null, <techreborn:ingot:3>, null]]);
 
 //hide / remove TR Matter Fab
 recipes.remove(<techreborn:matter_fabricator>);
@@ -189,7 +189,7 @@ recipes.remove(<techreborn:ironchainsaw>);
 
 recipes.addShaped(<techreborn:advancedchainsaw>, [[null, <techreborn:ingot:17>, <techreborn:plates:37>],[<techreborn:upgrades>, <techreborn:part>, <techreborn:ingot:17>], [<techreborn:diamondchainsaw>.withEmptyTag(), <techreborn:upgrades>, null]]);
 recipes.addShaped(<techreborn:diamondchainsaw>, [[null, <minecraft:diamond>, <minecraft:diamond>],[<techreborn:ingot:15>, <ic2:crafting:2>, <minecraft:diamond>], [<techreborn:ironchainsaw>.withEmptyTag(), <techreborn:ingot:15>, null]]);
-recipes.addShaped(<techreborn:ironchainsaw>, [[null, <techreborn:ingot:3>, <techreborn:ingot:3>],[<techreborn:ingot:3>, <ic2:crafting:2>, <techreborn:ingot:3>], [<ic2:chainsaw:26>.withEmptyTag(), <techreborn:ingot:3>, null]]);
+recipes.addShaped(<techreborn:ironchainsaw>, [[null, <techreborn:ingot:3>, <techreborn:ingot:3>],[<techreborn:ingot:3>, <ic2:crafting:2>, <techreborn:ingot:3>], [<ic2:chainsaw:*>, <techreborn:ingot:3>, null]]);
 
 //redo jackhammer
 recipes.remove(<techreborn:ironjackhammer>);
@@ -213,7 +213,7 @@ mods.jei.JEI.hide(<techreborn:rubber_plank_stair>);
 
 //RockCutter Recipe adjustment
 recipes.remove(<techreborn:rockcutter>);
-recipes.addShaped(<techreborn:rockcutter>, [[<ic2:dust:5>, <techreborn:ingot:14>, null],[<ic2:dust:5>, <techreborn:ingot:14>, null], [<ic2:dust:5>, <ic2:crafting:1>, <ic2:iridium_drill:26>.withEmptyTag()]]);
+recipes.addShaped(<techreborn:rockcutter>, [[<ic2:dust:5>, <techreborn:ingot:14>, null],[<ic2:dust:5>, <techreborn:ingot:14>, null], [<ic2:dust:5>, <ic2:crafting:1>, <ic2:iridium_drill:*>]]);
 
 //removed IC to TR rubber conversion recipe
 recipes.remove(<techreborn:part:32>);
@@ -226,11 +226,11 @@ recipes.remove(<techreborn:electrictreetap>);
 
 //redid the Energy Storage Recipe to only use Re-Battery
 recipes.remove(<techreborn:upgrades:2>);
-recipes.addShaped(<techreborn:upgrades:2>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],[<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:re_battery:26>.withEmptyTag(), <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], [<minecraft:planks>, <ic2:crafting:1>, <minecraft:planks>]]);
+recipes.addShaped(<techreborn:upgrades:2>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],[<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}), <ic2:re_battery:*>, <ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte})], [<minecraft:planks>, <ic2:crafting:1>, <minecraft:planks>]]);
 
 //Lithium Pack Uses Bat Pack
 recipes.remove(<techreborn:lithiumbatpack>);
-recipes.addShaped(<techreborn:lithiumbatpack>, [[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:crafting:2>, <techreborn:lithiumbattery>.withEmptyTag()],[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:energy_pack>.withEmptyTag(), <techreborn:lithiumbattery>.withEmptyTag()], [<techreborn:lithiumbattery>.withEmptyTag(), null, <techreborn:lithiumbattery>.withEmptyTag()]]);
+recipes.addShaped(<techreborn:lithiumbatpack>, [[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:crafting:2>, <techreborn:lithiumbattery>.withEmptyTag()],[<techreborn:lithiumbattery>.withEmptyTag(), <ic2:energy_pack:*>, <techreborn:lithiumbattery>.withEmptyTag()], [<techreborn:lithiumbattery>.withEmptyTag(), null, <techreborn:lithiumbattery>.withEmptyTag()]]);
 <techreborn:lithiumbatpack>.addTooltip(format.red("Requires Full Energypack"));
 
 //remove UU-Matter Recipes
