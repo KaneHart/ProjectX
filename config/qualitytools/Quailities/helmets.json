@@ -26,11 +26,6 @@
             "name": "generic.armor",
             "amount": 0.5,
             "operation": 0
-          },
-          {
-            "name": "generic.movementSpeed",
-            "amount": -0.05,
-            "operation": 2
           }
         ]
       },

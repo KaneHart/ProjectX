@@ -37,16 +37,6 @@
             "name": "generic.attackDamage",
             "amount": 0.1,
             "operation": 2
-          },
-          {
-            "name": "generic.attackSpeed",
-            "amount": -0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.digSpeed",
-            "amount": -0.05,
-            "operation": 2
           }
         ]
       },
@@ -55,11 +45,6 @@
         "color": "yellow",
         "weight": 10,
         "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": -0.05,
-            "operation": 2
-          },
           {
             "name": "generic.attackSpeed",
             "amount": 0.1,
@@ -76,11 +61,6 @@
             "name": "generic.attackDamage",
             "amount": 0.05,
             "operation": 2
-          },
-          {
-            "name": "potioncore.digSpeed",
-            "amount": -0.1,
-            "operation": 2
           }
         ]
       },
@@ -93,11 +73,6 @@
             "name": "generic.attackDamage",
             "amount": 0.15,
             "operation": 2
-          },
-          {
-            "name": "generic.reachDistance",
-            "amount": -0.5,
-            "operation": 0
           }
         ]
       },

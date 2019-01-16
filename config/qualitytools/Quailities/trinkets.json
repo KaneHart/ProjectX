@@ -19,18 +19,14 @@
       {
         "item": "qualitytools:emerald_amulet"
       },
-    ],
-    "blacklist": [
       {
         "item": "minecraft:totem_of_undying"
       }
     ],
+    "blacklist": [
+    
+    ],
     "qualities": [
-      {
-        "name": "quality.horrible.name",
-        "color": "dark_gray",
-        "weight": 10,
-        "attributes": [
       {
         "name": "normal",
         "weight": 100
