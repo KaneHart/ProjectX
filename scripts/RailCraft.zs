@@ -375,3 +375,8 @@ recipes.addShaped(<railcraft:cart_worldspike_personal>, [[<ic2:plate:11>, <ic2:p
 //
 //recipes.addShaped(<minecraft:stone>, [[null, null, null],[null, <railcraft:cart_worldspike_personal>.noReturn(), null], [null, null, null]]);
 recipes.addShapeless(<minecraft:stone>, [<railcraft:cart_worldspike_personal>]);
+
+
+//Feed Station
+recipes.remove(<railcraft:equipment:2>);
+recipes.addShaped(<railcraft:equipment:2>, [[<immersiveengineering:treated_wood>, <ic2:plate:7>, <immersiveengineering:treated_wood>],[<ic2:plate:2>, <ic2:plate:15>, <ic2:plate:2>], [<immersiveengineering:treated_wood>, <ic2:plate:7>, <immersiveengineering:treated_wood>]]);
