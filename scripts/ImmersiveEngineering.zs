@@ -197,5 +197,11 @@ recipes.remove(<industrialrenewal:stick_steel>);
 recipes.remove(<immersiveengineering:material:2>);
 recipes.addShaped(<immersiveengineering:material:2>, [[<ic2:ingot:5>, null, null],[<ic2:ingot:5>, null, null], [null, null, null]]);
 
+//Conveyor Changes
+recipes.removeByRecipeName("immersiveengineering:conveyors/conveyor_basic_rubber");
+recipes.removeByRecipeName("immersiveengineering:conveyors/conveyor_basic");
+recipes.addShaped(<immersiveengineering:conveyor> * 4, [[null, null, null],[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>], [<ic2:plate:7>, <ore:wireLogicBundledColoredFreestanding>, <ic2:plate:7>]]);
+
+
 
 
