@@ -37,7 +37,7 @@ recipes.addShaped(<appliedenergistics2:material:13>, [
 	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>]]);	
 recipes.addShaped(<appliedenergistics2:material:14>, [
 	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>],
-	[<ic2:plate:15>, <<ic2:crafting:2>>, <ic2:plate:15>],
+	[<ic2:plate:15>, <ic2:crafting:2>>, <ic2:plate:15>],
 	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>]]);	
 recipes.addShaped(<appliedenergistics2:material:15>, [
 	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>],
