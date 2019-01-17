@@ -120,7 +120,10 @@ recipes.addShaped(<ironchest:gold_diamond_chest_upgrade>, [[<minecraft:diamond>,
 recipes.remove(<ironchest:diamond_obsidian_chest_upgrade>);
 recipes.addShaped(<ironchest:diamond_obsidian_chest_upgrade>, [[<ic2:plate:15>, <ic2:plate:15>, <ic2:plate:15>],[<ic2:plate:15>, <minecraft:diamond>, <ic2:plate:15>], [<ic2:plate:15>, <ic2:plate:15>, <ic2:plate:15>]]);
 
-
+//removed upgrades that are not needed
+recipes.remove(<ironchest:wood_iron_chest_upgrade>);
+recipes.remove(<ironchest:copper_silver_chest_upgrade>);
+recipes.remove(<ironchest:iron_gold_chest_upgrade>);
 
 
 
