@@ -125,6 +125,9 @@ recipes.remove(<ironchest:wood_iron_chest_upgrade>);
 recipes.remove(<ironchest:copper_silver_chest_upgrade>);
 recipes.remove(<ironchest:iron_gold_chest_upgrade>);
 
+mods.jei.JEI.hide(<ironchest:wood_iron_chest_upgrade>);
+mods.jei.JEI.hide(<ironchest:copper_silver_chest_upgrade>);
+mods.jei.JEI.hide(<ironchest:iron_gold_chest_upgrade>);
 
 
 
