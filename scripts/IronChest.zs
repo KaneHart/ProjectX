@@ -62,3 +62,22 @@ mods.jei.JEI.hide(<ironchest:iron_shulker_box_light_blue:*>);
 mods.jei.JEI.hide(<ironchest:iron_shulker_box_magenta:*>);
 mods.jei.JEI.hide(<ironchest:iron_shulker_box_orange:*>);
 mods.jei.JEI.hide(<ironchest:iron_shulker_box_white:*>);
+
+//remove dirt chest
+recipes.remove(<ironchest:iron_chest:7>);
+mods.jei.JEI.hide(<ironchest:iron_chest:7>);
+
+//remove crystal chest
+recipes.remove(<ironchest:iron_chest:5>);
+mods.jei.JEI.hide(<ironchest:iron_chest:5>);
+
+//remove crystal chest upgrade
+recipes.remove(<ironchest:diamond_crystal_chest_upgrade>);
+mods.jei.JEI.hide(<ironchest:diamond_crystal_chest_upgrade>);
+
+
+
+
+
+
+
