@@ -99,6 +99,27 @@ recipes.addShaped(<ironchest:iron_chest:2>, [[<minecraft:diamond>, <ore:blockGla
 recipes.remove(<ironchest:iron_chest:6>);
 recipes.addShaped(<ironchest:iron_chest:6>, [[<ic2:plate:15>, <ic2:plate:15>, <ic2:plate:15>],[<ic2:plate:15>, <ironchest:iron_chest:2>, <ic2:plate:15>], [<ic2:plate:15>, <ic2:plate:15>, <ic2:plate:15>]]);
 
+//Upgrades
+//Wood to Copper
+recipes.remove(<ironchest:wood_copper_chest_upgrade>);
+recipes.addShaped(<ironchest:wood_copper_chest_upgrade>, [[<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>],[<ic2:plate:1>, <ore:plankWood>, <ic2:plate:1>], [<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>]]);
+
+//Copper to Iron
+recipes.remove(<ironchest:copper_iron_chest_upgrade>);
+recipes.addShaped(<ironchest:copper_iron_chest_upgrade>, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<ic2:plate:3>, <ic2:plate:1>, <ic2:plate:3>], [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+
+//Silver to Gold
+recipes.remove(<ironchest:silver_gold_chest_upgrade>);
+recipes.addShaped(<ironchest:silver_gold_chest_upgrade>, [[<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>],[<ic2:plate:2>, <techreborn:plates:27>, <ic2:plate:2>], [<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>]]);
+
+//Gold to Diamond
+recipes.remove(<ironchest:gold_diamond_chest_upgrade>);
+recipes.addShaped(<ironchest:gold_diamond_chest_upgrade>, [[<minecraft:diamond>, <ore:blockGlassColorless>, <minecraft:diamond>],[<ore:blockGlassColorless>, <ic2:plate:2>, <ore:blockGlassColorless>], [<minecraft:diamond>, <ore:blockGlassColorless>, <minecraft:diamond>]]);
+
+//Diamond to Obsidian
+recipes.remove(<ironchest:diamond_obsidian_chest_upgrade>);
+recipes.addShaped(<ironchest:diamond_obsidian_chest_upgrade>, [[<ic2:plate:15>, <ic2:plate:15>, <ic2:plate:15>],[<ic2:plate:15>, <minecraft:diamond>, <ic2:plate:15>], [<ic2:plate:15>, <ic2:plate:15>, <ic2:plate:15>]]);
+
 
 
 
