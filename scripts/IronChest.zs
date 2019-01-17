@@ -75,6 +75,33 @@ mods.jei.JEI.hide(<ironchest:iron_chest:5>);
 recipes.remove(<ironchest:diamond_crystal_chest_upgrade>);
 mods.jei.JEI.hide(<ironchest:diamond_crystal_chest_upgrade>);
 
+//copper chest
+recipes.remove(<ironchest:iron_chest:3>);
+recipes.addShaped(<ironchest:iron_chest:3>, [[<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>],[<ic2:plate:1>, <ore:chest>, <ic2:plate:1>], [<ic2:plate:1>, <ic2:plate:1>, <ic2:plate:1>]]);
+
+//iron chest
+recipes.remove(<ironchest:iron_chest>);
+recipes.addShaped(<ironchest:iron_chest>, [[<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>],[<ic2:plate:3>, <ironchest:iron_chest:3>, <ic2:plate:3>], [<ic2:plate:3>, <ic2:plate:3>, <ic2:plate:3>]]);
+
+//silver chest
+recipes.remove(<ironchest:iron_chest:4>);
+recipes.addShaped(<ironchest:iron_chest:4>, [[<techreborn:plates:27>, <techreborn:plates:27>, <techreborn:plates:27>],[<techreborn:plates:27>, <ironchest:iron_chest>, <techreborn:plates:27>], [<techreborn:plates:27>, <techreborn:plates:27>, <techreborn:plates:27>]]);
+
+//Gold Chest
+recipes.remove(<ironchest:iron_chest:1>);
+recipes.addShaped(<ironchest:iron_chest:1>, [[<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>],[<ic2:plate:2>, <ironchest:iron_chest:4>, <ic2:plate:2>], [<ic2:plate:2>, <ic2:plate:2>, <ic2:plate:2>]]);
+
+//Diamond chest
+recipes.remove(<ironchest:iron_chest:2>);
+recipes.addShaped(<ironchest:iron_chest:2>, [[<minecraft:diamond>, <ore:blockGlassColorless>, <minecraft:diamond>],[<ore:blockGlassColorless>, <ironchest:iron_chest:1>, <ore:blockGlassColorless>], [<minecraft:diamond>, <ore:blockGlassColorless>, <minecraft:diamond>]]);
+
+//Obsidian Chest that does not even blow up from reactors lol
+recipes.remove(<ironchest:iron_chest:6>);
+recipes.addShaped(<ironchest:iron_chest:6>, [[<ic2:plate:15>, <ic2:plate:15>, <ic2:plate:15>],[<ic2:plate:15>, <ironchest:iron_chest:2>, <ic2:plate:15>], [<ic2:plate:15>, <ic2:plate:15>, <ic2:plate:15>]]);
+
+
+
+
 
 
 
