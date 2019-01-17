@@ -30,3 +30,20 @@ recipes.addShaped(<appliedenergistics2:drive>, [[<techreborn:plates:32>, <applie
 recipes.remove(<appliedenergistics2:quantum_link>);
 recipes.addShaped(<appliedenergistics2:quantum_link>, [[<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:9>, <appliedenergistics2:quartz_glass>],[<appliedenergistics2:material:9>, <techreborn:interdimensional_su>, <appliedenergistics2:material:9>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:material:9>, <appliedenergistics2:quartz_glass>]]);
 
+// Add recipes for presses (since no meteors in pack)
+recipes.addShaped(<appliedenergistics2:material:13>, [
+	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>],
+	[<ic2:plate:15>, <rsgauges:flatgauge1>, <ic2:plate:15>],
+	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>]]);	
+recipes.addShaped(<appliedenergistics2:material:14>, [
+	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>],
+	[<ic2:plate:15>, <techreborn:part:30>, <ic2:plate:15>],
+	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>]]);	
+recipes.addShaped(<appliedenergistics2:material:15>, [
+	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>],
+	[<ic2:plate:15>, <charset:logic_gate>.withTag({logic: "simplelogic:comparator", li: 0 as byte}), <ic2:plate:15>],
+	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>]]);	
+recipes.addShaped(<appliedenergistics2:material:19>, [
+	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>],
+	[<ic2:plate:15>, <appliedenergistics2:material:5>, <ic2:plate:15>],
+	[<techreborn:plates:32>, <ic2:plate:15>, <techreborn:plates:32>]]);	
