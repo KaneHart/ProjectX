@@ -1,6 +1,6 @@
 mipmapLevels:0
 bobView:false
-renderDistance:10
+renderDistance:7
 guiScale:3
 maxFps:260
 difficulty:3
