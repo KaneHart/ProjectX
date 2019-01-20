@@ -37,3 +37,13 @@ mods.jei.JEI.hide(<industrialrenewal:solar_panel>);
 // Remove rail crafting by hand from Industrial Renewal track
 recipes.removeShapeless(<minecraft:rail>, [<industrialrenewal:normal_rail>]);
 
+
+//Safty Helmet
+recipes.remove(<industrialrenewal:safety_helmet>);
+recipes.addShaped(<industrialrenewal:safety_helmet>, [[null, <ore:dyeYellow>, null],[null, <industrialrenewal:small_slab>, null], [null, <minecraft:golden_helmet>, null]]);
+
+//Safty Belt
+recipes.addShaped(<industrialrenewal:safety_belt>, [[<minecraft:leather>, null, <minecraft:leather>],[<minecraft:leather>, <minecraft:golden_chestplate>, <minecraft:leather>], [<minecraft:leather>, <minecraft:lead>, <minecraft:leather>]]);
+recipes.remove(<industrialrenewal:safety_belt>);
+
+
