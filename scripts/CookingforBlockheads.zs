@@ -5,6 +5,7 @@ recipes.remove(<cookingforblockheads:sink>);
 recipes.remove(<cookingforblockheads:cooking_table>);
 recipes.remove(<cookingforblockheads:fridge>);
 recipes.remove(<cookingforblockheads:oven>);
+recipes.remove(<cookingforblockheads:corner>);
 
 recipes.addShaped(<cookingforblockheads:cabinet>, [[null, null, null],[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>], [<minecraft:hardened_clay>, <ironchest:iron_chest>, <minecraft:hardened_clay>]]);
 recipes.addShaped(<cookingforblockheads:counter>, [
