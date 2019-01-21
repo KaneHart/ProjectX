@@ -213,5 +213,6 @@ recipes.addShaped(<ic2:re_battery:26>, [[null, <ic2:cable:4>.withTag({type: 4 as
 recipes.remove(<ic2:lappack:26>);
 mods.jei.JEI.hide(<ic2:lappack:26>);
 
-
-
+//Removed Energy Crystal Crafting Recipe
+recipes.remove(<ic2:energy_crystal>);
+recipes.remove(<ic2:energy_crystal:26>);
