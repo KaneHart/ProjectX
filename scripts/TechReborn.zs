@@ -305,3 +305,6 @@ recipes.remove(<techreborn:ore:1>);
 //Tech Reborn Manual
 recipes.remove(<techreborn:techmanuel>);
 recipes.addShaped(<techreborn:techmanuel>, [[<ic2:ingot:5>, <minecraft:book>, null],[null, null, null], [null, null, null]]);
+
+//remove energy crystal recipe
+recipes.remove(<techreborn:energycrystal>);
