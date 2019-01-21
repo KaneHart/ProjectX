@@ -302,3 +302,6 @@ recipes.remove(<techreborn:dust:14>);
 recipes.remove(<techreborn:dust:29>);
 recipes.remove(<techreborn:ore:1>);
 
+//Tech Reborn Manual
+recipes.remove(<techreborn:techmanuel>);
+recipes.addShaped(<techreborn:techmanuel>, [[<ic2:ingot:5>, <minecraft:book>, null],[null, null, null], [null, null, null]]);
