@@ -171,7 +171,7 @@ recipes.addShaped(<ic2:casing>, [[<ic2:forge_hammer>.anyDamage(), <ic2:plate>, n
 recipes.remove(<ic2:te:21>);
 recipes.remove(<ic2:te:20>);
 recipes.addShaped(<ic2:te:20>, [[null, <ic2:crafting:30>, null],[<ic2:crafting:30>, <ic2:resource:12>, <ic2:crafting:30>], [null, <ic2:crafting:30>, null]]);
-recipes.addShaped(<ic2:te:21>, [[<ic2:crafting:30>, null, <ic2:crafting:30>],[null, <ic2:te:21>, null], [<ic2:crafting:30>, null, <ic2:crafting:30>]]);
+recipes.addShaped(<ic2:te:21>, [[<ic2:crafting:30>, null, <ic2:crafting:30>],[null, <ic2:resource:12>, null], [<ic2:crafting:30>, null, <ic2:crafting:30>]]);
 
 //kinetic Generator changes to steel
 recipes.remove(<ic2:te:5>);
