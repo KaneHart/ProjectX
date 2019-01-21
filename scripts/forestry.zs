@@ -114,11 +114,11 @@ recipes.addShaped(<forestry:grafter_proven>, [
 	
 // Apiarist's Suit Changes
 //Leather Armor Revamp
-recipes.remove(<forestry:boots>);
-recipes.remove(<forestry:legs>);
-recipes.remove(<forestry:chest>);
+recipes.remove(<forestry:apiarist_boots>);
+recipes.remove(<forestry:apiarist_legs>);
+recipes.remove(<forestry:apiarist_chest>);
 recipes.remove(<forestry:apiarist_helmet>);
-recipes.addShaped(<forestry:boots>, [[null, null, null],[<forestry:crafting_material:3>, null, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <harvestcraft:hardenedleatherbootsitem>, <forestry:crafting_material:3>]]);
-recipes.addShaped(<forestry:legs>, [[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <harvestcraft:hardenedleatherleggingsitem>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, null, <forestry:crafting_material:3>]]);
-recipes.addShaped(<forestry:chest>, [[<forestry:crafting_material:3>, <harvestcraft:hardenedleatherchestitem>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
+recipes.addShaped(<forestry:apiarist_boots>, [[null, null, null],[<forestry:crafting_material:3>, null, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <harvestcraft:hardenedleatherbootsitem>, <forestry:crafting_material:3>]]);
+recipes.addShaped(<forestry:apiarist_legs>, [[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <harvestcraft:hardenedleatherleggingsitem>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, null, <forestry:crafting_material:3>]]);
+recipes.addShaped(<forestry:apiarist_chest>, [[<forestry:crafting_material:3>, <harvestcraft:hardenedleatherchestitem>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
 recipes.addShaped(<forestry:apiarist_helmet>, [[null, null, null],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <harvestcraft:hardenedleatherhelmitem>, <forestry:crafting_material:3>]]);
