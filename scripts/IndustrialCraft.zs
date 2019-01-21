@@ -216,3 +216,11 @@ mods.jei.JEI.hide(<ic2:lappack:26>);
 //Removed Energy Crystal Crafting Recipe
 recipes.remove(<ic2:energy_crystal>);
 recipes.remove(<ic2:energy_crystal:26>);
+
+//Fixed Basic Machine Casing Uncrafting
+recipes.remove(<ic2:resource:12>);
+recipes.addShaped(<ic2:plate:7> * 8, [[null, null, null],[null, <ic2:resource:12>, null], [null, null, null]]);
+
+
+
+
