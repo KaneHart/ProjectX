@@ -15,3 +15,4 @@ Dynamic Surrounding mod is included to give you more immersion.
 Use Super Sound Muffler bauble to disable any specific sounds.
 If you're ever low on ore, try an IE Excavator.
 Glowstone dust can be crafted from 5 redstone dust and 4 gold dust.
+You can claim chunks using FTB Utilities to prevent grief/explosions.
