@@ -140,14 +140,19 @@
                 "gui" : "credits"
             }
         },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
+        "nextleapname": {
+            "text": "§2The Next Leap modpack",
+            "posX": 2,
+            "posY": -20,
+            "color": -1,
+            "alignment": "bottom_left"
+        },
+        "nextleapversion": {
+            "text": "§2Version 1.1",
+            "posX": 30,
+            "posY": -10,
+            "color": -1,
+            "alignment": "bottom_left"
         }
     },
     
