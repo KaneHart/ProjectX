@@ -22,8 +22,8 @@ recipes.remove(<immersiveengineering:metal:31>);
 recipes.remove(<immersiveengineering:metal:30>);
 
 //Steel Mechanical Components use steel ingots instead of plates due to nerfing hammers
-recipes.remove(<immersiveengineering:material:9>);
-recipes.addShaped(<immersiveengineering:material:9>, [[<railcraft:ingot>, null, <railcraft:ingot>],[null, <ic2:ingot:2>, null], [<railcraft:ingot>, null, <railcraft:ingot>]]);
+//recipes.remove(<immersiveengineering:material:9>);
+//recipes.addShaped(<immersiveengineering:material:9>, [[<railcraft:ingot>, null, <railcraft:ingot>],[null, <ic2:ingot:2>, null], [<railcraft:ingot>, null, <railcraft:ingot>]]);
 
 //removed TR Plates from Metal Press
 mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:31>);
@@ -200,7 +200,7 @@ recipes.addShaped(<immersiveengineering:material:2>, [[<ic2:ingot:5>, null, null
 //Conveyor Changes
 recipes.removeByRecipeName("immersiveengineering:conveyors/conveyor_basic_rubber");
 recipes.removeByRecipeName("immersiveengineering:conveyors/conveyor_basic");
-recipes.addShaped(<immersiveengineering:conveyor> * 4, [[null, null, null],[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>], [<ic2:plate:7>, <ore:wireLogicBundledColoredFreestanding>, <ic2:plate:7>]]);
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4, [[null, null, null],[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>], [<ic2:plate:7>, <charset:logic_wire_b:1>, <ic2:plate:7>]]);
 
 
 
