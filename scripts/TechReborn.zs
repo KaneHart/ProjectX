@@ -308,3 +308,7 @@ recipes.addShaped(<techreborn:techmanuel>, [[<ic2:ingot:5>, <minecraft:book>, nu
 
 //remove energy crystal recipe
 recipes.remove(<techreborn:energycrystal>);
+
+//removed Iron Alloy Smelter
+recipes.remove(<techreborn:iron_alloy_furnace>);
+mods.jei.JEI.hide(<techreborn:iron_alloy_furnace>);
