@@ -22,8 +22,8 @@ recipes.remove(<immersiveengineering:metal:31>);
 recipes.remove(<immersiveengineering:metal:30>);
 
 //Steel Mechanical Components use steel ingots instead of plates due to nerfing hammers
-recipes.remove(<immersiveengineering:material:9>);
-recipes.addShaped(<immersiveengineering:material:9>, [[<railcraft:ingot>, null, <railcraft:ingot>],[null, <ic2:ingot:2>, null], [<railcraft:ingot>, null, <railcraft:ingot>]]);
+//recipes.remove(<immersiveengineering:material:9>);
+//recipes.addShaped(<immersiveengineering:material:9>, [[<railcraft:ingot>, null, <railcraft:ingot>],[null, <ic2:ingot:2>, null], [<railcraft:ingot>, null, <railcraft:ingot>]]);
 
 //removed TR Plates from Metal Press
 mods.immersiveengineering.MetalPress.removeRecipe(<techreborn:plates:31>);
