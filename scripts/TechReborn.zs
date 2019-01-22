@@ -308,13 +308,3 @@ recipes.addShaped(<techreborn:techmanuel>, [[<ic2:ingot:5>, <minecraft:book>, nu
 
 //remove energy crystal recipe
 recipes.remove(<techreborn:energycrystal>);
-
-// Add missing recipes from TR grinder to TR industrial grinder
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:20> *2, null, null, null, <minecraft:ender_pearl>, null, 100, 64);
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:18>, null, null, null, <minecraft:emerald>, null, 100, 64);
-mods.techreborn.industrialGrinder.addRecipe(<minecraft:prismarine_crystals>, null, null, null, <minecraft:prismarine_shard>, null, 100, 64);
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:43>, null, null, null, <techreborn:gem:0>, null, 100, 64);
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:45>, null, null, null, <techreborn:gem:1>, null, 100, 64);
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:36>, null, null, null, <techreborn:gem:2>, null, 100, 64);
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:41>, null, null, null, <techreborn:gem:3>, null, 100, 64);
-mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:58>, null, null, null, <techreborn:gem:4>, null, 100, 64);
