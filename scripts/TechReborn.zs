@@ -139,8 +139,8 @@ recipes.addShaped(<techreborn:industrial_sawmill>, [[<minecraft:iron_ingot>, <ic
 recipes.remove(<techreborn:industrial_centrifuge>);
 recipes.addShaped(<techreborn:industrial_centrifuge>, [[<techreborn:plates:16>, <ic2:crafting:2>, <techreborn:plates:16>],[<ic2:resource:13>, <ic2:te:45>, <ic2:resource:13>], [<techreborn:plates:16>, <ic2:crafting:2>, <techreborn:plates:16>]]);
 
-recipes.remove(<techreborn:iron_alloy_furnace>);
-recipes.addShaped(<techreborn:iron_alloy_furnace>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<ic2:te:46>, null, <ic2:te:46>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+//recipes.remove(<techreborn:iron_alloy_furnace>);
+//recipes.addShaped(<techreborn:iron_alloy_furnace>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<ic2:te:46>, null, <ic2:te:46>], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
 
 recipes.remove(<techreborn:diesel_generator>);
 recipes.addShaped(<techreborn:diesel_generator>, [[<techreborn:plates:16>, <techreborn:plates:16>, <techreborn:plates:16>],[<techreborn:plates:16>, null, <techreborn:plates:16>], [<ic2:crafting:1>, <ic2:te:3>, <ic2:crafting:1>]]);
