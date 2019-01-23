@@ -125,5 +125,5 @@ recipes.addShaped(<forestry:apiarist_helmet>, [[null, null, null],[<forestry:cra
 
 //Wax Capsule
 recipes.remove(<forestry:capsule>);
-recipes.addShaped(<forestry:capsule>, [[null, null, null],[<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>], [null, null, null]]);
-recipes.addShaped(<forestry:capsule>, [[null, null, null],[<forestry:beeswax>, <forestry:beeswax>, <forestry:beeswax>], [null, null, null]]);
+recipes.addShaped(<forestry:capsule> * 4, [[null, null, null],[<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>], [null, null, null]]);
+recipes.addShaped(<forestry:capsule> * 4, [[null, null, null],[<forestry:beeswax>, <forestry:beeswax>, <forestry:beeswax>], [null, null, null]]);
