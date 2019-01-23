@@ -383,16 +383,16 @@ recipes.addShaped(<railcraft:equipment:2>, [[<immersiveengineering:treated_wood>
 
 
 //Removed Crafting Recipes for Ingots to RC Blocks
+recipes.remove(<railcraft:metal:9>);
 recipes.remove(<railcraft:metal:8>);
 recipes.remove(<railcraft:metal:7>);
 recipes.remove(<railcraft:metal:6>);
 recipes.remove(<railcraft:metal:5>);
+recipes.remove(<railcraft:metal:4>);
 recipes.remove(<railcraft:metal:3>);
-recipes.remove(<railcraft:metal:2>);
 recipes.remove(<railcraft:metal:2>);
 recipes.remove(<railcraft:metal:1>);
 recipes.remove(<railcraft:metal>);
-recipes.remove(<railcraft:metal:9>);
 
 //Added Recipes to craft Railcraft Blocks to Ic2 & TR Ingots
 recipes.addShaped(<techreborn:ingot:18> * 9, [[null, null, null],[null, <railcraft:metal:8>, null], [null, null, null]]);
