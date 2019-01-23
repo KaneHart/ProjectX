@@ -380,3 +380,40 @@ recipes.addShapeless(<minecraft:stone>, [<railcraft:cart_worldspike_personal>]);
 //Feed Station
 recipes.remove(<railcraft:equipment:2>);
 recipes.addShaped(<railcraft:equipment:2>, [[<immersiveengineering:treated_wood>, <ic2:plate:7>, <immersiveengineering:treated_wood>],[<ic2:plate:2>, <ic2:plate:15>, <ic2:plate:2>], [<immersiveengineering:treated_wood>, <ic2:plate:7>, <immersiveengineering:treated_wood>]]);
+
+
+//Removed Crafting Recipes for Ingots to RC Blocks
+recipes.remove(<railcraft:metal:8>);
+recipes.remove(<railcraft:metal:7>);
+recipes.remove(<railcraft:metal:6>);
+recipes.remove(<railcraft:metal:5>);
+recipes.remove(<railcraft:metal:3>);
+recipes.remove(<railcraft:metal:2>);
+recipes.remove(<railcraft:metal:2>);
+recipes.remove(<railcraft:metal:1>);
+recipes.remove(<railcraft:metal>);
+recipes.remove(<railcraft:metal:9>);
+
+//Added Recipes to craft Railcraft Blocks to Ic2 & TR Ingots
+recipes.addShaped(<techreborn:ingot:18> * 9, [[null, null, null],[null, <railcraft:metal:8>, null], [null, null, null]]);
+recipes.addShaped(<techreborn:ingot:6> * 9, [[null, null, null],[null, <railcraft:metal:7>, null], [null, null, null]]);
+recipes.addShaped(<techreborn:ingot:9> * 9, [[null, null, null],[null, <railcraft:metal:6>, null], [null, null, null]]);
+recipes.addShaped(<ic2:ingot:1> * 9, [[null, null, null],[null, <railcraft:metal:5>, null], [null, null, null]]);
+recipes.addShaped(<ic2:ingot:5> * 9, [[null, null, null],[null, <railcraft:metal:3>, null], [null, null, null]]);
+recipes.addShaped(<ic2:ingot:4> * 9, [[null, null, null],[null, <railcraft:metal:4>, null], [null, null, null]]);
+recipes.addShaped(<ic2:ingot:3> * 9, [[null, null, null],[null, <railcraft:metal:2>, null], [null, null, null]]);
+recipes.addShaped(<ic2:ingot:6> * 9, [[null, null, null],[null, <railcraft:metal:1>, null], [null, null, null]]);
+recipes.addShaped(<ic2:ingot:2> * 9, [[null, null, null],[null, <railcraft:metal>, null], [null, null, null]]);
+recipes.addShaped(<techreborn:ingot:1> * 9, [[null, null, null],[null, <railcraft:metal:9>, null], [null, null, null]]);
+
+//Removed Railcraft Block to Ingot crafting?
+recipes.remove(<railcraft:ingot:9>);
+recipes.remove(<railcraft:ingot:8>);
+recipes.remove(<railcraft:ingot:7>);
+recipes.remove(<railcraft:ingot:6>);
+recipes.remove(<railcraft:ingot:5>);
+recipes.remove(<railcraft:ingot:4>);
+recipes.remove(<railcraft:ingot:3>);
+recipes.remove(<railcraft:ingot:2>);
+recipes.remove(<railcraft:ingot:1>);
+recipes.remove(<railcraft:ingot>);
