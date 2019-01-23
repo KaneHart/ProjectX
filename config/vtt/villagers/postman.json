@@ -2,7 +2,7 @@
 	profession: {
 		name: "villager:postman",
 		texture: "villager:textures/entity/postman.png",
-		zombieTexture: "forestry:textures/entity/zombie_postman.png"
+		zombieTexture: "villager:textures/entity/zombie_postman.png"
 	},
 	careers: [
 		"postman"
