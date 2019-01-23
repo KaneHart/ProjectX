@@ -122,3 +122,8 @@ recipes.addShaped(<forestry:apiarist_boots>, [[null, null, null],[<forestry:craf
 recipes.addShaped(<forestry:apiarist_legs>, [[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <harvestcraft:hardenedleatherleggingsitem>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, null, <forestry:crafting_material:3>]]);
 recipes.addShaped(<forestry:apiarist_chest>, [[<forestry:crafting_material:3>, <harvestcraft:hardenedleatherchestitem>, <forestry:crafting_material:3>],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
 recipes.addShaped(<forestry:apiarist_helmet>, [[null, null, null],[<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>], [<forestry:crafting_material:3>, <harvestcraft:hardenedleatherhelmitem>, <forestry:crafting_material:3>]]);
+
+//Wax Capsule
+recipes.remove(<forestry:capsule>);
+recipes.addShaped(<forestry:capsule>, [[null, null, null],[<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>], [null, null, null]]);
+recipes.addShaped(<forestry:capsule>, [[null, null, null],[<forestry:beeswax>, <forestry:beeswax>, <forestry:beeswax>], [null, null, null]]);
