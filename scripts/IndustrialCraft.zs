@@ -2,22 +2,22 @@
 
 recipes.remove(<ic2:quantum_chestplate>);
 recipes.remove(<ic2:quantum_chestplate:26>);
-recipes.addShaped(<ic2:quantum_chestplate>, [[<ic2:crafting:3>, <ic2:nano_chestplate:*>, <ic2:crafting:3>],[<ic2:iridium_reflector>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:iridium_reflector>], [<ic2:iridium_reflector>, <ic2:jetpack_electric:*>, <ic2:iridium_reflector>]]);
+recipes.addShaped(<ic2:quantum_chestplate>, [[<sgcraft:naquadahingot>, <ic2:nano_chestplate:*>, <sgcraft:naquadahingot>],[<ic2:iridium_reflector>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:iridium_reflector>], [<ic2:iridium_reflector>, <ic2:jetpack_electric:*>, <ic2:iridium_reflector>]]);
 
 
 recipes.remove(<ic2:quantum_leggings>);
 recipes.remove(<ic2:quantum_leggings:26>);
-recipes.addShaped(<ic2:quantum_leggings>, [[<ic2:resource:13>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:resource:13>],[<ic2:iridium_reflector>, <ic2:nano_leggings:*>, <ic2:iridium_reflector>], [<minecraft:glowstone_dust>, null, <minecraft:glowstone_dust>]]);
+recipes.addShaped(<ic2:quantum_leggings>, [[<ic2:resource:13>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:resource:13>],[<ic2:iridium_reflector>, <ic2:nano_leggings:*>, <ic2:iridium_reflector>], [<sgcraft:naquadahingot>, null, <sgcraft:naquadahingot>]]);
 
 
 recipes.remove(<ic2:quantum_boots>);
 recipes.remove(<ic2:quantum_boots:26>);
-recipes.addShaped(<ic2:quantum_boots>, [[null, null, null],[<ic2:iridium_reflector>, <ic2:nano_boots:*>, <ic2:iridium_reflector>], [<ic2:rubber_boots>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:rubber_boots>]]);
+recipes.addShaped(<ic2:quantum_boots>, [[<sgcraft:naquadahingot>, null, <sgcraft:naquadahingot>],[<ic2:iridium_reflector>, <ic2:nano_boots:*>, <ic2:iridium_reflector>], [<ic2:rubber_boots>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:rubber_boots>]]);
 
 
 recipes.remove(<ic2:quantum_helmet>);
 recipes.remove(<ic2:quantum_helmet:26>);
-recipes.addShaped(<ic2:quantum_helmet>, [[<ic2:glass>, <ic2:nano_helmet:*>, <ic2:glass>],[<ic2:iridium_reflector>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:iridium_reflector>], [<ic2:crafting:2>, <ic2:hazmat_helmet>, <ic2:crafting:2>]]);
+recipes.addShaped(<ic2:quantum_helmet>, [[<ic2:glass>, <ic2:nano_helmet:*>, <ic2:glass>],[<ic2:iridium_reflector>, <techreborn:lapotronpack>.withEmptyTag(), <ic2:iridium_reflector>], [<sgcraft:naquadahingot>, <ic2:hazmat_helmet>, <sgcraft:naquadahingot>]]);
 
 
 //Electric Jetpack Nerf
