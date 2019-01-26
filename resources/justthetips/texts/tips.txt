@@ -16,3 +16,5 @@ Use Super Sound Muffler bauble to disable any specific sounds.
 If you're ever low on ore, try an IE Excavator.
 Glowstone dust can be crafted from 5 redstone dust and 4 gold dust.
 You can claim chunks using FTB Utilities to prevent grief/explosions.
+The IC2 safe is a good way to keep some items really secure especially when playing with others.
+IC2 machines that generate heat can be kept hot by applying a redstone signal.
