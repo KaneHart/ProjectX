@@ -31,7 +31,7 @@ mods.jei.JEI.hide(<binniecore:storage>);
 
 // Reduce Hops drop by 5
 vanilla.seeds.removeSeed(<extratrees:hops>);
-vanilla.seeds.addSeed(<extratrees:hops> % 100);
+vanilla.seeds.addSeed(<extratrees:hops> % 1);
 
 //Reinforced Casing
 recipes.remove(<genetics:misc>);
