@@ -221,4 +221,8 @@ recipes.addShaped(<ic2:plate:7> * 8, [[null, null, null],[null, <ic2:resource:12
 recipes.remove(<ic2:te:61>);
 recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <techreborn:machine_casing:2>, <techreborn:part>],[<techreborn:machine_casing:2>, <techreborn:adjustable_su>, <techreborn:machine_casing:2>], [<techreborn:part>, <techreborn:machine_casing:2>, <techreborn:part>]]);
 
-
+// Nerfed IE blast furnace steel production
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:ingot:5>, <minecraft:iron_ingot>, 9000, <immersiveengineering:material:7>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:resource:8>, <minecraft:iron_block>, 81000, <immersiveengineering:material:7> *9);
