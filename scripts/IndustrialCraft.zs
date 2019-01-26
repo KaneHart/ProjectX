@@ -42,8 +42,8 @@ mods.jei.JEI.hide(<ic2:crafting:23>);
 mods.jei.JEI.hide(<ic2:te:92>);
 
 //Revamped Matter Fabicator closer to TR version of it.
-recipes.remove(<ic2:te:61>);
-recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <ic2:te:45>, <techreborn:part>],[<techreborn:machine_frame:2>, <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:machine_frame:2>], [<techreborn:part>, <ic2:te:42>, <techreborn:part>]]);
+//recipes.remove(<ic2:te:61>);
+//recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <ic2:te:45>, <techreborn:part>],[<techreborn:machine_frame:2>, <techreborn:lapotronicorb>.withEmptyTag(), <techreborn:machine_frame:2>], [<techreborn:part>, <ic2:te:42>, <techreborn:part>]]);
 
 
 //Basic Machine Casing Revamp
@@ -217,6 +217,8 @@ mods.jei.JEI.hide(<ic2:lappack:26>);
 recipes.remove(<ic2:resource:12>);
 recipes.addShaped(<ic2:plate:7> * 8, [[null, null, null],[null, <ic2:resource:12>, null], [null, null, null]]);
 
-
+//Balanced Matter Fab Recipes
+recipes.remove(<ic2:te:61>);
+recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <techreborn:machine_casing:2>, <techreborn:part>],[<techreborn:machine_casing:2>, <techreborn:adjustable_su>, <techreborn:machine_casing:2>], [<techreborn:part>, <techreborn:machine_casing:2>, <techreborn:part>]]);
 
 
