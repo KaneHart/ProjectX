@@ -77,64 +77,64 @@ recipes.addShaped(<minecraft:flint_and_steel>, [[<minecraft:iron_nugget>, <minec
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:0> * 8, [
 	[<ore:dyeWhite>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:1> * 8, [
 	[<ore:dyeOrange>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:2> * 8, [
 	[<ore:dyeMagenta>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:3> * 8, [
 	[<ore:dyeLightBlue>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:4> * 8, [
 	[<ore:dyeYellow>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:5> * 8, [
 	[<ore:dyeLime>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:6> * 8, [
 	[<ore:dyePink>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:7> * 8, [
 	[<ore:dyeGray>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:8> * 8, [
 	[<ore:dyeLightGray>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:9> * 8, [
 	[<ore:dyeCyan>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:10> * 8, [
 	[<ore:dyePurple>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:11> * 8, [
 	[<ore:dyeBlue>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:12> * 8, [
 	[<ore:dyeBrown>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:13> * 8, [
 	[<ore:dyeGreen>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:14> * 8, [
 	[<ore:dyeRed>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
 mods.forestry.Carpenter.addRecipe(<minecraft:concrete:15> * 8, [
 	[<ore:dyeBlack>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
-	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 200, <liquid:water> * 100);
+	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
