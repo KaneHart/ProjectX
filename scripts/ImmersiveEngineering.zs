@@ -202,6 +202,12 @@ recipes.removeByRecipeName("immersiveengineering:conveyors/conveyor_basic_rubber
 recipes.removeByRecipeName("immersiveengineering:conveyors/conveyor_basic");
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4, [[null, null, null],[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>], [<ic2:plate:7>, <charset:logic_wire_b:1>, <ic2:plate:7>]]);
 
-
-
-
+// Buff coal coke and charcoal to fit with new IE blast furance steel times
+mods.immersiveengineering.BlastFurnace.removeFuel(<immersiveengineering:material:6>);
+mods.immersiveengineering.BlastFurnace.removeFuel(<chisel:block_coal_coke:0>);
+mods.immersiveengineering.BlastFurnace.removeFuel(<minecraft:coal:1>);
+mods.immersiveengineering.BlastFurnace.removeFuel(<forestry:charcoal:0>);
+mods.immersiveengineering.BlastFurnace.addFuel(<ore:fuelCoke>, 9000);
+mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockFuelCoke>, 81000);
+mods.immersiveengineering.BlastFurnace.addFuel(<ore:charcoal>, 2250);
+mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockCharcoal>, 20250);
