@@ -18,3 +18,6 @@ Glowstone dust can be crafted from 5 redstone dust and 4 gold dust.
 You can claim chunks using FTB Utilities to prevent grief/explosions.
 The IC2 safe is a good way to keep some items really secure especially when playing with others.
 IC2 machines that generate heat can be kept hot by applying a redstone signal.
+Pam's traps can give you animal food and by-products including leather.
+IE conveyors and fluid pipes are good early game ways of transporting items/liquids.
+IC2 machines have upgrade slots that can be used for more than just speed.
