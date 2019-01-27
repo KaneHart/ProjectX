@@ -326,3 +326,20 @@ mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:58>, null, null, nu
 // Nerf platinum to iridium (thanks to IE Excavator vein)
 mods.techreborn.centrifuge.removeInputRecipe(<techreborn:dust:38>);
 mods.techreborn.centrifuge.addRecipe(<techreborn:smalldust:34>, null, null, null, <techreborn:dust:38>, null, 3000, 5);
+
+// Fix TR lamps and TR alarm
+recipes.remove(<techreborn:lamp_incandescent>);
+recipes.addShaped(<techreborn:lamp_incandescent>, [
+	[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+	[<ic2:cable:0>, <ic2:crafting:13>, <ic2:cable:0>],
+	[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
+recipes.remove(<techreborn:lamp_led>);
+recipes.addShaped(<techreborn:lamp_led>, [
+	[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+	[<ic2:cable:0>, <minecraft:glowstone_dust>, <ic2:cable:0>],
+	[<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>]]);
+recipes.remove(<techreborn:alarm>);
+recipes.addShaped(<techreborn:alarm>, [
+	[<minecraft:iron_ingot>, <ic2:cable:0>, <minecraft:iron_ingot>],
+	[<ic2:cable:0>, <ore:blockRedstone>, <ic2:cable:0>],
+	[<minecraft:iron_ingot>, <ic2:cable:0>, <minecraft:iron_ingot>]]);
