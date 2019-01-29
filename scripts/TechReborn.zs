@@ -345,9 +345,9 @@ recipes.addShaped(<techreborn:alarm>, [
 	[<minecraft:iron_ingot>, <ic2:cable:0>, <minecraft:iron_ingot>]]);
 
 //Added Tin, Platinum, Lead Small Dust to Dust Missing Recipes.
-recipes.addShaped(<ic2:dust:10>, [[<techreborn:smalldust:29>, <techreborn:smalldust:29>, null],[<techreborn:smalldust:29>, <techreborn:smalldust:29>, null], [null, null, null]]);
-recipes.addShaped(<techreborn:dust:38>, [[<techreborn:smalldust:38>, <techreborn:smalldust:38>, null],[<techreborn:smalldust:38>, <techreborn:smalldust:38>, null], [null, null, null]]);
-recipes.addShaped(<ic2:dust:17>, [[<techreborn:smalldust:53>, <techreborn:smalldust:53>, null],[<techreborn:smalldust:53>, <techreborn:smalldust:53>, null], [null, null, null]]);
+recipes.addShapeless(<ic2:dust:10>, [<techreborn:smalldust:29>,<techreborn:smalldust:29>,<techreborn:smalldust:29>,<techreborn:smalldust:29>]);
+recipes.addShapeless(<techreborn:dust:38>, [<techreborn:smalldust:38>,<techreborn:smalldust:38>,<techreborn:smalldust:38>,<techreborn:smalldust:38>]);
+recipes.addShapeless(<ic2:dust:17>, [<techreborn:smalldust:53>,<techreborn:smalldust:53>,<techreborn:smalldust:53>,<techreborn:smalldust:53>]);
 //fixed iron small dust recipe
 recipes.remove(<techreborn:dust:27>);
-recipes.addShaped(<ic2:dust:8>, [[<techreborn:smalldust:27>, <techreborn:smalldust:27>, null],[<techreborn:smalldust:27>, <techreborn:smalldust:27>, null], [null, null, null]]);
+recipes.addShapeless(<ic2:dust:8>, [<techreborn:smalldust:27>,<techreborn:smalldust:27>,<techreborn:smalldust:27>,<techreborn:smalldust:27>]);
