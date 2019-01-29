@@ -216,3 +216,8 @@ mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockCharcoal>, 22500);
 recipes.remove(<immersiveengineering:toolbox>);
 recipes.addShaped(<immersiveengineering:toolbox>, [[null, null, null],[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>], [<ore:dyeRed>, <immersiveengineering:wooden_device0>, <ore:dyeRed>]]);
 
+
+mods.forestry.Carpenter.addRecipe(<immersiveengineering:treated_wood> * 8, [
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+	[<ore:plankWood>, null, <ore:plankWood>],
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]], 40, <liquid:creosote> * 750);
