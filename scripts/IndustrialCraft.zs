@@ -229,3 +229,8 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:resource:8>, <minecraft:ir
 
 // Something added refined iron smelting back in?
 furnace.remove(<ore:ingotRefinedIron>);
+
+//Tech Reborn Machine Frame to IC2 Machine Casing Recipe
+recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame>]);
+
+
