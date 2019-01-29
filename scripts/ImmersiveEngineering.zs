@@ -211,3 +211,8 @@ mods.immersiveengineering.BlastFurnace.addFuel(<ore:fuelCoke>, 9000);
 mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockFuelCoke>, 90000);
 mods.immersiveengineering.BlastFurnace.addFuel(<ore:charcoal>, 2250);
 mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockCharcoal>, 22500);
+
+//Toolbox Recipe requires Steel Plates vs Alum Plates
+recipes.remove(<immersiveengineering:toolbox>);
+recipes.addShaped(<immersiveengineering:toolbox>, [[null, null, null],[<ic2:plate:7>, <ic2:plate:7>, <ic2:plate:7>], [<ore:dyeRed>, <immersiveengineering:wooden_device0>, <ore:dyeRed>]]);
+
