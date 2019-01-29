@@ -138,3 +138,10 @@ mods.forestry.Carpenter.addRecipe(<minecraft:concrete:15> * 8, [
 	[<ore:dyeBlack>, <minecraft:sand>, <minecraft:sand>],
 	[<minecraft:sand>, <minecraft:sand>, <minecraft:gravel>],
 	[<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]], 40, <liquid:water> * 100);
+	
+//redid Ingot Output recipes via crafting table:
+recipes.remove(<minecraft:iron_ingot>);
+recipes.addShaped(<minecraft:iron_ingot>, [[<minecraft:iron_nugget>, <minecraft:iron_nugget>, <minecraft:iron_nugget>],[<minecraft:iron_nugget>, <minecraft:iron_nugget>, <minecraft:iron_nugget>], [<minecraft:iron_nugget>, <minecraft:iron_nugget>, <minecraft:iron_nugget>]]);
+recipes.addShapeless(<minecraft:iron_ingot> * 9, [<minecraft:iron_block>]);
+recipes.addShapeless(<minecraft:iron_ingot> * 2, [<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>]);
+recipes.addShapeless(<minecraft:iron_ingot> * 6, [<villagenames:lunarinironbrick>]);
