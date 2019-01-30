@@ -90,7 +90,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<minecraft:quartz>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:glowstone_dust>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:blaze_powder>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:dye:15>);
-mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:17>);
+//mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:17>);
 mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:2>);
 mods.immersiveengineering.Crusher.removeRecipe(<ic2:dust:12>);
 mods.immersiveengineering.Crusher.removeRecipe(<minecraft:string>);
