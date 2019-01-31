@@ -224,8 +224,8 @@ recipes.addShaped(<ic2:te:61>, [[<techreborn:part>, <techreborn:machine_casing:2
 // Nerfed IE blast furnace steel production
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:metal:8>);
 mods.immersiveengineering.BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:ingot:5>, <minecraft:iron_ingot>, 9000, <immersiveengineering:material:7>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:resource:8>, <minecraft:iron_block>, 81000, <immersiveengineering:material:7> *9);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:ingot:5>, <minecraft:iron_ingot>, 3600, <immersiveengineering:material:7>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<ic2:resource:8>, <minecraft:iron_block>, 32400, <immersiveengineering:material:7> *9);
 
 // Something added refined iron smelting back in?
 furnace.remove(<ore:ingotRefinedIron>);
