@@ -233,5 +233,4 @@ furnace.remove(<ore:ingotRefinedIron>);
 //Tech Reborn Machine Frame to IC2 Machine Casing Recipe
 recipes.addShapeless(<ic2:resource:12>, [<techreborn:machine_frame>]);
 
-// Add recipe for IC2 stone dust (for those that don't use IC2 Ore washer/Thermal Centrifuge)
-mods.techreborn.industrialGrinder.addRecipe(<ic2:dust:15>, null, null, null, <minecraft:stone:0>, null, 100, 64);
+
