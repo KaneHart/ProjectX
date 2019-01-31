@@ -145,3 +145,6 @@ recipes.addShaped(<minecraft:iron_ingot>, [[<minecraft:iron_nugget>, <minecraft:
 recipes.addShapeless(<minecraft:iron_ingot> * 9, [<minecraft:iron_block>]);
 recipes.addShapeless(<minecraft:iron_ingot> * 2, [<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>,<ic2:crafting:38>]);
 recipes.addShapeless(<minecraft:iron_ingot> * 6, [<villagenames:lunarinironbrick>]);
+
+// Add recipe for gravel (since there isn't one in the pack other that really expensive UU)
+mods.techreborn.industrialGrinder.addRecipe(<minecraft:gravel>, null, null, null, <minecraft:cobblestone>, null, 40, 64);
