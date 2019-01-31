@@ -207,10 +207,10 @@ mods.immersiveengineering.BlastFurnace.removeFuel(<immersiveengineering:material
 mods.immersiveengineering.BlastFurnace.removeFuel(<chisel:block_coal_coke:0>);
 mods.immersiveengineering.BlastFurnace.removeFuel(<minecraft:coal:1>);
 mods.immersiveengineering.BlastFurnace.removeFuel(<forestry:charcoal:0>);
-mods.immersiveengineering.BlastFurnace.addFuel(<ore:fuelCoke>, 9000);
-mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockFuelCoke>, 90000);
-mods.immersiveengineering.BlastFurnace.addFuel(<ore:charcoal>, 2250);
-mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockCharcoal>, 22500);
+mods.immersiveengineering.BlastFurnace.addFuel(<ore:fuelCoke>, 3600);
+mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockFuelCoke>, 36000);
+mods.immersiveengineering.BlastFurnace.addFuel(<ore:charcoal>, 900);
+mods.immersiveengineering.BlastFurnace.addFuel(<ore:blockCharcoal>, 9000);
 
 //Toolbox Recipe requires Steel Plates vs Alum Plates
 recipes.remove(<immersiveengineering:toolbox>);
