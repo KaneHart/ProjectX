@@ -353,3 +353,9 @@ recipes.remove(<techreborn:dust:27>);
 recipes.addShapeless(<ic2:dust:8>, [<techreborn:smalldust:27>,<techreborn:smalldust:27>,<techreborn:smalldust:27>,<techreborn:smalldust:27>]);
 //added Zinc Small Dust to Dust
 recipes.addShapeless(<techreborn:dust:59>, [<techreborn:smalldust:59>,<techreborn:smalldust:59>,<techreborn:smalldust:59>,<techreborn:smalldust:59>]);
+
+//removed unused ores from JEI
+mods.jei.JEI.hide(<techreborn:ore:1>);
+mods.jei.JEI.hide(<techreborn:ore:12>);
+mods.jei.JEI.hide(<techreborn:ore2:1>);
+mods.jei.JEI.hide(<techreborn:ore2>);
