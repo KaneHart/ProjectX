@@ -127,3 +127,7 @@ recipes.addShaped(<forestry:apiarist_helmet>, [[null, null, null],[<forestry:cra
 recipes.remove(<forestry:capsule>);
 recipes.addShaped(<forestry:capsule> * 4, [[null, null, null],[<harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>, <harvestcraft:beeswaxitem>], [null, null, null]]);
 recipes.addShaped(<forestry:capsule> * 4, [[null, null, null],[<forestry:beeswax>, <forestry:beeswax>, <forestry:beeswax>], [null, null, null]]);
+
+//removed unused ores from JEI
+mods.jei.JEI.hide(<forestry:resources:1>);
+mods.jei.JEI.hide(<forestry:resources:2>);
