@@ -417,3 +417,21 @@ recipes.remove(<railcraft:ingot:3>);
 recipes.remove(<railcraft:ingot:2>);
 recipes.remove(<railcraft:ingot:1>);
 recipes.remove(<railcraft:ingot>);
+
+
+//removed Poor / Ores from JEI
+mods.jei.JEI.hide(<railcraft:ore_magic>);
+mods.jei.JEI.hide(<railcraft:ore_metal_poor:7>);
+mods.jei.JEI.hide(<railcraft:ore_metal_poor:6>);
+mods.jei.JEI.hide(<railcraft:ore_metal_poor:5>);
+mods.jei.JEI.hide(<railcraft:ore_metal_poor:4>);
+mods.jei.JEI.hide(<railcraft:ore_metal_poor:3>);
+mods.jei.JEI.hide(<railcraft:ore_metal_poor:2>);
+mods.jei.JEI.hide(<railcraft:ore_metal_poor:1>);
+mods.jei.JEI.hide(<railcraft:ore_metal_poor>);
+mods.jei.JEI.hide(<railcraft:ore_metal:5>);
+mods.jei.JEI.hide(<railcraft:ore_metal:4>);
+mods.jei.JEI.hide(<railcraft:ore_metal:3>);
+mods.jei.JEI.hide(<railcraft:ore_metal:2>);
+mods.jei.JEI.hide(<railcraft:ore_metal:1>);
+mods.jei.JEI.hide(<railcraft:ore_metal>);
