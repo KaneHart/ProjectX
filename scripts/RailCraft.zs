@@ -438,3 +438,5 @@ mods.jei.JEI.hide(<railcraft:ore_metal>);
 mods.jei.JEI.hide(<railcraft:ore:4>);
 mods.jei.JEI.hide(<railcraft:ore:3>);
 mods.jei.JEI.hide(<railcraft:ore:2>);
+mods.jei.JEI.hide(<railcraft:ore>);
+mods.jei.JEI.hide(<railcraft:ore:1>);
