@@ -221,3 +221,12 @@ mods.forestry.Carpenter.addRecipe(<immersiveengineering:treated_wood> * 8, [
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 	[<ore:plankWood>, null, <ore:plankWood>],
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]], 40, <liquid:creosote> * 750);
+	
+//remove unused ores from jei
+mods.jei.JEI.hide(<immersiveengineering:ore:5>);
+mods.jei.JEI.hide(<immersiveengineering:ore:4>);
+mods.jei.JEI.hide(<immersiveengineering:ore:3>);
+mods.jei.JEI.hide(<immersiveengineering:ore:2>);
+mods.jei.JEI.hide(<immersiveengineering:ore:1>);
+mods.jei.JEI.hide(<immersiveengineering:ore>);	
+	
