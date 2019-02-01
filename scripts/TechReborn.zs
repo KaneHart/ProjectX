@@ -351,3 +351,5 @@ recipes.addShapeless(<ic2:dust:17>, [<techreborn:smalldust:53>,<techreborn:small
 //fixed iron small dust recipe
 recipes.remove(<techreborn:dust:27>);
 recipes.addShapeless(<ic2:dust:8>, [<techreborn:smalldust:27>,<techreborn:smalldust:27>,<techreborn:smalldust:27>,<techreborn:smalldust:27>]);
+//added Zinc Small Dust to Dust
+recipes.addShapeless(<techreborn:dust:59>, [<techreborn:smalldust:59>,<techreborn:smalldust:59>,<techreborn:smalldust:59>,<techreborn:smalldust:59>]);
