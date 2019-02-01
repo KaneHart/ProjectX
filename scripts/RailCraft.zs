@@ -352,29 +352,29 @@ recipes.addShaped(<railcraft:post_metal:15> *8, [
 
 //Spikes Chunk Loaders
 //Removed
-recipes.remove(<railcraft:cart_worldspike_standard>);
-recipes.remove(<railcraft:cart_worldspike_admin>);
-recipes.remove(<railcraft:worldspike:1>);
-recipes.remove(<railcraft:worldspike:2>);
-recipes.remove(<railcraft:worldspike:3>);
-recipes.remove(<railcraft:worldspike_point>);
+//recipes.remove(<railcraft:cart_worldspike_standard>);
+//recipes.remove(<railcraft:cart_worldspike_admin>);
+//recipes.remove(<railcraft:worldspike:1>);
+//recipes.remove(<railcraft:worldspike:2>);
+//recipes.remove(<railcraft:worldspike:3>);
+//recipes.remove(<railcraft:worldspike_point>);
 //hide
-mods.jei.JEI.hide(<railcraft:cart_worldspike_standard>);
-mods.jei.JEI.hide(<railcraft:cart_worldspike_admin>);
-mods.jei.JEI.hide(<railcraft:worldspike:1>);
-mods.jei.JEI.hide(<railcraft:worldspike:2>);
-mods.jei.JEI.hide(<railcraft:worldspike:3>);
-mods.jei.JEI.hide(<railcraft:worldspike_point>);
+//mods.jei.JEI.hide(<railcraft:cart_worldspike_standard>);
+//mods.jei.JEI.hide(<railcraft:cart_worldspike_admin>);
+//mods.jei.JEI.hide(<railcraft:worldspike:1>);
+//mods.jei.JEI.hide(<railcraft:worldspike:2>);
+//mods.jei.JEI.hide(<railcraft:worldspike:3>);
+//mods.jei.JEI.hide(<railcraft:worldspike_point>);
 
 //added personal worldspike recipe
-recipes.remove(<railcraft:cart_worldspike_personal>);
-recipes.addShaped(<railcraft:cart_worldspike_personal>, [[<ic2:plate:11>, <ic2:plate:15>, <ic2:plate:11>],[<ic2:plate:15>, <techreborn:plates:6>, <ic2:plate:15>], [<ic2:plate:11>, <minecraft:minecart>, <ic2:plate:11>]]);
-<railcraft:cart_worldspike_personal>.addTooltip(format.red("Please Only Use For Rail Systems"));
-<railcraft:cart_worldspike_personal>.addTooltip(format.red("Don't Uncraft!"));
+//recipes.remove(<railcraft:cart_worldspike_personal>);
+//recipes.addShaped(<railcraft:cart_worldspike_personal>, [[<ic2:plate:11>, <ic2:plate:15>, <ic2:plate:11>],[<ic2:plate:15>, <techreborn:plates:6>, <ic2:plate:15>], [<ic2:plate:11>, <minecraft:minecart>, <ic2:plate:11>]]);
+//<railcraft:cart_worldspike_personal>.addTooltip(format.red("Please Only Use For Rail Systems"));
+//<railcraft:cart_worldspike_personal>.addTooltip(format.red("Don't Uncraft!"));
 
 //
 //recipes.addShaped(<minecraft:stone>, [[null, null, null],[null, <railcraft:cart_worldspike_personal>.noReturn(), null], [null, null, null]]);
-recipes.addShapeless(<minecraft:stone>, [<railcraft:cart_worldspike_personal>]);
+//recipes.addShapeless(<minecraft:stone>, [<railcraft:cart_worldspike_personal>]);
 
 
 //Feed Station
