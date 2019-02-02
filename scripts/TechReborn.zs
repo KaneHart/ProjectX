@@ -367,3 +367,7 @@ mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:32> *16, null, null
 
 //Allow you to take Compressed Air Cell's and turn them into normal cells
 Extractor.addRecipe(<techreborn:dynamiccell>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}}));
+
+//Fixed Iridium Alloy Ingot Recipe
+recipes.remove(<techreborn:ingot:22>);
+recipes.addShaped(<techreborn:ingot:22>, [[<techreborn:ingot:7>, <ic2:crafting:3>, <techreborn:ingot:7>],[<ic2:crafting:3>, <ic2:dust:5>, <ic2:crafting:3>], [<techreborn:ingot:7>, <ic2:crafting:3>, <techreborn:ingot:7>]]);
