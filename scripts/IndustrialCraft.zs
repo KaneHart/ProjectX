@@ -279,4 +279,8 @@ mods.techreborn.compressor.removeRecipe(<immersiveengineering:metal:35>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:31>);
 mods.techreborn.compressor.removeRecipe(<techreborn:plates:15>);
 
+//Fixed Reinforced Glass
+recipes.remove(<ic2:glass>);
+recipes.addShaped(<ic2:glass>, [[<ore:blockGlassColorless>, <ic2:crafting:3>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <ic2:crafting:3>, <ore:blockGlassColorless>]]);
+
 
