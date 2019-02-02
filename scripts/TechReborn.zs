@@ -359,3 +359,6 @@ mods.jei.JEI.hide(<techreborn:ore:1>);
 mods.jei.JEI.hide(<techreborn:ore:12>);
 mods.jei.JEI.hide(<techreborn:ore2:1>);
 mods.jei.JEI.hide(<techreborn:ore2>);
+
+//marble to marble dust recipe in Industrial Grinder
+mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:32> *16, null, null, null, <quark:marble:0> *16, null, <liquid:water> *1000, 800, 64);
