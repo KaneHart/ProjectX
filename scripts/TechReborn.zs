@@ -277,7 +277,7 @@ recipes.removeByRecipeName("techreborn:dust_66");
 //copper dust
 recipes.remove(<ic2:dust:4>);
 recipes.addShaped(<ic2:dust:4>, [[<ic2:dust:19>, <ic2:dust:19>, <ic2:dust:19>],[<ic2:dust:19>, <ic2:dust:19>, <ic2:dust:19>], [<ic2:dust:19>, <ic2:dust:19>, <ic2:dust:19>]]);
-recipes.addShaped(<ic2:dust:4>, [[<techreborn:smalldust:14>, <techreborn:smalldust:14>, null],[<techreborn:smalldust:14>, <techreborn:smalldust:14>, null], [null, null, null]]);
+recipes.addShapeless(<ic2:dust:4>, [<techreborn:smalldust:14>,<techreborn:smalldust:14>,<techreborn:smalldust:14>,<techreborn:smalldust:14>]);
 //iron ore
 recipes.remove(<minecraft:iron_ore>);
 //Iridium Ore
