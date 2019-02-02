@@ -1,3 +1,5 @@
+import mods.ic2.Extractor;
+
 //Removed Tech Reborn 10k EASY Recipe and use IC2 10k to Tech Reborns!
 recipes.remove(<techreborn:part:36>);
 recipes.addShaped(<techreborn:part:36>, [[null, null, null],[null, <ic2:heat_storage>, null], [null, null, null]]);
@@ -362,3 +364,6 @@ mods.jei.JEI.hide(<techreborn:ore2>);
 
 //marble to marble dust recipe in Industrial Grinder
 mods.techreborn.industrialGrinder.addRecipe(<techreborn:dust:32> *16, null, null, null, <quark:marble:0> *16, null, <liquid:water> *1000, 800, 64);
+
+//Allow you to take Compressed Air Cell's and turn them into normal cells
+Extractor.addRecipe(<techreborn:dynamiccell>, <techreborn:dynamiccell>.withTag({Fluid: {FluidName: "fluidcompressedair", Amount: 1000}}));
