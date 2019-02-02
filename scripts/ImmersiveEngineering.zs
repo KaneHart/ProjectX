@@ -230,3 +230,7 @@ mods.jei.JEI.hide(<immersiveengineering:ore:2>);
 mods.jei.JEI.hide(<immersiveengineering:ore:1>);
 mods.jei.JEI.hide(<immersiveengineering:ore>);	
 	
+//fixed Iron Rod Recipes
+recipes.remove(<immersiveengineering:material:1>);
+recipes.addShaped(<industrialrenewal:stick_iron>, [[<minecraft:iron_ingot>, null, null],[<minecraft:iron_ingot>, null, null], [null, null, null]]);
+

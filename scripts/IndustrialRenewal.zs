@@ -46,4 +46,6 @@ recipes.addShaped(<industrialrenewal:safety_helmet>, [[null, <ore:dyeYellow>, nu
 recipes.addShaped(<industrialrenewal:safety_belt>, [[<minecraft:leather>, null, <minecraft:leather>],[<minecraft:leather>, <minecraft:golden_chestplate>, <minecraft:leather>], [<minecraft:leather>, <minecraft:lead>, <minecraft:leather>]]);
 recipes.remove(<industrialrenewal:safety_belt>);
 
-
+//removed iron rod as we have IE version
+recipes.remove(<industrialrenewal:stick_iron>);
+mods.jei.JEI.hide(<industrialrenewal:stick_iron>);
