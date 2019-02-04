@@ -371,3 +371,14 @@ Extractor.addRecipe(<techreborn:dynamiccell>, <techreborn:dynamiccell>.withTag({
 //Fixed Iridium Alloy Ingot Recipe
 recipes.remove(<techreborn:ingot:22>);
 recipes.addShaped(<techreborn:ingot:22>, [[<techreborn:ingot:7>, <ic2:crafting:3>, <techreborn:ingot:7>],[<ic2:crafting:3>, <ic2:dust:5>, <ic2:crafting:3>], [<techreborn:ingot:7>, <ic2:crafting:3>, <techreborn:ingot:7>]]);
+
+//Block to Plate Recipes
+BlockCutter.addRecipe(<item:techreborn:plates:16> * 9, <item:techreborn:storage:1>, 9);
+BlockCutter.addRecipe(<item:techreborn:plates:30> * 9, <item:techreborn:storage:2>, 9);
+BlockCutter.addRecipe(<item:techreborn:plates:26> * 9, <item:techreborn:storage:9>, 9);
+BlockCutter.addRecipe(<item:techreborn:plates:25> * 9, <item:techreborn:storage:11>, 9);
+BlockCutter.addRecipe(<item:techreborn:plates:23> * 9, <item:techreborn:storage:13>, 9);
+BlockCutter.addRecipe(<item:techreborn:plates:22> * 9, <item:techreborn:storage:12>, 9);
+BlockCutter.addRecipe(<item:techreborn:plates:21> * 9, <item:techreborn:storage:7>, 9);
+BlockCutter.addRecipe(<item:techreborn:plates:19> * 9, <item:techreborn:storage:3>, 9);
+BlockCutter.addRecipe(<item:techreborn:plates:17> * 9, <item:techreborn:storage:5>, 9);
