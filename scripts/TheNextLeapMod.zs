@@ -17,7 +17,7 @@ recipes.addShaped(<thenextleapmod:silver_infused_steel_machine>, [[<thenextleapm
 recipes.addShaped(<thenextleapmod:advanced_silver_infused_steel_machine>, [[<thenextleapmod:dense_silver_infused_steel_plate>, <ic2:crafting:15>, <thenextleapmod:dense_silver_infused_steel_plate>],[<ic2:crafting:3>, <thenextleapmod:silver_infused_steel_machine>, <ic2:crafting:3>], [<thenextleapmod:dense_silver_infused_steel_plate>, <ic2:crafting:15>, <thenextleapmod:dense_silver_infused_steel_plate>]]);
 
 //TR Blast Furnace Recipe Silver / Steel to Siler Infused Steel
-mods.techreborn.blastFurnace.addRecipe(<thenextleapmod:silver_infused_steel_ingot>, null, <ic2:ingot:5>, <ic2:ingot:4>, 2400, 300, 2250);
+mods.techreborn.blastFurnace.addRecipe(<thenextleapmod:silver_infused_steel_ingot>, null, <ic2:ingot:5>, <ic2:ingot:4>, 6000, 240, 2250);
 
 //Silver Infused Steel Block Cutter to Plates Recipe
 BlockCutter.addRecipe(<thenextleapmod:silver_infused_steel_plate> * 9, <thenextleapmod:silver_infused_steel_block>, 9);
