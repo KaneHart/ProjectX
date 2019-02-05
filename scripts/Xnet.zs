@@ -12,7 +12,7 @@ recipes.addShaped(<xnet:controller>, [[<techreborn:plates:16>, <ic2:plate:7>, <t
 
 //Xnet Cable Nerfs
 recipes.remove(<xnet:netcable>);
-recipes.addShaped(<xnet:netcable> * 8, [[<immersiveengineering:material:23>, <charset:logic_wire_n>, <immersiveengineering:material:23>],[<charset:logic_wire_n>, <ic2:plate:7>, <charset:logic_wire_n>], [<immersiveengineering:material:23>, <charset:logic_wire_n>, <immersiveengineering:material:23>]]);
+recipes.addShaped(<xnet:netcable> * 8, [[<immersiveengineering:material:23>, <charset:logic_wire_n>, <immersiveengineering:material:23>],[<charset:logic_wire_n>, <thenextleapmod:silver_infused_steel_plate>, <charset:logic_wire_n>], [<immersiveengineering:material:23>, <charset:logic_wire_n>, <immersiveengineering:material:23>]]);
 recipes.remove(<xnet:advanced_connector>);
 recipes.addShaped(<xnet:advanced_connector>, [[<xnet:connector>, <forestry:thermionic_tubes:12>, null],[<forestry:thermionic_tubes:5>, <ic2:plate:7>, null], [null, null, null]]);
 recipes.remove(<xnet:connector_upgrade>);
@@ -25,3 +25,7 @@ recipes.addShaped(<xnet:connector>, [[<ic2:plate:7>, <ironchest:iron_chest:1>, <
 //Xnet Disable Dish
 recipes.remove(<xnet:antenna_dish>);
 mods.jei.JEI.hide(<xnet:antenna_dish>);
+
+//routing cable recipes...
+recipes.remove(<xnet:netcable:4>);
+recipes.addShaped(<xnet:netcable:4> * 8, [[<alternatingflux:material>, <charset:logic_wire_n>, <alternatingflux:material>],[<charset:logic_wire_n>, <thenextleapmod:silver_infused_steel_plate>, <charset:logic_wire_n>], [<alternatingflux:material>, <charset:logic_wire_n>, <alternatingflux:material>]]);
