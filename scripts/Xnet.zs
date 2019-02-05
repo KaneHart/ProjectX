@@ -29,3 +29,9 @@ mods.jei.JEI.hide(<xnet:antenna_dish>);
 //routing cable recipes...
 recipes.remove(<xnet:netcable:4>);
 recipes.addShaped(<xnet:netcable:4> * 8, [[<alternatingflux:material>, <charset:logic_wire_n>, <alternatingflux:material>],[<charset:logic_wire_n>, <thenextleapmod:silver_infused_steel_plate>, <charset:logic_wire_n>], [<alternatingflux:material>, <charset:logic_wire_n>, <alternatingflux:material>]]);
+
+//Redstone Proxy
+recipes.remove(<xnet:redstone_proxy>);
+recipes.addShaped(<xnet:redstone_proxy>, [[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>],[<minecraft:redstone>, <thenextleapmod:silver_infused_steel_machine>, <minecraft:redstone>], [<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+
+
