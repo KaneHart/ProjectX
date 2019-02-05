@@ -290,3 +290,8 @@ furnace.remove(<ic2:crafting:19>);
 recipes.remove(<ic2:te:54>);
 recipes.addShaped(<ic2:te:54>, [[<ic2:ingot:2>, <ic2:ingot:2>, <ic2:ingot:2>],[<ic2:ingot:2>, <ic2:te:44>, <ic2:ingot:2>], [<ic2:ingot:2>, <thenextleapmod:advanced_silver_infused_steel_machine>, <ic2:ingot:2>]]);
 
+//Remove IC2 Miners too cheap too powerful too fast too scalable.
+recipes.remove(<ic2:te:57>);
+mods.jei.JEI.hide(<ic2:te:57>);
+recipes.remove(<ic2:te:60>);
+mods.jei.JEI.hide(<ic2:te:60>);
