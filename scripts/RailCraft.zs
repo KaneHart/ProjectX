@@ -440,3 +440,8 @@ mods.jei.JEI.hide(<railcraft:ore:3>);
 mods.jei.JEI.hide(<railcraft:ore:2>);
 mods.jei.JEI.hide(<railcraft:ore>);
 mods.jei.JEI.hide(<railcraft:ore:1>);
+
+
+//Fixed Steamn Locomotive Recipe as well as spiced it up.
+recipes.remove(<railcraft:locomotive_steam_solid>);
+recipes.addShaped(<railcraft:locomotive_steam_solid>, [[<railcraft:signal_box:1>, <immersiveengineering:metal_device1>, <immersiveengineering:metal_decoration0:5>],[<railcraft:signal_lamp>, <immersivepetroleum:upgrades:2>, <immersiveengineering:metal_decoration0:5>], [<techreborn:part:6>, <ic2:te:34>, <techreborn:part:6>]]);
