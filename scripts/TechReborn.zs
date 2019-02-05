@@ -1,4 +1,5 @@
 import mods.ic2.Extractor;
+import mods.ic2.BlockCutter;
 
 //Removed Tech Reborn 10k EASY Recipe and use IC2 10k to Tech Reborns!
 recipes.remove(<techreborn:part:36>);
