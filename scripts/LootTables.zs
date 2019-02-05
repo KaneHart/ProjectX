@@ -333,6 +333,7 @@ val modest = Functions.parse({"function": "minecraft:set_species_nbt", "speciesU
 val tropical = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesTropical"} as crafttweaker.data.IData);
 val wintry = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesWintry"} as crafttweaker.data.IData);
 val marshy = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesMarshy"} as crafttweaker.data.IData);
+val monastic = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "forestry.speciesMonastic"} as crafttweaker.data.IData);
 val water = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "extrabees.species.water"} as crafttweaker.data.IData);
 val rocky = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "extrabees.species.rock"} as crafttweaker.data.IData);
 val marble = Functions.parse({"function": "minecraft:set_species_nbt", "speciesUid": "extrabees.species.marble"} as crafttweaker.data.IData);
@@ -345,6 +346,7 @@ bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [marshy, Functions.setCou
 bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [water, Functions.setCount(2, 5)], []);
 bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [rocky, Functions.setCount(2, 5)], []);
 bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [marble, Functions.setCount(2, 5)], []);
+bee1.addItemEntryHelper(<forestry:bee_drone_ge>, 1, 0, [monastic, Functions.setCount(2, 5)], []);
 
 // Add dragon egg as 50% drop from ender dragon
 val dragonegg = LootTables.getTable("minecraft:entities/ender_dragon");
