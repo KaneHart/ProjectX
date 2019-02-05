@@ -283,4 +283,5 @@ mods.techreborn.compressor.removeRecipe(<techreborn:plates:15>);
 recipes.remove(<ic2:glass>);
 recipes.addShaped(<ic2:glass>, [[<ore:blockGlassColorless>, <ic2:crafting:3>, <ore:blockGlassColorless>],[<ore:blockGlassColorless>, <ore:blockGlassColorless>, <ore:blockGlassColorless>], [<ore:blockGlassColorless>, <ic2:crafting:3>, <ore:blockGlassColorless>]]);
 
-
+//removed IC2 Industrial Diamond furnace recipe...
+furnace.remove(<ic2:crafting:19>);
