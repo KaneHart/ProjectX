@@ -61,7 +61,7 @@ recipes.remove(<minecraft:boat>);
 mods.jei.JEI.hide(<minecraft:boat>);
 
 // Increase hardness of rails to prevent some griefs
-<minecraft:rail>.hardness = 100;
+// <minecraft:rail>.hardness = 100; - too much of an annoyance
 
 //Saddle recipe
 recipes.addShaped(<minecraft:saddle>, [[<harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>, <harvestcraft:hardenedleatheritem>],[<harvestcraft:hardenedleatheritem>, <forestry:crafting_material:1>, <harvestcraft:hardenedleatheritem>], [<forestry:crafting_material:3>, <forestry:crafting_material:3>, <forestry:crafting_material:3>]]);
