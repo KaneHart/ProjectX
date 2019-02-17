@@ -295,3 +295,7 @@ recipes.remove(<ic2:te:57>);
 mods.jei.JEI.hide(<ic2:te:57>);
 recipes.remove(<ic2:te:60>);
 mods.jei.JEI.hide(<ic2:te:60>);
+
+//Added a tooltip for those who don't know how Reinforced stone works. 
+<ic2:resource:11>.addTooltip(format.aqua("Spray CF Foam onto Reinforced Iron Scaffold then let dry."));
+
