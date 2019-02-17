@@ -46,9 +46,9 @@ mods.jei.JEI.hide(<techreborn:scrapboxinator>);
 //recipes.remove(<techreborn:irondrill>);
 //recipes.addShaped(<techreborn:irondrill>, [[null, <ic2:ingot:5>, null],[<ic2:ingot:5>, <ic2:crafting:1>, <ic2:ingot:5>], [<ic2:ingot:5>, <ic2:iridium_drill>, <ic2:ingot:5>]]);
 recipes.remove(<techreborn:advanceddrill>);
-recipes.addShaped(<techreborn:advanceddrill>, [[null, <techreborn:plates:37>, null],[<techreborn:ingot:17>, <techreborn:part>, <techreborn:ingot:17>], [<techreborn:upgrades>, <techreborn:diamonddrill>, <techreborn:upgrades>]]);
+recipes.addShaped(<techreborn:advanceddrill>, [[null, <techreborn:plates:37>, null],[<techreborn:ingot:17>, <techreborn:part>, <techreborn:ingot:17>], [<techreborn:upgrades>, <techreborn:diamonddrill>.withEmptyTag(), <techreborn:upgrades>]]);
 recipes.remove(<techreborn:diamonddrill>);
-recipes.addShaped(<techreborn:diamonddrill>, [[null, <minecraft:diamond>, null],[<minecraft:diamond>, <ic2:crafting:2>, <minecraft:diamond>], [<techreborn:ingot:15>, <techreborn:irondrill>, <techreborn:ingot:15>]]);
+recipes.addShaped(<techreborn:diamonddrill>, [[null, <minecraft:diamond>, null],[<minecraft:diamond>, <ic2:crafting:2>, <minecraft:diamond>], [<techreborn:ingot:15>, <techreborn:irondrill>.withEmptyTag(), <techreborn:ingot:15>]]);
 recipes.remove(<techreborn:irondrill>);
 recipes.addShaped(<techreborn:irondrill>, [[null, <techreborn:ingot:3>, null],[<techreborn:ingot:3>, <ic2:crafting:2>, <techreborn:ingot:3>], [<techreborn:ingot:3>, <ic2:iridium_drill:*>, <techreborn:ingot:3>]]);
 
